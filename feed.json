@@ -1,4 +1,110 @@
 {
- "updated": "",
- "posts": []
+ "updated": "2026-11-01T08:20:00",
+ "posts": [
+  {
+   "id": "2026-11-01-actualidad",
+   "slug": "black-friday-2026-que-tecnologia-comprar-crisis-memoria",
+   "title": "Black Friday 2026: qué tecnología merece la pena comprar (y qué no) con la crisis de la memoria",
+   "category": "Actualidad",
+   "date": "2026-11-01T08:20:00",
+   "excerpt": "El Black Friday cae este año el 27 de noviembre. Monitores y periféricos están más baratos, pero portátiles, SSD y memoria siguen caros por la crisis de la DRAM. Consejos para tu casa o tu oficina.",
+   "metaTitle": "Black Friday 2026: qué tecnología comprar y qué no",
+   "metaDescription": "Black Friday el 27 de noviembre y Cyber Monday el 30. Monitores y periféricos, buena compra; memoria, SSD y gráficas, no. Consejos para equipar tu oficina.",
+   "tags": "Black Friday, ordenadores, memoria RAM, compras, oficina",
+   "html": "<p>El <strong>Black Friday 2026</strong> cae el viernes <strong>27 de noviembre</strong> y el Cyber Monday el lunes <strong>30 de noviembre</strong>, aunque muchas tiendas empiezan con descuentos desde principios de mes y la «semana del Black Friday» arranca el lunes 23. Si estás pensando en renovar equipos de casa o de la oficina, este año hay que tener en cuenta un factor: la crisis de la memoria.</p><h2>La crisis de la memoria sigue encareciendo equipos</h2><p>Desde mediados de 2025 la escasez de chips de memoria DRAM ha subido el precio de la RAM, los SSD y las tarjetas gráficas. Según HardZone, es poco probable que en estas rebajas bajen de lo que costaban antes de la crisis. Los portátiles también se han encarecido, aunque los fabricantes han sacado modelos sencillos con 8 GB de RAM y 256 GB de almacenamiento por unos 400–500 euros que podrían bajar algo más.</p><h2>Lo que sí merece la pena</h2><ul><li><strong>Monitores:</strong> han bajado bastante de precio en el último año. Un segundo monitor es de las mejoras de productividad más baratas que hay.</li><li><strong>Periféricos</strong> (teclados, ratones, webcams, auriculares): no les ha afectado la crisis de la memoria.</li></ul><h2>Lo que mejor esperar</h2><ul><li><strong>Memoria DDR5, SSD y gráficas:</strong> salvo que lo necesites ya, no esperes chollos.</li><li><strong>Consolas:</strong> hoy cuestan más que cuando salieron.</li></ul><h2>Consejos para comprar bien</h2><ol><li><strong>No esperes al último día:</strong> si encuentras algo más barato que en semanas anteriores, cómpralo. Si luego baja más, en España tienes 14 días naturales para devolver una compra online sin dar explicaciones.</li><li>Consulta el historial de precios con extensiones como Keepa o El Camelizer, sabiendo que no siempre son exactas.</li><li>Compara entre tiendas y fíjate en los gastos de envío y las condiciones de devolución.</li><li>Para la oficina, pide factura a nombre de la empresa y revisa la garantía.</li></ol><h2>¿Y si en lugar de comprar, alargas la vida de tus equipos?</h2><p>Con la memoria y el almacenamiento caros, muchas veces sale más a cuenta <strong>poner a punto un ordenador</strong> que comprar uno nuevo: una limpieza, un sistema reinstalado y una revisión del disco pueden darle unos años más. Si dudas entre reparar o cambiar, pregúntanos y te decimos qué compensa.</p>",
+   "sources": [
+    {
+     "title": "HardZone: Black Friday 2026: cuándo empieza, cuánto dura y qué merece la pena comprar",
+     "url": "https://hardzone.es/noticias/equipos/black-friday-2026-cuando-empieza-cuanto-dura"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Persona trabajando con un portátil",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-01-sistemas",
+   "slug": "parches-kernel-linux-octubre-2026-como-actualizar-servidores",
+   "title": "Parches del kernel de Linux de octubre: cómo actualizar tus servidores sin sustos",
+   "category": "Sistemas",
+   "date": "2026-11-01T08:15:00",
+   "excerpt": "Debian y Ubuntu han publicado actualizaciones del kernel que corrigen fallos de gravedad media y alta. Paso a paso para aplicarlas en servidores, máquinas virtuales y contenedores.",
+   "metaTitle": "Parches del kernel Linux de octubre: cómo actualizar",
+   "metaDescription": "Debian (DSA-6528-1) y Ubuntu (USN-8887-1) corrigen fallos del kernel Linux en octubre de 2026. Cómo aplicarlos en servidores, VMs y contenedores sin sustos.",
+   "tags": "Linux, kernel, Debian, Ubuntu, servidores, actualizaciones",
+   "html": "<p>Octubre ha traído una ronda de parches del <strong>kernel de Linux</strong> en las distribuciones más usadas en servidores. Debian publicó el aviso <strong>DSA-6528-1</strong> el 29 de septiembre para su rama estable, y Ubuntu los avisos <strong>USN-8887-1</strong> (kernel genérico y variantes para la nube) y <strong>USN-8889-1</strong> (kernel OEM) el 6 de octubre. Los proveedores de nube actualizaron sus imágenes entre el 6 y el 7 de octubre.</p><p>Los fallos corregidos son de gravedad media y alta en varios subsistemas y, en el peor caso, permitirían a un usuario local <strong>conseguir privilegios de administrador</strong> o dejar el sistema inestable. Los detalles de cada CVE están en los avisos oficiales de cada distribución.</p><h2>Un detalle curioso: informes hechos con IA</h2><p>El responsable de la rama estable, Greg Kroah-Hartman, contó a principios de mes cómo gestiona el equipo de seguridad del kernel la avalancha de informes de fallos generados con ayuda de IA: de 79 recibidos en un caso, solo una veintena pasó el primer filtro. La IA ayuda a encontrar fallos, pero también genera mucho ruido que alguien tiene que revisar.</p><h2>Cómo actualizar paso a paso</h2><ol><li><strong>Haz una instantánea</strong> de la máquina virtual (en Proxmox, VMware o tu proveedor) o una copia reciente antes de empezar.</li><li>Avisa a los usuarios y elige una ventana corta de mantenimiento: hace falta reiniciar.</li><li>Actualiza la lista de paquetes e instala las actualizaciones de seguridad: <code>sudo apt update &amp;&amp; sudo apt upgrade</code>.</li><li>Comprueba que se ha instalado un paquete <code>linux-image</code> nuevo y <strong>reinicia</strong>. El parche en caliente (live patch) evita el reinicio, pero el reinicio completo es lo más fiable.</li><li>Tras arrancar, confirma la versión con <code>uname -r</code>.</li><li>Si usas módulos externos (tarjetas de red o gráficas), verifica que funcionan; DKMS suele recompilarlos solo.</li></ol><h2>No te olvides de</h2><ul><li><strong>Contenedores:</strong> usan el kernel del anfitrión, así que se protegen actualizando y reiniciando el host, no la imagen.</li><li><strong>Máquinas virtuales:</strong> cada una tiene su kernel y hay que actualizarla por separado.</li><li><strong>Escáneres de vulnerabilidades:</strong> seguirán marcando el equipo como vulnerable hasta que se reinicie, aunque el paquete ya esté instalado.</li></ul><p>Prioriza los servidores expuestos a Internet y los anfitriones de virtualización: son los que más tienen que perder si alguien consigue entrar con un usuario sin privilegios.</p>",
+   "sources": [
+    {
+     "title": "Observatorio Blockchain: Linux corrige varias vulnerabilidades del kernel en octubre 2026",
+     "url": "https://observatorioblockchain.com/ciberseguridad/vulnerabilidades-kernel-linux-octubre-2026-parche/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1762163516269-3c143e04175c?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Servidores con luces encendidas en un rack",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-01-automatizacion",
+   "slug": "agentes-de-voz-ia-logistica-samsara-84-por-ciento-menos-revisiones",
+   "title": "Agentes de IA por voz en el camión: −84 % de revisiones manuales en logística",
+   "category": "Automatización",
+   "date": "2026-11-01T08:10:00",
+   "excerpt": "Samsara asegura que el uso de agentes de IA en empresas de transporte se ha multiplicado por siete desde junio. Qué tareas automatizan, qué resultados dan y qué puede copiar una pyme.",
+   "metaTitle": "Agentes de IA por voz en logística: qué automatizan",
+   "metaDescription": "Samsara reporta 7 veces más uso de agentes de IA desde junio y un 84 % menos de revisiones manuales. Qué tareas automatizan y cómo aplicarlo en tu empresa.",
+   "tags": "automatización, agentes de IA, logística, voz, pymes",
+   "html": "<p>Los agentes de inteligencia artificial empiezan a salir de la oficina. La empresa de software de flotas Samsara asegura que el uso de sus agentes de IA en operaciones de Norteamérica (México, Estados Unidos y Canadá) <strong>se ha multiplicado por siete desde junio</strong>, según contó a El Cronista su vicepresidenta en México, Julia Monroy. Son datos de la propia empresa, sin un estudio independiente detrás, pero los ejemplos concretos ayudan a ver dónde encaja esta tecnología.</p><h2>Qué hacen exactamente</h2><p>Los agentes funcionan sobre todo <strong>por voz</strong>, algo natural para quien conduce:</p><ul><li>Confirmar la llegada a un muelle de carga o consultar un turno.</li><li>Repasar la lista de seguridad antes de salir de viaje.</li><li>Vigilar las horas de conducción y avisar <strong>hasta tres horas antes</strong> de incumplir la normativa de descansos.</li><li>Recibir el estado del conductor o enviarle instrucciones de seguridad sin que toque el móvil.</li></ul><p>Según la compañía, en las primeras semanas el canal de voz superó al chat en número de interacciones y el 75 % de las empresas aumentó su uso semanal.</p><h2>Los resultados que citan</h2><ul><li>Un <strong>84 % menos de tiempo</strong> dedicado a revisiones manuales semanales en clientes locales.</li><li>Casi <strong>30 horas a la semana</strong> ahorradas en Bulkmatic de México al hablar con los conductores mediante agentes de voz.</li><li>Hasta un 99 % menos de tiempo en preparar informes en algunas organizaciones, aunque la propia empresa aclara que depende de cada operación.</li></ul><h2>Lo que puede copiar una pyme</h2><p>No hace falta tener una flota para aprovechar la idea. El consejo de Monroy sirve para cualquier negocio: <strong>empezar por lo que más tiempo roba</strong>, como preparar informes, comprobar requisitos o contestar siempre las mismas consultas. Y mantener a una persona supervisando las decisiones que requieren experiencia.</p><ol><li>Apunta durante una semana las tareas repetitivas y cuánto tiempo te llevan.</li><li>Elige una sola, con reglas claras (por ejemplo, confirmar citas o pasar pedidos a una hoja de cálculo).</li><li>Conéctala con las herramientas que ya usas en lugar de cambiar de programa: casi todas tienen una API.</li><li>Mide el antes y el después, y amplía solo si compensa.</li></ol><p>Como recuerda la propia Samsara, el objetivo no es sustituir a las personas sino que trabajen mejor: la IA se ocupa de lo repetitivo y el equipo decide.</p>",
+   "sources": [
+    {
+     "title": "El Cronista: Agentes de IA en México: Samsara reporta un salto de siete veces en su adopción empresarial",
+     "url": "https://www.cronista.com/mexico/finanzas-economia/agentes-de-ia-en-mexico-samsara-reporta-un-salto-de-siete-veces-en-su-adopcion-empresarial/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1760349748488-bd2a7ef25ea0?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Mensajes en la pantalla de un móvil",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-01-apps",
+   "slug": "novedades-android-octubre-2026-google-play-wallet",
+   "title": "Google Play ya responde con reseñas reales y Wallet escanea tickets: novedades de Android de octubre",
+   "category": "Apps",
+   "date": "2026-11-01T08:05:00",
+   "excerpt": "La tienda de Google estrena «Ask Play», que resume lo que opinan los usuarios de una app, y Google Wallet aprende a guardar tickets de compra. Lo que cambia para usuarios y para quien publica apps.",
+   "metaTitle": "Novedades de Android en octubre de 2026: Play y Wallet",
+   "metaDescription": "Ask Play resume reseñas reales de cada app, Google Wallet escanea tickets y Find Hub usa NFC. Las novedades de Android de octubre de 2026 y qué suponen.",
+   "tags": "Android, Google Play, Google Wallet, apps, reseñas",
+   "html": "<p>Google ha repartido en octubre de 2026 su tanda mensual de novedades para Android, distribuidas a través de Google Play Services y de la propia tienda. Llegan de forma escalonada, así que puede que tardes unos días en verlas en tu móvil. Estas son las más interesantes.</p><h2>Google Play: «Ask Play» y resúmenes con IA</h2><p>La versión 53.6 de Google Play, publicada el 12 de octubre, añade <strong>Ask Play</strong>: puedes hacer preguntas sobre una aplicación y la tienda responde con un resumen de reseñas reales de usuarios, incluyendo citas literales. También llegan resúmenes automáticos de las conversaciones de la comunidad, con enlace a los mensajes originales, y más información sobre el peso que tienen las reseñas (visitas y votos de «útil»).</p><p>Para quien publica apps esto es importante: <strong>las reseñas pasan a ser la primera respuesta</strong> que ve un cliente indeciso. Una app con quejas sin contestar sobre la batería o los anuncios lo tendrá más difícil, porque esas quejas aparecerán resumidas justo cuando alguien pregunte.</p><h2>Google Wallet guarda tus tickets</h2><p>Con Google Play Services 26.40, que empezó a distribuirse el 12 de octubre, Google Wallet puede <strong>escanear tickets de compra</strong> y guardarlos en la app. Además, las notificaciones de pago muestran el nombre del comercio de forma más clara y aparece un apartado de mensajes del servicio. En Chrome para Android, Google Pay permite compartir nombre, email y teléfono con una tienda sin pasar por la pantalla intermedia de pago.</p><h2>Find Hub: etiquetas con NFC</h2><p>La red para encontrar dispositivos de Google (Find Hub) añade soporte NFC: acercando el móvil a una etiqueta de localización ves sus datos y ajustes, y sirve para identificar etiquetas perdidas. Al darlas de alta ya puedes ponerles categoría, cambiarles el nombre y activar los avisos de «te lo has dejado olvidado».</p><h2>Para desarrolladores: WebView 156</h2><p>Android WebView 156, del 7 de octubre, permite activar el aislamiento entre orígenes (necesario para funciones como SharedArrayBuffer) solo para sitios de confianza mediante una lista configurable, además de correcciones de seguridad y privacidad.</p><h2>Qué hacer</h2><ul><li><strong>Usuarios:</strong> mantén actualizados Google Play y Google Play Services (Ajustes › Seguridad y privacidad › Actualizaciones del sistema).</li><li><strong>Si tienes una app publicada:</strong> responde a las reseñas negativas recientes y resuelve las quejas que se repiten; con Ask Play, lo que digan tus usuarios pesa más que nunca.</li></ul>",
+   "sources": [
+    {
+     "title": "Geekzilla: Android recibe las novedades de Google de octubre de 2026",
+     "url": "https://geekzilla.tech/android-recibe-las-novedades-de-google-de-octubre-de-2026/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Persona usando una app en un móvil Android",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-01-ciberseguridad",
+   "slug": "parches-octubre-2026-cohortes-de-riesgo-como-priorizar",
+   "title": "1.413 fallos en un mes: cómo priorizar los parches de Windows sin volverse loco",
+   "category": "Ciberseguridad",
+   "date": "2026-11-01T08:00:00",
+   "excerpt": "Microsoft corrigió en octubre un número récord de vulnerabilidades y estrena las «cohortes de riesgo» para agruparlas. Te explicamos qué significa y por dónde empezar en una pyme.",
+   "metaTitle": "1.413 fallos de Windows en octubre: cómo priorizar parches",
+   "metaDescription": "Microsoft corrigió 1.413 vulnerabilidades en octubre de 2026 y crea las cohortes de riesgo. Qué son, qué parchear primero y el fallo de las miniaturas RAW.",
+   "tags": "Windows, parches, Microsoft, vulnerabilidades, pymes",
+   "html": "<p>El Patch Tuesday del 13 de octubre de 2026 batió un récord: Microsoft corrigió <strong>1.413 vulnerabilidades</strong> en un solo mes, frente a unas 1.000 el mes anterior. La mayoría están en Windows (1.102), seguido de Office (134), herramientas de desarrollo (61), SharePoint Server (36) y SQL Server (22). Más de 70 se consideran críticas.</p><p>Para una empresa pequeña, una lista así es inmanejable si se intenta leer de arriba abajo. Por eso Microsoft ha estrenado una forma nueva de agruparlas: las <strong>cohortes de riesgo</strong>.</p><h2>Qué es una cohorte de riesgo</h2><p>Una cohorte junta vulnerabilidades que conviene evaluar de la misma manera en tu entorno, aunque no tengan la misma causa ni la misma puntuación. Por ejemplo, la cohorte de <strong>acceso remoto y RDP</strong> reúne este mes 64 fallos. La pregunta útil ya no es «¿cuántos hay?», sino «¿me afecta este grupo?»:</p><ul><li>Si tienes RD Gateway o un servidor de Escritorio remoto expuesto a Internet, los fallos del lado servidor van primero.</li><li>Si tus portátiles se conectan por RDP a equipos que no controlas, revisa los del lado cliente.</li><li>Si el escritorio remoto solo funciona a través de VPN, esa cohorte puede esperar unos días.</li></ul><p>Microsoft insiste en que la cohorte es un punto de partida: cada fallo se sigue valorando por si se está explotando, su gravedad y si requiere que el usuario haga algo.</p><h2>Los dos fallos que no pueden esperar</h2><p><strong>CVE-2026-96951</strong> (gravedad 8,8) permite saltarse la marca «descargado de Internet» de Windows (Mark of the Web) y <strong>ya se está usando en ataques reales</strong>; la agencia estadounidense CISA lo ha añadido a su catálogo de vulnerabilidades explotadas. Es el primero que hay que parchear.</p><p>El segundo es especialmente traicionero: <strong>CVE-2026-21413</strong> (gravedad 9,8), en la extensión de imágenes RAW de Windows. Un archivo RAW manipulado puede ejecutar código <strong>solo con que el Explorador genere su miniatura o su vista previa</strong>, sin abrirlo. Basta con descargarlo a una carpeta o recibirlo en una unidad compartida.</p><h2>Qué hacer esta semana en tu empresa</h2><ol><li>Comprueba en Windows Update que todos los equipos tienen instalada la actualización de octubre y reinícialos.</li><li>Actualiza la extensión de imágenes RAW desde Microsoft Store, o desinstálala si nadie trabaja con fotos RAW.</li><li>Revisa si tienes Escritorio remoto abierto a Internet. Si es así, ciérralo y usa una VPN: elimina de golpe una cohorte entera de riesgos.</li><li>No intentes leer los 1.413 fallos: prioriza los que se están explotando, los que no requieren contraseña y los que afectan a lo que tienes expuesto.</li></ol><p>Este volumen de parches mensuales parece haber llegado para quedarse. La buena noticia es que con las actualizaciones automáticas activas y unas pocas decisiones bien tomadas, una pyme queda cubierta frente a lo urgente.</p>",
+   "sources": [
+    {
+     "title": "Segu-Info: Actualizaciones de seguridad de octubre para todas las empresas",
+     "url": "https://blog.segu-info.com.ar/2026/10/actualizaciones-de-seguridad-de-octubre.html"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Candado rojo sobre un teclado",
+   "imageCredit": "Foto: Unsplash"
+  }
+ ]
 }

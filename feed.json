@@ -1,6 +1,127 @@
 {
- "updated": "2026-11-01T08:20:00",
+ "updated": "2026-11-02T08:20:00",
  "posts": [
+  {
+   "id": "2026-11-02-actualidad",
+   "slug": "mistral-large-4-modelo-ia-europeo-pesos-abiertos",
+   "title": "Mistral libera Large 4, su IA más grande: un modelo europeo que cualquiera puede descargar",
+   "category": "Actualidad",
+   "date": "2026-11-02T08:20:00",
+   "excerpt": "La francesa Mistral ha publicado los pesos de Large 4, un modelo de IA de un billón de parámetros que se puede descargar y usar gratis, con avisos sobre su posible mal uso.",
+   "metaTitle": "Mistral Large 4: la IA europea de pesos abiertos",
+   "metaDescription": "Mistral publica Large 4, un modelo de IA europeo de pesos abiertos con un billón de parámetros. Qué es, cuánto cuesta y qué supone para las empresas.",
+   "tags": "inteligencia artificial, Mistral, Europa, código abierto, empresas",
+   "html": "<p>La empresa francesa Mistral AI ha publicado los <strong>pesos abiertos</strong> de Mistral Large 4, su modelo de inteligencia artificial (IA) más grande hasta ahora. Según InfoWorld, la publicación llegó el <strong>30 de octubre</strong>, unas semanas después de una versión preliminar.</p>\n<p>«Pesos abiertos» significa que cualquiera puede descargar el modelo, modificarlo y ejecutarlo en sus propios servidores, algo que no permiten las IA de OpenAI, Google o Anthropic.</p>\n<h2>Qué es Large 4</h2>\n<ul>\n<li>Un modelo <strong>multimodal</strong> (entiende texto e imágenes) de alrededor de <strong>un billón de parámetros</strong>. Mistral lo apoda «Le Chonk».</li>\n<li>Se descarga desde Hugging Face con una licencia MIT modificada que permite usarlo, adaptarlo y comercializarlo. Quien quiera venderlo como servicio necesita una licencia aparte.</li>\n<li>Para quien no quiera montarlo, la API de Mistral cuesta 0,70 dólares por millón de tokens de entrada y 2,10 dólares por millón de salida.</li>\n<li>Mistral asegura que es el mejor modelo abierto para programar, aunque todavía no ha publicado el informe técnico que lo respalde.</li>\n</ul>\n<h2>El debate: una IA potente en manos de cualquiera</h2>\n<p>La propia Mistral reconoce que el modelo podría ayudar en ataques informáticos reales, aunque dice que en la fase de prueba lo vio rechazar ataques contra objetivos reales. Afirma que se negó al 96,6 % de peticiones maliciosas en varias pruebas de ciberseguridad, la tasa más alta entre los modelos abiertos que ha medido.</p>\n<p>Los analistas piden prudencia. Niyati Daftary, de Gartner, recuerda que esa cifra sale del escenario de pruebas de la empresa y recomienda usarlo como una pieza controlada, con acceso mínimo y revisión humana, no como un agente que actúe solo. Además, las mejoras de seguridad que lance Mistral llegarán a su API, no a las copias ya descargadas.</p>\n<p>Mientras tanto, ENISA, la agencia de ciberseguridad de la UE, lo está probando para auditar código, buscar vulnerabilidades y analizar registros.</p>\n<h2>Por qué importa a una empresa española</h2>\n<p>Mistral es la gran apuesta europea en IA. Para un negocio, un modelo abierto permite tener la IA en un servidor propio o en un proveedor europeo, sin que los datos salgan a terceros. Es un argumento de peso con el RGPD (Reglamento General de Protección de Datos). A cambio, toda la responsabilidad de seguridad pasa a quien lo instala.</p>\n<p>Eso sí: un modelo de este tamaño exige hardware muy potente, así que para una pyme lo realista hoy es usarlo a través de la API o de un proveedor.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li>Si usas IA con datos de clientes, pregúntate dónde se procesan. Un modelo europeo o alojado en tu infraestructura puede simplificar el cumplimiento.</li>\n<li>Compara precios: la API de Large 4 puede ser una alternativa económica para tareas como resumir documentos o clasificar correos.</li>\n<li>No lo conectes a tus sistemas sin límites: dale solo el acceso que necesite y revisa lo que hace.</li>\n<li>Espera al informe técnico y a pruebas independientes antes de basar un proyecto importante en él.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "InfoWorld: Mistral open-sources AI model despite warning it could aid cyberattacks",
+     "url": "https://www.infoworld.com/article/4242654/mistral-open-sources-ai-model-despite-warning-it-could-aid-cyberattacks.html"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1620368523635-df9d83338fc1?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Interior de un portátil abierto con sus componentes a la vista",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-02-sistemas",
+   "slug": "exchange-windows-server-actualizaciones-octubre-fallo-correo-solucion",
+   "title": "Exchange sigue fallando tras los parches de octubre de Windows Server y aún no hay solución definitiva",
+   "category": "Sistemas",
+   "date": "2026-11-02T08:15:00",
+   "excerpt": "Las actualizaciones de octubre de Windows Server pueden bloquear el correo en servidores Exchange locales. Microsoft solo ofrece un ajuste temporal.",
+   "metaTitle": "Exchange falla tras los parches de octubre de Windows Server",
+   "metaDescription": "Los parches de octubre de Windows Server bloquean OWA y el envío de correo en Exchange. Microsoft solo da un ajuste temporal. Cómo aplicarlo y qué vigilar.",
+   "tags": "Windows Server, Exchange, Microsoft, actualizaciones, correo, servidores",
+   "html": "<p>Si tu empresa tiene su propio servidor de correo Exchange, atento: las actualizaciones de seguridad de Windows Server publicadas el <strong>13 de octubre</strong> pueden dejarlo sin funcionar. A fecha del 30 de octubre, la página oficial de problemas conocidos de Microsoft lo da como <strong>mitigado</strong>, pero sin una corrección definitiva.</p>\n<p>Con el próximo martes de parches previsto para el 10 de noviembre, conviene repasar qué pasa y cómo evitarlo.</p>\n<h2>Qué está pasando</h2>\n<p>Las actualizaciones acumulativas de octubre añadieron un límite de 512 llamadas simultáneas en el Endpoint Mapper de RPC (llamada a procedimiento remoto, el mecanismo que usan los servicios de Windows para hablar entre sí). Para la mayoría de servidores es suficiente, pero no para Exchange con carga: va acumulando conexiones hasta que fallan.</p>\n<p>Los síntomas que describe Microsoft son:</p>\n<ul>\n<li>Fallos al entrar en Outlook en la web (OWA), a veces con el error <code>MapiExceptionMdbOffline</code> (ec=1142) y el evento 1006 en el registro de aplicaciones.</li>\n<li>Mensajes que se quedan en la Bandeja de salida de Outlook.</li>\n<li>Colas de correo que crecen hasta que el envío casi se detiene.</li>\n</ul>\n<p>Reiniciar ayuda, pero solo durante un tiempo. Según Techzine, cuanta más carga tiene el servidor, antes aparece el problema.</p>\n<h2>A quién afecta</h2>\n<p>A servidores Exchange instalados en la empresa (Exchange 2016, 2019 y Subscription Edition) sobre Windows Server 2016, 2019, 2022 o 2025 con estas actualizaciones:</p>\n<ul>\n<li>KB5126646 (Windows Server 2025)</li>\n<li>KB5126655 (Windows Server 2022)</li>\n<li>KB5126651 (Windows Server 2019)</li>\n<li>KB5126868 (Windows Server 2016)</li>\n</ul>\n<p>No afecta a quien usa Exchange Online o Microsoft 365, ni a ordenadores con Windows 10 u 11. Microsoft aclara que la causa está en la actualización de Windows, no en la de Exchange.</p>\n<h2>Por qué importa</h2>\n<p>La tentación es desinstalar el parche y olvidarse. Microsoft lo desaconseja expresamente: son actualizaciones de seguridad y quitarlas deja el servidor expuesto. La salida es aplicar el ajuste temporal y vigilar.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li>Comprueba si tu servidor Exchange tiene instalada alguna de las KB anteriores.</li>\n<li>Si notas los síntomas, aplica la mitigación de Microsoft: en <code>HKLM\\SOFTWARE\\Microsoft\\Rpc</code> crea el valor DWORD <code>EpmapSavedContextCap</code> con el valor <code>65536</code> y reinicia el servidor. Si vuelve a pasar, sube el límite.</li>\n<li>Haz una copia de seguridad del registro y del servidor antes de tocar nada.</li>\n<li><strong>No desinstales</strong> las actualizaciones de seguridad.</li>\n<li>Revisa la página de problemas conocidos de Windows Server antes de instalar los parches del 10 de noviembre.</li>\n<li>Si mantener Exchange en casa te da más guerra que servicio, quizá sea momento de valorar el paso a la nube. En Javertix te ayudamos a decidirlo.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Microsoft Learn: Problemas conocidos y notificaciones de Windows Server 2025",
+     "url": "https://learn.microsoft.com/es-es/windows/release-health/status-windows-server-2025"
+    },
+    {
+     "title": "Techzine: Windows Server updates cause Exchange servers to become unstable",
+     "url": "https://www.techzine.eu/news/security/145063/windows-server-updates-cause-exchange-servers-to-become-unstable/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Pasillo de una sala de servidores con racks a ambos lados",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-02-automatizacion",
+   "slug": "novedades-microsoft-365-copilot-octubre-2026-conectores-mcp",
+   "title": "Copilot en Microsoft 365 suma conectores propios, presentaciones con tu plantilla y resúmenes de llamadas",
+   "category": "Automatización",
+   "date": "2026-11-02T08:10:00",
+   "excerpt": "Microsoft ha publicado las novedades de octubre de Copilot en Microsoft 365. Repasamos las que pueden ahorrar tiempo a una pyme y las que conviene vigilar.",
+   "metaTitle": "Novedades de Copilot en Microsoft 365 de octubre de 2026",
+   "metaDescription": "Copilot en Microsoft 365 estrena conectores MCP propios, PowerPoint con el estilo de tu plantilla y resúmenes de llamadas en Teams. Qué aporta a una pyme.",
+   "tags": "Microsoft 365, Copilot, automatización, agentes de IA, productividad",
+   "html": "<p>Microsoft actualizó el <strong>27 de octubre</strong> las notas de versión de Microsoft 365 Copilot, su asistente con inteligencia artificial (IA) para Word, Excel, Outlook, Teams y PowerPoint. Recogen los cambios publicados entre el 13 y el 27 de octubre. Es información de la propia Microsoft, no un análisis independiente.</p>\n<p>No hay grandes anuncios, pero sí varias piezas que apuntan en la misma dirección: que Copilot trabaje con los datos y las herramientas que ya usa tu empresa.</p>\n<h2>Conectores propios para enlazar Copilot con tus herramientas</h2>\n<p>La novedad más interesante es que los administradores ya pueden crear <strong>conectores MCP personalizados</strong> desde el centro de administración de Microsoft 365 y desplegarlos en toda la organización. MCP (Model Context Protocol) es un estándar abierto para que un asistente de IA consulte otras aplicaciones: un ERP, un CRM o una base de datos propia.</p>\n<p>Además, los resultados de esos conectores aparecen ahora como fichas con información en la búsqueda, en lugar de simples enlaces. Y el agente Researcher puede usar el conector de Canva si está activado.</p>\n<h2>Menos trabajo repetitivo en el día a día</h2>\n<ul>\n<li><strong>PowerPoint:</strong> al crear una presentación con Copilot puedes adjuntar otra y aplicar su tema y estilos. También puedes adjuntar imágenes para que las use en las diapositivas.</li>\n<li><strong>Teams:</strong> en la app Colas (Queues), tras una llamada grabada de una cola de atención, puedes abrir el resumen y pedir a Copilot los detalles de la conversación. Depende de que la llamada esté grabada y de tener Copilot.</li>\n<li><strong>Copilot Notebooks:</strong> admite enlaces web como fuente y, en Android, capturar audio con transcripción, fotos y notas en una misma sesión.</li>\n<li><strong>Outlook clásico:</strong> los ajustes de Copilot están ahora en el menú Archivo.</li>\n<li><strong>Agente de aprendizaje:</strong> ofrece formación breve y rutas de aprendizaje dentro de Copilot.</li>\n</ul>\n<h2>Para quien desarrolla</h2>\n<p>Las API de Work IQ pasan a un <strong>pago por uso</strong>: se pueden invocar agentes y modelos sin licencias asignadas de antemano y se cobra por petición. Las aplicaciones también pueden llamar a agentes declarativos creados en la propia organización. Para una pyme, esto abre la puerta a integrar Copilot en un programa a medida sin pagar licencias para todos.</p>\n<h2>Por qué importa</h2>\n<p>Un asistente que solo ve el correo y los documentos se queda corto. Conectarlo con tus programas de gestión es lo que lo convierte en una herramienta de automatización real. Pero también significa darle acceso a datos sensibles, así que conviene decidir bien qué conecta con qué.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li>Si ya pagas Copilot, prueba la función de PowerPoint con tu plantilla corporativa: es un ahorro inmediato.</li>\n<li>Si atiendes llamadas en Teams, valora grabar las colas y usar los resúmenes, informando siempre a los clientes de la grabación.</li>\n<li>Antes de crear un conector MCP, haz una lista de qué datos puede leer Copilot y quién tiene acceso.</li>\n<li>Ten en cuenta que Microsoft despliega estas funciones poco a poco: puede que aún no las veas.</li>\n<li>Si quieres conectar Copilot con tu programa de gestión, en Javertix podemos estudiar la integración contigo.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Microsoft Learn: Release notes for Microsoft 365 Copilot",
+     "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1784334312040-5b3d4cf78b88?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Portátil abierto con una hoja de datos de un negocio en la pantalla",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-02-apps",
+   "slug": "ios-27-2-actualizacion-iphone-seguridad-siri-espanol",
+   "title": "iOS 27.2 ya está aquí: más de 150 parches de seguridad y la nueva Siri en español (con letra pequeña)",
+   "category": "Apps",
+   "date": "2026-11-02T08:05:00",
+   "excerpt": "Apple ha publicado iOS 27.2 con más de 150 correcciones de seguridad, y también parches para iPhone antiguos. Te contamos qué trae y cómo actualizar los móviles de la empresa.",
+   "metaTitle": "iOS 27.2: parches de seguridad y novedades del iPhone",
+   "metaDescription": "Apple lanza iOS 27.2 con más de 150 parches, iOS 26.7.2 y 18.7.11 para iPhone antiguos y Siri en español en beta. Qué cambia y cómo actualizar.",
+   "tags": "iOS, iPhone, Apple, actualizaciones, seguridad",
+   "html": "<p>Apple publicó el <strong>26 de octubre</strong> iOS 27.2, la nueva actualización para iPhone. Trae novedades de Siri, FaceTime y Mensajes, pero lo más importante para un negocio es otra cosa: corrige <strong>más de 150 fallos de seguridad</strong>. Forbes cuenta 159 y TechCrunch, citando las notas de Apple, habla de más de 160.</p>\n<p>Ese mismo día salieron también iOS 26.7.2 e iOS 18.7.11, pensadas para quien no puede o no quiere pasar a iOS 27.</p>\n<h2>Qué corrige</h2>\n<p>Según MacRumors, iOS 26.7.2 arregla 134 vulnerabilidades y ninguna aparece marcada como explotada. El caso más delicado está en iOS 18.7.11, para el iPhone XS, XS Max y XR, que no pueden instalar iOS 26. Corrige un fallo en CoreGraphics, el componente que dibuja imágenes y documentos: un archivo preparado a propósito podía ejecutar código en el móvil.</p>\n<p>Apple dice que tiene noticia de que ese fallo <em>podría</em> haberse usado en un ataque «extremadamente sofisticado» contra personas concretas. No es un ataque masivo, pero sí un motivo para no dejar esos iPhone sin actualizar.</p>\n<h2>Las novedades que se ven</h2>\n<ul>\n<li><strong>Siri con IA</strong> llega en beta a más idiomas, entre ellos el español, y puede recordar detalles de conversaciones anteriores. Ojo: según Forbes, estas funciones no están disponibles en la Unión Europea, así que en España habrá que esperar.</li>\n<li><strong>Mensajes</strong> sugiere convertir un mensaje en recordatorio o evento del calendario.</li>\n<li><strong>FaceTime</strong> permite añadir subtítulos en directo o un intérprete de lengua de signos de terceros.</li>\n<li>Rediseño de Apple Music y de Podcasts, y mejoras en los álbumes compartidos.</li>\n</ul>\n<h2>A quién afecta</h2>\n<p>iOS 27.2 está disponible para los mismos modelos que iOS 26: del iPhone 11 en adelante, incluido el iPhone SE de segunda y tercera generación. Si en tu empresa los móviles se usan para el correo, el banco, la firma de documentos o las apps de gestión, son una puerta de entrada que conviene tener al día. Recuerda que, según TechCrunch, Apple calcula que cerca del 80 % de usuarios sigue en iOS 26.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li>Ve a <strong>Ajustes › General › Actualización de software</strong> e instala la última versión que te ofrezca tu iPhone.</li>\n<li>Hazlo con wifi y batería suficiente: Forbes avisa de que la descarga puede ser grande según el modelo y la última vez que se actualizó.</li>\n<li>Si tienes iPhone XS o XR en la empresa, asegúrate de que llevan <strong>iOS 18.7.11</strong>.</li>\n<li>Activa las actualizaciones automáticas en todos los móviles de trabajo.</li>\n<li>Si gestionas varios dispositivos, revisa cuáles se han quedado atrás y ponles fecha para actualizar esta semana.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "TechCrunch: Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
+     "url": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/"
+    },
+    {
+     "title": "MacRumors: Apple Fixes Possibly Exploited CoreGraphics Flaw on Older iPhones",
+     "url": "https://macrumors.com/2026/10/27/apple-fixes-coregraphics-flaw-older-iphones"
+    },
+    {
+     "title": "Forbes: iOS 27.2 — Apple Releases New iPhone Features And Over 150 Security Fixes",
+     "url": "https://www.forbes.com/sites/davidphelan/2026/10/29/ios-272---apple-has-new-features-and-important-fixes-for-iphone-users/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1488509082528-cefbba5ad692?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Persona sujetando un móvil con la pantalla encendida",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-02-ciberseguridad",
+   "slug": "ransomware-c3rb3r-nas-synology-actualizar-dsm",
+   "title": "Ransomware en NAS Synology: C3RB3R cifra archivos en equipos con DSM sin actualizar",
+   "category": "Ciberseguridad",
+   "date": "2026-11-02T08:00:00",
+   "excerpt": "Synology confirma ataques de ransomware contra NAS con versiones antiguas de DSM. Si tu empresa guarda sus archivos en uno, toca revisarlo hoy.",
+   "metaTitle": "Ransomware C3RB3R en NAS Synology: qué hacer ya",
+   "metaDescription": "Synology avisa de ataques de ransomware C3RB3R contra NAS con DSM antiguo. Te explicamos a quién afecta y cómo proteger tus archivos y copias.",
+   "tags": "ransomware, Synology, NAS, copias de seguridad, pymes",
+   "html": "<p>Synology, el fabricante de los populares NAS (servidores de archivos en red que muchas oficinas usan como «disco compartido»), publicó el <strong>29 de octubre</strong> un aviso urgente: hay atacantes cifrando los datos de equipos que llevan versiones antiguas de DSM, su sistema operativo, para pedir un rescate.</p>\n<p>El ransomware se llama <strong>C3RB3R</strong>, una variante de la vieja familia Cerber. Según varias publicaciones especializadas, los ataques empezaron a principios de octubre y los archivos cifrados terminan con la extensión <code>.L0CK3D</code>.</p>\n<h2>Qué ha pasado</h2>\n<p>En su comunicado, Synology explica que los atacantes aprovechan un fallo que la propia marca corrigió en <strong>diciembre de 2024</strong> (aviso Synology-SA-24:20) y pide a todos los usuarios con versiones vulnerables que actualicen DSM de inmediato. Hay que tener en cuenta que es la versión del fabricante.</p>\n<p>No todo el mundo está de acuerdo en la puerta de entrada. La firma de seguridad china 360, que identificó el malware, apunta a dos fallos de DSM publicados en septiembre de 2026, ambos con una gravedad de 9,8 sobre 10. Otro equipo de investigadores encontró una víctima con una versión reciente, aunque no descarta que entraran por paquetes añadidos o contraseñas robadas. De momento no hay prueba pública de un fallo desconocido sin parche.</p>\n<h2>Cómo actúa el ataque</h2>\n<ul>\n<li>Cifra los documentos y deja en cada carpeta una nota llamada <code>read-me3.txt</code> con instrucciones de pago.</li>\n<li>El rescate ronda los <strong>0,037 bitcoin (unos 2.950 dólares)</strong> y se duplica si pasan cinco días sin pagar.</li>\n<li>También cifra las copias de seguridad guardadas <em>en el mismo NAS</em>.</li>\n<li>No existe ninguna herramienta pública para recuperar los archivos sin la clave.</li>\n</ul>\n<h2>A quién afecta y por qué importa</h2>\n<p>A cualquier negocio con un NAS Synology que no se actualiza desde hace tiempo, sobre todo si su página de acceso está abierta a internet para entrar desde fuera de la oficina. Es una situación muy común en pymes y despachos: el equipo funciona, nadie lo toca y va acumulando años de parches pendientes.</p>\n<p>El problema es doble: un NAS suele guardar la información más valiosa de la empresa y, muchas veces, también sus copias. Si se cifra todo a la vez, no queda de dónde recuperar.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Actualiza DSM y todos los paquetes</strong> desde el Panel de control y el Centro de paquetes. Mira la versión completa, incluido el último número de compilación: Tecnología Geek recuerda que una 7.2.2 puede tener el parche de 2024 pero no los de septiembre.</li>\n<li><strong>Activa las actualizaciones automáticas</strong>, como recomienda Synology.</li>\n<li><strong>Quita la pantalla de acceso de internet.</strong> Si necesitas entrar desde fuera, usa una VPN (red privada virtual) en lugar de abrir puertos.</li>\n<li><strong>Revisa el equipo:</strong> pasa el Asesor de seguridad, mira el Programador de tareas por trabajos que no hayas creado y comprueba que no hay administradores desconocidos.</li>\n<li><strong>Ten una copia fuera del NAS</strong>, en otro equipo o en la nube, y comprueba que las tareas de copia terminan bien.</li>\n<li>Si ves archivos <code>.L0CK3D</code>, desconecta el NAS de la red, no pagues y busca ayuda profesional.</li>\n</ol>\n<p>Si no sabes qué versión tiene tu NAS o quieres que lo revisemos, en Javertix te ayudamos a dejarlo actualizado y con copias fuera del equipo.</p>",
+   "sources": [
+    {
+     "title": "Synology: Synology urges users to update DSM following ransomware attacks on outdated DSM versions",
+     "url": "https://www.synology.com/en-global/company/news/article/C3RB3R"
+    },
+    {
+     "title": "Tecnología Geek: Ransomware C3RB3R en Synology: fallos, rescate y parche",
+     "url": "https://tecnologiageek.com/ransomware-c3rb3r-nas-synology/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1754039984985-ef607d80113a?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Varias pantallas de ordenador mostrando líneas de código",
+   "imageCredit": "Foto: Unsplash"
+  },
   {
    "id": "2026-11-01-actualidad",
    "slug": "black-friday-2026-que-tecnologia-comprar-crisis-memoria",

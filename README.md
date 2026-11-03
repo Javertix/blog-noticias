@@ -28,3 +28,7 @@ y publica sola los artículos nuevos en el blog, con su foto, su SEO y las fuent
   "imageCredit": "Foto: Nombre en Unsplash"
 }
 ```
+
+## Redes sociales
+
+La carpeta `redes/` tiene las publicaciones de Instagram y Facebook: ver [redes/README.md](redes/README.md).

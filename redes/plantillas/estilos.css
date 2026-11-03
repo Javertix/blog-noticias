@@ -121,3 +121,7 @@ html:has(.portada), body:has(.portada) { background: transparent; }
 .cierre-logo { background: #fff; border-radius: 44px; padding: 26px; }
 .puntos li { font-size: 42px; }
 .puntos li::before { margin-top: -4px; }
+/* Logo J en blanco sobre fondos oscuros */
+.oscuro .marca img, .azul .marca img, .portada .marca img, .azul .post-cab img.no { content: url(icono-blanco.png); }
+.marca img { width: 64px; height: 64px; object-fit: contain; }
+.cierre-logo { object-fit: contain; }

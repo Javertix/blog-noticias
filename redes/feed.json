@@ -1,4 +1,214 @@
 {
- "updated": "2026-11-04T01:07:44+00:00",
- "posts": []
+ "updated": "2026-11-04T07:06:15+00:00",
+ "posts": [
+  {
+   "id": "2026-11-04-meme",
+   "tipo": "meme",
+   "publicar": "2026-11-04T20:00:00+01:00",
+   "texto": "Se lleva lo de «hecho con IA vs. hecho a mano»… y en contraseñas la versión artesanal sale cara 😅 Usa un gestor de contraseñas y deja que invente él. ¿Cuál es la peor contraseña que has visto pegada en un pósit? 👇",
+   "hashtags": [
+    "#humorinformatico",
+    "#contraseñas",
+    "#ciberseguridad",
+    "#memes",
+    "#oficina",
+    "#tech",
+    "#javertix"
+   ],
+   "alt": "Meme de Javertix con fondo claro, titulado «Contraseñas: IA vs. a mano». Panel izquierdo, «Hecha con IA», con un robot: «xK#9v!Lq2$mP7z». Panel derecho, «Hecha a mano», con una mano escribiendo: «Verano2026!… y apuntada en un pósit en la pantalla».",
+   "tendencia": {
+    "formato": "AI vs. handmade (primero la versión hecha con IA y luego la artesanal)",
+    "fuente": "https://www.que.es/2026/10/30/trends-tiktok-noviembre-2026/"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "expectativa",
+     "fondo": "claro",
+     "titulo": "Contraseñas: IA vs. a mano",
+     "paneles": [
+      {
+       "etiqueta": "Hecha con IA",
+       "emoji": "🤖",
+       "texto": "xK#9v!Lq2$mP7z"
+      },
+      {
+       "etiqueta": "Hecha a mano",
+       "emoji": "✍️",
+       "texto": "Verano2026!… y apuntada en un pósit en la pantalla"
+      }
+     ]
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-04-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-historia-tarde",
+   "tipo": "noticia",
+   "formato": "historia",
+   "publicar": "2026-11-04T17:30:00+01:00",
+   "texto": "¿Has visto esto? El parche de Android de noviembre corrige el «SMS de la muerte». Mira el post de hoy para saber cómo comprobarlo 📱",
+   "hashtags": [
+    "#android",
+    "#ciberseguridad",
+    "#javertix"
+   ],
+   "alt": "Historia con la foto de una persona usando un móvil Android y el texto «¿Has visto esto? Un SMS puede cortar tus llamadas en Android. El parche de noviembre lo arregla. Mira cómo comprobarlo en el post de hoy».",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "¿Has visto esto? 👀",
+     "titulo": "Un SMS puede cortar tus llamadas en Android",
+     "subtitulo": "El parche de noviembre lo arregla. Mira cómo comprobarlo en el post de hoy.",
+     "foto": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-04-historia-tarde-1.png",
+     "fondo": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-tip",
+   "tipo": "tip",
+   "publicar": "2026-11-04T13:30:00+01:00",
+   "texto": "💾 La regla de copias que usamos con nuestros clientes: 3-2-1. Si un ransomware, un robo o un disco que muere se lleva tus archivos, con ella siempre te queda una copia sana. Y lo más olvidado: prueba de vez en cuando a recuperar algo. Guárdalo y compártelo con quien aún guarda todo en un solo disco 😉",
+   "hashtags": [
+    "#copiasdeseguridad",
+    "#backup",
+    "#tipsinformaticos",
+    "#ciberseguridad",
+    "#ransomware",
+    "#pymes",
+    "#autonomos",
+    "#javertix"
+   ],
+   "alt": "Imagen de Javertix con fondo azul y el emoji de un disquete. Título: la regla 3-2-1 de las copias. Tres puntos: 3 copias, el original y dos más; en 2 soportes distintos, el PC y un disco externo o NAS; y 1 copia fuera de la oficina, en la nube.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip",
+     "emoji": "💾",
+     "titulo": "La regla 3-2-1 de las copias",
+     "puntos": [
+      "**3** copias: el original y dos más",
+      "En **2** soportes distintos (PC y disco externo o NAS)",
+      "**1** copia fuera de la oficina (en la nube)"
+     ]
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-04-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-historia-manana",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-04T10:30:00+01:00",
+   "texto": "Tip rápido: bloquea el ordenador cada vez que te levantes con Windows + L 🔒",
+   "hashtags": [
+    "#tipsinformaticos",
+    "#windows",
+    "#ciberseguridad",
+    "#javertix"
+   ],
+   "alt": "Historia con fondo azul de Javertix: un candado y el consejo «¿Te levantas de la mesa? Windows + L y el PC queda bloqueado».",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "🔒",
+     "titulo": "¿Te levantas de la mesa?\n**Windows + L**",
+     "texto": "Un segundo y tu PC queda bloqueado. En Mac: Control + Cmd + Q."
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-04-historia-manana-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-noticia",
+   "tipo": "noticia",
+   "publicar": "2026-11-04T08:45:00+01:00",
+   "texto": "📱 Ya está aquí el parche de seguridad de Android de noviembre: corrige 23 fallos críticos y el «SMS de la muerte», un mensaje que puede cortar tus llamadas. Si tu móvil es tu oficina, revisa hoy si lo tienes. Te contamos cómo en el carrusel 👉 y el artículo completo, en el blog (enlace en la bio). ¿Ya has actualizado el tuyo?",
+   "hashtags": [
+    "#android",
+    "#ciberseguridad",
+    "#seguridadmovil",
+    "#actualizaciones",
+    "#samsung",
+    "#pymes",
+    "#autonomos",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/android-parche-seguridad-noviembre-2026-sms-de-la-muerte",
+   "alt": "Carrusel de Javertix. Portada: foto de una persona usando un móvil Android con el titular «Parche de Android de noviembre: 23 fallos críticos y el SMS de la muerte». Segunda imagen: lo esencial del parche en tres puntos. Tercera: qué hacer, con los menús de Pixel y Samsung. Última: Javertix ofrece revisar y gestionar los móviles de tu empresa.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Apps · Seguridad",
+     "titulo": "Parche de Android de noviembre: 23 fallos críticos y el «SMS de la muerte»",
+     "foto": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "3 fallos remotos graves que no necesitan que toques nada",
+      "Un SMS preparado corta las llamadas (Android 14 a 17)",
+      "El parche del **5 de noviembre** o posterior lo arregla todo"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer hoy",
+     "puntos": [
+      "Android: Ajustes › Seguridad y privacidad › Sistema y actualizaciones",
+      "Samsung: Ajustes › Actualización de software › Descargar e instalar",
+      "¿No te sale aún? Vuelve a mirar en unos días",
+      "Apunta qué móviles de la empresa ya no reciben parches"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Muchos móviles en la empresa y ninguno controlado?",
+     "subtexto": "Te ayudamos a revisarlos, actualizarlos y saber cuáles toca cambiar.",
+     "cta": "Soporte informático en javertix.site"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-04-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-04-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-04-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-04-noticia-4.jpg"
+    }
+   ]
+  }
+ ]
 }

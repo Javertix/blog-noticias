@@ -55,6 +55,9 @@ perfil quede ordenado: noticias en oscuro, memes en claro/suave, tips en azul y 
 
 | Plantilla | Para | Campos |
 |---|---|---|
+| `terminal` | Meme de terminal: comandos y salida, el remate en la última línea | `titulo`?, `ventana`?, `prompt`?, `lineas`: [{`cmd`} o {`out`, `color`: out/gris/ok/warn/error}] (2-9) |
+| `codigo` | Meme de código: el chiste está en el código o un comentario | `titulo`?, `archivo`, `codigo` (máx. 14 líneas de 40 caracteres, `\n` entre líneas) |
+| `error` | Ventana de error inventada (sin marcas) | `titulo`?, `ventana`, `emoji`, `mensaje`, `botones` [1-3], `abajo`? |
 | `comparacion` | Meme «esto no / esto sí» (2-4 filas) | `titulo`?, `filas`: [{`emoji`, `texto`}] |
 | `nadie-yo` | Meme «Nadie: / Yo:» | `lineas`: [{`quien`, `texto`?}], `emoji`? |
 | `chat` | Conversación de WhatsApp inventada | `titulo`?, `contacto`, `emoji`, `mensajes`: [{`de`?, `texto`, `yo`?}] |

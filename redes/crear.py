@@ -25,6 +25,7 @@ TIPOS = {"meme", "noticia", "dato", "tip", "presentacion"}
 FORMATOS = {"post", "historia", "reel", "explicado"}
 PLANTILLAS_VALIDAS = {
     "comparacion", "nadie-yo", "chat", "post", "expectativa", "escala", "clasico",   # memes
+    "terminal", "codigo", "error",                                                    # memes «nativos» de informática
     "portada", "puntos", "cierre",                                                    # noticias
     "dato", "texto", "logo", "tip",                                                          # datos y genéricas
 }
@@ -120,6 +121,44 @@ def slide_html(d, n, total, tipo):
         body = (f'<div class="contenido"><div class="clasico"><div class="linea">{e(d["arriba"])}</div>'
                 f'<div class="gran-emoji emoji">{e(d["emoji"])}</div><div class="linea">{e(d.get("abajo", ""))}</div></div></div>')
         clase = fondo or "claro"
+    elif p == "terminal":
+        # Terminal: líneas con prompt ($ comando) y salida; la última línea puede ser el remate
+        filas = []
+        for l in d["lineas"]:
+            if l.get("cmd") is not None:
+                filas.append(f'<div class="t-l"><span class="t-p">{e(d.get("prompt", "yo@oficina:~$"))}</span> {e(l["cmd"])}</div>')
+            else:
+                filas.append(f'<div class="t-l t-{l.get("color", "out")}">{e(l.get("out", ""))}</div>')
+        titulo = f'<div class="meme-titulo">{e(d["titulo"])}</div>' if d.get("titulo") else ""
+        body = (f'<div class="contenido">{titulo}<div class="terminal"><div class="t-barra"><i></i><i></i><i></i>'
+                f'<span>{e(d.get("ventana", "bash"))}</span></div><div class="t-cuerpo">{"".join(filas)}<span class="t-cursor"></span></div></div></div>')
+        clase = fondo or "oscuro"
+    elif p == "codigo":
+        # Código con resaltado sencillo: el chiste suele estar en un comentario o en un nombre
+        def resaltar(linea):
+            tok = re.compile(r'(?P<com>(//|#).*$)|(?P<str>"[^"]*"|\'[^\']*\')|(?P<kw>\b(?:if|else|return|function|const|let|var|def|while|for|true|false|null|None|try|catch|except|throw|new|class|import|from|await|async)\b)')
+            out, i = [], 0
+            for m in tok.finditer(linea):
+                out.append(html.escape(linea[i:m.start()]))
+                clase = {"com": "c-com", "str": "c-str", "kw": "c-kw"}[m.lastgroup]
+                out.append(f'<span class="{clase}">{html.escape(m.group(0))}</span>')
+                i = m.end()
+            out.append(html.escape(linea[i:]))
+            return emojis("".join(out))
+        lineas = "".join(f'<div class="c-l"><span class="c-n">{i}</span><span>{resaltar(l) or "&nbsp;"}</span></div>' for i, l in enumerate(d["codigo"].split("\n"), 1))
+        titulo = f'<div class="meme-titulo">{e(d["titulo"])}</div>' if d.get("titulo") else ""
+        body = (f'<div class="contenido">{titulo}<div class="editor"><div class="t-barra"><i></i><i></i><i></i><span>{e(d.get("archivo", "main.js"))}</span></div>'
+                f'<div class="c-cuerpo">{lineas}</div></div></div>')
+        clase = fondo or "oscuro"
+    elif p == "error":
+        # Ventana de error genérica (sin marcas): título, icono, mensaje y botones
+        botones = "".join(f'<span class="{"pri" if i == len(d.get("botones", [])) - 1 else ""}">{e(b)}</span>' for i, b in enumerate(d.get("botones", ["Aceptar"])))
+        titulo = f'<div class="meme-titulo">{e(d["titulo"])}</div>' if d.get("titulo") else ""
+        body = (f'<div class="contenido">{titulo}<div class="dialogo"><div class="d-barra">{e(d.get("ventana", "Error"))}<span>✕</span></div>'
+                f'<div class="d-cuerpo"><div class="d-icono emoji">{e(d.get("emoji", "⚠️"))}</div><div class="d-msg">{e(d["mensaje"])}</div></div>'
+                f'<div class="d-botones">{botones}</div></div>'
+                + (f'<div class="pie-meme">{e(d["abajo"])}</div>' if d.get("abajo") else "") + '</div>')
+        clase = fondo or "suave"
     elif p == "portada":
         return (f'<div class="lienzo portada"><div class="velo"></div>'
                 f'<div class="dentro"><span class="etiqueta">{e(d.get("categoria", "Noticia"))}</span><h1>{e(d["titulo"])}</h1>'
@@ -254,6 +293,12 @@ def check(p):
     for i, d in enumerate(p["diapositivas"], 1):
         if d.get("plantilla") not in PLANTILLAS_VALIDAS:
             errs.append(f"diapositiva {i}: plantilla no válida")
+        if d.get("plantilla") == "codigo":
+            ls = str(d.get("codigo", "")).split("\n")
+            if len(ls) > 14 or any(len(l) > 40 for l in ls):
+                errs.append(f"diapositiva {i}: código de máx. 14 líneas y 40 caracteres por línea")
+        if d.get("plantilla") == "terminal" and not (2 <= len(d.get("lineas") or []) <= 9):
+            errs.append(f"diapositiva {i}: la terminal lleva 2-9 líneas")
         if d.get("plantilla") == "portada" and not UNSPLASH.fullmatch(d.get("foto", "")):
             errs.append(f"diapositiva {i}: la foto de portada tiene que ser de images.unsplash.com")
     if PROHIBIDAS.search(textos(p)):

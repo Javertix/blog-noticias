@@ -164,3 +164,30 @@ html.vertical, html.vertical body { height: 1920px; }
 .vertical .puntos li { font-size: 52px; grid-template-columns: 100px 1fr; }
 .vertical .puntos li::before { width: 100px; height: 100px; font-size: 50px; }
 .vertical .contenido { gap: 48px; }
+
+/* ── Memes «nativos»: terminal, código y ventana de error ── */
+.terminal, .editor { background: #0A1220; border-radius: 22px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,.35); border: 2px solid #22344f; }
+.t-barra { display: flex; align-items: center; gap: 12px; padding: 20px 26px; background: #15233a; font: 600 28px var(--mono, 'JetBrains Mono'), monospace; color: #8fa6c4; }
+.t-barra i { width: 20px; height: 20px; border-radius: 50%; background: #FF5F57; display: inline-block; }
+.t-barra i:nth-child(2) { background: #FEBC2E; } .t-barra i:nth-child(3) { background: #28C840; }
+.t-barra span { margin-left: 14px; }
+.t-cuerpo, .c-cuerpo { padding: 34px 36px 40px; font: 500 38px/1.45 'JetBrains Mono', monospace; color: #E6EDF7; }
+.t-l { white-space: pre-wrap; word-break: break-word; margin-bottom: 8px; }
+.t-p { color: #5CE1E6; font-weight: 700; }
+.t-error { color: #FF6B6B; } .t-ok { color: #4ADE80; } .t-warn { color: #FFC83D; } .t-gris { color: #7E8FA8; } .t-out { color: #E6EDF7; }
+.t-cursor { display: inline-block; width: 22px; height: 42px; background: #E6EDF7; vertical-align: middle; }
+.c-cuerpo { font-size: 29px; padding: 30px 24px 36px; }
+.c-l { grid-template-columns: 40px 1fr; gap: 14px; }
+.c-l { display: grid; grid-template-columns: 56px 1fr; gap: 18px; white-space: pre-wrap; }
+.c-n { color: #4A5B75; text-align: right; }
+.c-kw { color: #C792EA; } .c-str { color: #C3E88D; } .c-com { color: #7E8FA8; font-style: italic; }
+.dialogo { background: #fff; border-radius: 18px; overflow: hidden; border: 3px solid var(--tinta); box-shadow: 0 24px 60px rgba(11,30,51,.25); }
+.d-barra { display: flex; justify-content: space-between; padding: 22px 30px; background: var(--azul); color: #fff; font: 700 32px var(--titulo); }
+.d-cuerpo { display: grid; grid-template-columns: 150px 1fr; gap: 30px; align-items: center; padding: 50px 44px 30px; }
+.d-icono { font-size: 120px; text-align: center; }
+.d-msg { font: 600 44px/1.25 var(--texto); color: var(--tinta); }
+.d-botones { display: flex; justify-content: flex-end; gap: 22px; padding: 20px 44px 44px; }
+.d-botones span { font: 700 34px var(--texto); padding: 18px 40px; border-radius: 12px; border: 3px solid var(--tinta); color: var(--tinta); }
+.d-botones span.pri { background: var(--azul); color: #fff; border-color: var(--azul); }
+.pie-meme { margin-top: 44px; font: 800 52px/1.15 var(--titulo); text-align: center; }
+.oscuro .pie-meme { color: #fff; }

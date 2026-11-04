@@ -129,3 +129,38 @@ html:has(.portada), body:has(.portada) { background: transparent; }
 /* Logo completo (presentación) */
 .logo-c { align-items: center; text-align: center; gap: 40px; }
 .logo-grande { width: 820px; height: auto; }
+
+/* Colores por tipo: datos en amarillo */
+.amarillo { background: var(--acento); color: var(--noche);
+  background-image: linear-gradient(rgba(11,30,51,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(11,30,51,.06) 1px, transparent 1px);
+  background-size: 54px 54px; }
+.amarillo .etiqueta { background: var(--noche); color: #fff; }
+.amarillo .cifra { color: var(--noche); }
+.amarillo .gris { color: rgba(11,30,51,.75); }
+.amarillo .pie { border-color: rgba(11,30,51,.2); }
+.amarillo .web, .amarillo .contador { color: rgba(11,30,51,.7); }
+.azul .puntos li::before { background: #fff; color: var(--azul); }
+
+/* Historias y reels: 1080 × 1920, con márgenes para que la interfaz de Instagram no tape nada */
+html.vertical, html.vertical body { height: 1920px; }
+.vertical .lienzo { height: 1920px; padding: 230px 84px 0; }
+.vertical .pie { margin-bottom: 300px; }
+.vertical h1 { font-size: 88px; }
+.vertical h2 { font-size: 66px; }
+.vertical p.grande { font-size: 50px; }
+.vertical .puntos li { font-size: 46px; }
+.vertical .meme-titulo { font-size: 70px; }
+.vertical .portada .dentro { padding: 230px 84px 0; }
+.vertical .portada .pie { margin: 40px 0 300px; }
+.vertical h2 { font-size: 96px; line-height: 1.06; }
+.vertical .meme-titulo { font-size: 80px; }
+.vertical .dato-emoji { font-size: 280px; }
+.vertical .etiqueta { font-size: 36px; padding: 18px 30px; }
+.vertical p.medio { font-size: 50px; }
+.vertical p.grande { font-size: 58px; }
+.vertical .cifra { font-size: 300px; }
+.vertical .cta { font-size: 56px; padding: 32px 46px; }
+.vertical .cierre-logo { width: 300px; height: 300px; }
+.vertical .puntos li { font-size: 52px; grid-template-columns: 100px 1fr; }
+.vertical .puntos li::before { width: 100px; height: 100px; font-size: 50px; }
+.vertical .contenido { gap: 48px; }

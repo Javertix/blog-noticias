@@ -21,11 +21,12 @@ PLANTILLAS = AQUI / "plantillas"
 FEED = AQUI / "feed.json"
 DIAS_GUARDADOS = 21
 
-TIPOS = {"meme", "noticia", "dato"}
+TIPOS = {"meme", "noticia", "dato", "tip", "presentacion"}
+FORMATOS = {"post", "historia", "reel"}
 PLANTILLAS_VALIDAS = {
     "comparacion", "nadie-yo", "chat", "post", "expectativa", "escala", "clasico",   # memes
     "portada", "puntos", "cierre",                                                    # noticias
-    "dato", "texto", "logo",                                                          # datos y genéricas
+    "dato", "texto", "logo", "tip",                                                          # datos y genéricas
 }
 # Palabras que nunca deben salir en una publicación de la marca
 PROHIBIDAS = re.compile(r"\b(put[ao]s?|mierda|joder|cabr[oó]n\w*|gilipollas|coñ[oa]|polla|follar|maric[oó]n\w*|subnormal|retrasad[oa]|idiotas?|imb[eé]cil\w*)\b", re.I)
@@ -139,7 +140,14 @@ def slide_html(d, n, total, tipo):
         cifra = f'<div class="cifra">{e(d["cifra"])}</div>' if d.get("cifra") else (f'<div class="dato-emoji emoji">{e(d["emoji"])}</div>' if d.get("emoji") else "")
         fuente = f'<p class="fuente gris">Fuente: {e(d["fuente"])}</p>' if d.get("fuente") else ""
         body = f'<div class="contenido">{top}{cifra}<p class="grande">{e(d["texto"])}</p>{fuente}</div>'
-        clase = fondo or "oscuro"
+        clase = fondo or "amarillo"
+    elif p == "tip":
+        top = f'<span class="etiqueta">{e(d.get("etiqueta", "Tip"))}</span>'
+        emo = f'<div class="dato-emoji emoji">{e(d["emoji"])}</div>' if d.get("emoji") else ""
+        lis = ("<ol class=\"puntos\">" + "".join(f"<li><span>{e(x)}</span></li>" for x in d["puntos"]) + "</ol>") if d.get("puntos") else ""
+        txt = f'<p class="medio gris">{e(d["texto"])}</p>' if d.get("texto") else ""
+        body = f'<div class="contenido">{top}{emo}<h2>{e(d["titulo"])}</h2>{txt}{lis}</div>'
+        clase = fondo or "azul"
     elif p == "logo":
         body = (f'<div class="contenido logo-c"><img class="logo-grande" src="logo-completo.png" alt="">'
                 + (f'<h2>{e(d["titulo"])}</h2>' if d.get("titulo") else "")
@@ -154,8 +162,8 @@ def slide_html(d, n, total, tipo):
     return f'<div class="lienzo {clase}">{body}{pie(n, total)}</div>'
 
 
-def documento(cuerpo):
-    return ('<!doctype html><html lang="es"><head><meta charset="utf-8">'
+def documento(cuerpo, vertical=False):
+    return ('<!doctype html><html lang="es"' + (' class="vertical"' if vertical else '') + '><head><meta charset="utf-8">'
             '<link rel="stylesheet" href="fuentes/marca.css">'
             f'<link rel="stylesheet" href="estilos.css"></head><body>{cuerpo}</body></html>')
 
@@ -191,8 +199,18 @@ def check(p):
         errs.append("hashtags: entre 3 y 12, con # y sin espacios")
     if p.get("enlace") and not p["enlace"].startswith("https://javertix.site/"):
         errs.append("enlace tiene que ser de https://javertix.site/")
+    formato = p.get("formato", "post")
+    if formato not in FORMATOS:
+        errs.append("formato no válido (post, historia o reel)")
     if not (1 <= len(p["diapositivas"]) <= 10):
         errs.append("entre 1 y 10 diapositivas")
+    if formato == "historia" and len(p["diapositivas"]) > 3:
+        errs.append("una historia tiene como mucho 3 imágenes")
+    if formato == "reel":
+        if not (2 <= len(p["diapositivas"]) <= 8):
+            errs.append("un reel tiene entre 2 y 8 diapositivas")
+        if any(d.get("plantilla") == "portada" for d in p["diapositivas"]):
+            errs.append("los reels no pueden usar la plantilla portada (no hay foto de fondo en vídeo)")
     for i, d in enumerate(p["diapositivas"], 1):
         if d.get("plantilla") not in PLANTILLAS_VALIDAS:
             errs.append(f"diapositiva {i}: plantilla no válida")
@@ -217,6 +235,33 @@ def servidor():
     return srv
 
 
+def video(p, destino, imagenes):
+    """Reel: las diapositivas con un zoom suave y fundidos, en MP4 vertical (H.264, 30 fps, con pista de audio en silencio)."""
+    import subprocess
+    seg = float(p.get("segundos", 3.5))
+    fundido = 0.5
+    n = len(imagenes)
+    args = ["ffmpeg", "-y", "-loglevel", "error"]
+    for img in imagenes:
+        args += ["-loop", "1", "-t", f"{seg:.2f}", "-i", str(img)]
+    args += ["-f", "lavfi", "-t", f"{n * seg - (n - 1) * fundido:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
+    frames = int(seg * 30)
+    filtros = []
+    for i in range(n):
+        filtros.append(f"[{i}:v]scale=1188:2112,zoompan=z='min(zoom+0.0007,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:s=1080x1920:fps=30,setsar=1,format=yuv420p[v{i}]")
+    actual = "v0"
+    for i in range(1, n):
+        off = i * (seg - fundido)
+        filtros.append(f"[{actual}][v{i}]xfade=transition=fade:duration={fundido}:offset={off:.2f}[x{i}]")
+        actual = f"x{i}"
+    nombre = f"{p['id']}.mp4"
+    args += ["-filter_complex", ";".join(filtros), "-map", f"[{actual}]", "-map", f"{n}:a",
+             "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", "-r", "30",
+             "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", str(destino / nombre)]
+    subprocess.run(args, check=True)
+    return {"src": nombre, "portada": imagenes[0].name}
+
+
 def render(posts, destino):
     from playwright.sync_api import sync_playwright
     destino.mkdir(parents=True, exist_ok=True)
@@ -225,13 +270,16 @@ def render(posts, destino):
     base = f"http://127.0.0.1:{srv.server_address[1]}/"
     with sync_playwright() as pw:
         nav = pw.chromium.launch()
-        pag = nav.new_page(viewport={"width": 1080, "height": 1350}, device_scale_factor=1)
+        pags = {False: nav.new_page(viewport={"width": 1080, "height": 1350}, device_scale_factor=1),
+                True: nav.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=1)}
         for p in posts:
+            vertical = p.get("formato", "post") != "post"
+            pag = pags[vertical]
             imgs = []
             total = len(p["diapositivas"])
             for n, d in enumerate(p["diapositivas"], 1):
                 tmp = PLANTILLAS / f"_render-{p['id']}-{n}.html"
-                tmp.write_text(documento(slide_html(d, n, total, p["tipo"])), encoding="utf-8")
+                tmp.write_text(documento(slide_html(d, n, 1 if vertical else total, p["tipo"]), vertical), encoding="utf-8")
                 pag.goto(base + tmp.name)
                 tmp.unlink()
                 pag.evaluate("document.fonts.ready")
@@ -256,6 +304,8 @@ def render(posts, destino):
                     pag.screenshot(path=str(destino / nombre), type="jpeg", quality=90)
                     imgs.append({"src": nombre})
             p["_imgs"] = imgs
+            if p.get("formato") == "reel":
+                p["_video"] = video(p, destino, [destino / i["src"] for i in imgs])
         nav.close()
     srv.shutdown()
     return errores
@@ -294,7 +344,7 @@ def main():
                     (destino / f["src"]).unlink(missing_ok=True)
         sys.exit(1)
     for p in nuevos:
-        print("✓", p["id"], "·", p["tipo"], "·", p["publicar"], "·", len(p["_imgs"]), "imagen(es)")
+        print("✓", p["id"], "·", p.get("formato", "post"), "·", p["tipo"], "·", p["publicar"], "·", len(p["_imgs"]), "imagen(es)" + (" + vídeo" if p.get("_video") else ""))
     if prueba:
         # Vista previa de las portadas con un fondo liso (la foto real la pone la web)
         from PIL import Image
@@ -308,7 +358,12 @@ def main():
         return
 
     for p in nuevos:
+        p.setdefault("formato", "post")
         p["imagenes"] = [dict(f, src=f"redes/img/{f['src']}") for f in p.pop("_imgs")]
+        v = p.pop("_video", None)
+        if v:
+            # El vídeo se queda en redes/img/ con las imágenes (así se limpia igual)
+            p["video"] = {"src": f"redes/img/{v['src']}", "portada": f"redes/img/{v['portada']}"}
     limite = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=DIAS_GUARDADOS))
     todos = nuevos + feed["posts"]
     todos = [p for p in todos if dt.datetime.fromisoformat(p["publicar"]) >= limite]
@@ -316,9 +371,9 @@ def main():
     feed = {"updated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "posts": todos}
     json.dump(feed, open(FEED, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # Borra las imágenes que ya no están en el feed
-    usadas = {Path(i["src"]).name for p in todos for i in p["imagenes"]}
+    usadas = {Path(i["src"]).name for p in todos for i in p["imagenes"]} | {Path(p["video"]["src"]).name for p in todos if p.get("video")}
     borradas = 0
-    for f in list((AQUI / "img").glob("*.jpg")) + list((AQUI / "img").glob("*.png")):
+    for f in list((AQUI / "img").glob("*.jpg")) + list((AQUI / "img").glob("*.png")) + list((AQUI / "img").glob("*.mp4")):
         if f.name not in usadas:
             f.unlink()
             borradas += 1

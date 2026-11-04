@@ -30,7 +30,13 @@ Borra solo las publicaciones de más de 21 días y sus imágenes. `redes/prueba/
 }
 ```
 
-- `id`: `AAAA-MM-DD-algo`, único. `tipo`: `meme`, `noticia` o `dato`.
+- `id`: `AAAA-MM-DD-algo`, único. `tipo`: `meme`, `noticia`, `dato`, `tip` o `presentacion`.
+- `formato` (opcional, por defecto `post`):
+  - `post`: foto o carrusel en el perfil (1080 × 1350).
+  - `historia`: historia de Instagram y Facebook (1080 × 1920), 1-3 imágenes; dura 24 h.
+  - `reel`: vídeo vertical de 2-8 diapositivas con zoom suave y fundidos (unos 3,5 s cada una,
+    `segundos` lo cambia). Se publica como reel en Instagram y como vídeo en Facebook.
+    No admite la plantilla `portada`.
 - `publicar`: hora de Madrid con zona (`+01:00` en invierno, `+02:00` en verano).
 - `texto`: hasta 1800 caracteres. En Instagram los enlaces no funcionan; si hay `enlace`, en el texto
   di «(enlace en la bio)»: la web lo cambia por el enlace de verdad en Facebook.
@@ -40,7 +46,8 @@ Borra solo las publicaciones de más de 21 días y sus imágenes. `redes/prueba/
 
 ## Plantillas (1080 × 1350)
 
-Todas admiten `"fondo": "claro" | "suave" | "oscuro" | "azul"`. En los textos, `**así**` va en negrita,
+Todas admiten `"fondo": "claro" | "suave" | "oscuro" | "azul" | "amarillo"`. Colores por tipo para que el
+perfil quede ordenado: noticias en oscuro, memes en claro/suave, tips en azul y datos en amarillo. En los textos, `**así**` va en negrita,
 `\n` es un salto de línea y los emojis se dibujan con Twemoji.
 
 | Plantilla | Para | Campos |
@@ -55,7 +62,9 @@ Todas admiten `"fondo": "claro" | "suave" | "oscuro" | "azul"`. En los textos, `
 | `portada` | Portada de noticia con foto | `categoria`, `titulo`, `subtitulo`?, `foto` (images.unsplash.com) |
 | `puntos` | Lista numerada (2-4 puntos) | `titulo`, `puntos`: [texto] |
 | `cierre` | Última diapositiva con llamada a la acción | `texto`, `subtexto`?, `cta`? |
-| `dato` | Dato curioso | `etiqueta`?, `cifra`? o `emoji`?, `texto`, `fuente`? |
+| `tip` | Consejo práctico (fondo azul) | `etiqueta`?, `emoji`?, `titulo`, `texto`?, `puntos`? |
+| `logo` | Logo completo de la marca | `titulo`?, `texto`? |
+| `dato` | Dato curioso (fondo amarillo) | `etiqueta`?, `cifra`? o `emoji`?, `texto`, `fuente`? |
 | `texto` | Diapositiva genérica | `etiqueta`?, `titulo`, `texto`? |
 
 La foto de la `portada` la pone la web: aquí se genera un PNG transparente y la web coloca debajo la foto

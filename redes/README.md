@@ -37,6 +37,9 @@ Borra solo las publicaciones de más de 21 días y sus imágenes. `redes/prueba/
   - `reel`: vídeo vertical de 2-8 diapositivas con zoom suave y fundidos (unos 3,5 s cada una,
     `segundos` lo cambia). Se publica como reel en Instagram y como vídeo en Facebook.
     No admite la plantilla `portada`.
+  - `explicado`: vídeo animado con voz (25-60 s) al estilo «dato rápido»: gancho, cifras grandes que
+    aparecen, subtítulos palabra a palabra, la mascota Jota y cierre. En vez de `diapositivas` lleva
+    `guion` (ver abajo). Se publica como reel en Instagram/Facebook y va a los borradores de TikTok.
 - `publicar`: hora de Madrid con zona (`+01:00` en invierno, `+02:00` en verano).
 - `texto`: hasta 1800 caracteres. En Instagram los enlaces no funcionan; si hay `enlace`, en el texto
   di «(enlace en la bio)»: la web lo cambia por el enlace de verdad en Facebook.
@@ -70,7 +73,34 @@ perfil quede ordenado: noticias en oscuro, memes en claro/suave, tips en azul y 
 La foto de la `portada` la pone la web: aquí se genera un PNG transparente y la web coloca debajo la foto
 de Unsplash (el contenedor de la tarea no puede descargarla).
 
+## Vídeos explicados (`"formato": "explicado"`)
+
+Los monta `redes/video.py`. Voces gratuitas y locales: **Dora** (narradora, Kokoro `ef_dora`) y **Jota**
+(la mascota robot, Piper `es-carlfm`). Los modelos (~140 MB) se descargan de GitHub la primera vez.
+La puntuación marca las pausas: cada coma y cada punto es una pausa real en la voz.
+
+```json
+"guion": {
+  "etiqueta": "DATO RÁPIDO",
+  "fuente": "Hive Systems 2025 · 12× RTX 5090",
+  "escala": true,
+  "escenas": [
+    {"voz": "dora", "texto": "¿Cuánto tarda…?", "visual": {"tipo": "titulo", "titulo": "¿Cuánto tarda…", "destacar": "tu contraseña?"}},
+    {"voz": "dora", "texto": "…tres semanas.", "visual": {"tipo": "cifra", "cifra": "≈ 3 semanas", "pie": "8 caracteres", "chip": "a-z 0-9", "segundos": 1814400}},
+    {"voz": "jota", "texto": "Pero ojo…", "visual": {"tipo": "cifra", "cifra": "0 segundos", "pie": "si se filtra", "segundos": 0, "alerta": true}},
+    {"voz": "dora", "texto": "Así que…", "visual": {"tipo": "lista", "titulo": "Qué hacer", "puntos": ["…", "…", "…"]}},
+    {"voz": "dora", "texto": "Síguenos para más. ¿Qué quieres que investiguemos?", "visual": {"tipo": "cierre"}}
+  ]
+}
+```
+- 4-12 escenas; la primera `titulo` y la última `cierre`. Entre 50 y 140 palabras habladas en total.
+- `cifra`: máx. 14 caracteres. `escala: true` añade una barra de tiempo (1 s → 1000 años) y entonces
+  cada cifra lleva `segundos`. `alerta: true` la pone en rojo.
+- `lista`: 2-4 puntos cortos. Jota (voz robótica) para el giro o la frase graciosa; Dora para el resto.
+- Escribe los números con letras en `texto` («sesenta y dos») y con cifras en `visual`.
+- Datos siempre comprobados y con `fuente`.
+
 ## Créditos
 
-Fuentes Bricolage Grotesque e Instrument Sans (SIL OFL). Emojis de Twemoji (CC-BY 4.0), ver
+Fuentes Bricolage Grotesque, Instrument Sans y JetBrains Mono (SIL OFL). Voces Kokoro (Apache 2.0) y Piper (MIT). Emojis de Twemoji (CC-BY 4.0), ver
 `plantillas/emoji/CREDITOS.txt`.

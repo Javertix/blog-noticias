@@ -22,7 +22,7 @@ FEED = AQUI / "feed.json"
 DIAS_GUARDADOS = 21
 
 TIPOS = {"meme", "noticia", "dato", "tip", "presentacion"}
-FORMATOS = {"post", "historia", "reel"}
+FORMATOS = {"post", "historia", "reel", "explicado"}
 PLANTILLAS_VALIDAS = {
     "comparacion", "nadie-yo", "chat", "post", "expectativa", "escala", "clasico",   # memes
     "portada", "puntos", "cierre",                                                    # noticias
@@ -170,12 +170,49 @@ def documento(cuerpo, vertical=False):
 
 def textos(p):
     """Todo el texto visible de una publicación (para revisar palabras prohibidas)."""
-    return json.dumps([p.get("texto"), p.get("hashtags"), p.get("diapositivas"), p.get("alt")], ensure_ascii=False)
+    return json.dumps([p.get("texto"), p.get("hashtags"), p.get("diapositivas"), p.get("alt"), p.get("guion")], ensure_ascii=False)
+
+
+VISUALES = {"titulo", "cifra", "lista", "cierre"}
+
+
+def check_guion(g):
+    """Comprueba el guion de un vídeo explicado (ver video.py)."""
+    errs = []
+    esc = g.get("escenas") or []
+    if not (4 <= len(esc) <= 12):
+        errs.append("guion: entre 4 y 12 escenas")
+    palabras = 0
+    for i, e in enumerate(esc, 1):
+        v = e.get("visual") or {}
+        if e.get("voz", "dora") not in ("dora", "jota"):
+            errs.append(f"escena {i}: voz tiene que ser dora o jota")
+        if not e.get("texto"):
+            errs.append(f"escena {i}: falta texto (lo que se dice)")
+        palabras += len(str(e.get("texto", "")).split())
+        if v.get("tipo") not in VISUALES:
+            errs.append(f"escena {i}: visual.tipo tiene que ser titulo, cifra, lista o cierre")
+        if v.get("tipo") == "cifra" and (not v.get("cifra") or len(v["cifra"]) > 14):
+            errs.append(f"escena {i}: cifra obligatoria y corta (máx. 14 caracteres)")
+        if v.get("tipo") == "lista" and not (2 <= len(v.get("puntos") or []) <= 4):
+            errs.append(f"escena {i}: la lista lleva 2-4 puntos")
+        if g.get("escala") and v.get("tipo") == "cifra" and not isinstance(v.get("segundos"), (int, float)):
+            errs.append(f"escena {i}: con escala, cada cifra necesita 'segundos'")
+    if esc and (esc[0].get("visual") or {}).get("tipo") != "titulo":
+        errs.append("guion: la primera escena es el título (gancho)")
+    if esc and (esc[-1].get("visual") or {}).get("tipo") != "cierre":
+        errs.append("guion: la última escena es el cierre")
+    if not (50 <= palabras <= 140):
+        errs.append(f"guion: {palabras} palabras; tiene que quedar entre 50 y 140 (25-60 s)")
+    if not g.get("fuente"):
+        errs.append("guion: falta fuente")
+    return errs
 
 
 def check(p):
     errs = []
-    for k in ("id", "tipo", "publicar", "texto", "hashtags", "alt", "diapositivas"):
+    obligatorios = ("id", "tipo", "publicar", "texto", "hashtags", "alt") + (("guion",) if p.get("formato") == "explicado" else ("diapositivas",))
+    for k in obligatorios:
         if not p.get(k):
             errs.append(f"falta {k}")
     if errs:
@@ -202,7 +239,10 @@ def check(p):
     formato = p.get("formato", "post")
     if formato not in FORMATOS:
         errs.append("formato no válido (post, historia o reel)")
-    if not (1 <= len(p["diapositivas"]) <= 10):
+    if formato == "explicado":
+        errs += check_guion(p["guion"])
+        p["diapositivas"] = []
+    elif not (1 <= len(p["diapositivas"]) <= 10):
         errs.append("entre 1 y 10 diapositivas")
     if formato == "historia" and len(p["diapositivas"]) > 3:
         errs.append("una historia tiene como mucho 3 imágenes")
@@ -266,6 +306,18 @@ def render(posts, destino):
     from playwright.sync_api import sync_playwright
     destino.mkdir(parents=True, exist_ok=True)
     errores = {}
+    # Vídeos explicados (con voz): los monta video.py con su propio navegador
+    for p in posts:
+        if p.get("formato") == "explicado":
+            import video as jxvideo
+            nombre = f"{p['id']}.mp4"
+            try:
+                r = jxvideo.generar(p["guion"], destino / nombre)
+            except Exception as ex:
+                errores.setdefault(p["id"], []).append(f"no se pudo montar el vídeo: {ex}")
+                continue
+            p["_imgs"] = [{"src": r["portada"]}]
+            p["_video"] = {"src": nombre, "portada": r["portada"]}
     srv = servidor()
     base = f"http://127.0.0.1:{srv.server_address[1]}/"
     with sync_playwright() as pw:
@@ -273,6 +325,8 @@ def render(posts, destino):
         pags = {False: nav.new_page(viewport={"width": 1080, "height": 1350}, device_scale_factor=1),
                 True: nav.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=1)}
         for p in posts:
+            if p.get("formato") == "explicado":
+                continue
             vertical = p.get("formato", "post") != "post"
             pag = pags[vertical]
             imgs = []
@@ -359,6 +413,12 @@ def main():
 
     for p in nuevos:
         p.setdefault("formato", "post")
+        if p["formato"] == "explicado":
+            # Para la web es un reel normal (vídeo + portada); el guion no hace falta en el feed
+            p["formato"] = "reel"
+            p["estilo"] = "explicado"
+            p.pop("guion", None)
+        p.pop("diapositivas", None) if not p.get("diapositivas") else None
         p["imagenes"] = [dict(f, src=f"redes/img/{f['src']}") for f in p.pop("_imgs")]
         v = p.pop("_video", None)
         if v:

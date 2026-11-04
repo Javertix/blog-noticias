@@ -25,7 +25,7 @@ TIPOS = {"meme", "noticia", "dato"}
 PLANTILLAS_VALIDAS = {
     "comparacion", "nadie-yo", "chat", "post", "expectativa", "escala", "clasico",   # memes
     "portada", "puntos", "cierre",                                                    # noticias
-    "dato", "texto",                                                                  # datos y genéricas
+    "dato", "texto", "logo",                                                          # datos y genéricas
 }
 # Palabras que nunca deben salir en una publicación de la marca
 PROHIBIDAS = re.compile(r"\b(put[ao]s?|mierda|joder|cabr[oó]n\w*|gilipollas|coñ[oa]|polla|follar|maric[oó]n\w*|subnormal|retrasad[oa]|idiotas?|imb[eé]cil\w*)\b", re.I)
@@ -140,6 +140,11 @@ def slide_html(d, n, total, tipo):
         fuente = f'<p class="fuente gris">Fuente: {e(d["fuente"])}</p>' if d.get("fuente") else ""
         body = f'<div class="contenido">{top}{cifra}<p class="grande">{e(d["texto"])}</p>{fuente}</div>'
         clase = fondo or "oscuro"
+    elif p == "logo":
+        body = (f'<div class="contenido logo-c"><img class="logo-grande" src="logo-completo.png" alt="">'
+                + (f'<h2>{e(d["titulo"])}</h2>' if d.get("titulo") else "")
+                + (f'<p class="medio gris">{e(d["texto"])}</p>' if d.get("texto") else "") + "</div>")
+        clase = fondo or "claro"
     elif p == "texto":
         top = f'<span class="etiqueta">{e(d["etiqueta"])}</span>' if d.get("etiqueta") else ""
         body = f'<div class="contenido">{top}<h2>{e(d["titulo"])}</h2>' + (f'<p class="medio gris">{e(d["texto"])}</p>' if d.get("texto") else "") + "</div>"

@@ -125,3 +125,7 @@ html:has(.portada), body:has(.portada) { background: transparent; }
 .oscuro .marca img, .azul .marca img, .portada .marca img, .azul .post-cab img.no { content: url(icono-blanco.png); }
 .marca img { width: 64px; height: 64px; object-fit: contain; }
 .cierre-logo { object-fit: contain; }
+
+/* Logo completo (presentación) */
+.logo-c { align-items: center; text-align: center; gap: 40px; }
+.logo-grande { width: 820px; height: auto; }

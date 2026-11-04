@@ -1,1 +1,57 @@
-{"posts": []}
+{
+ "updated": "2026-11-04T01:07:44+00:00",
+ "posts": [
+  {
+   "id": "2026-11-04-presentacion",
+   "tipo": "dato",
+   "publicar": "2026-11-04T02:27:28+01:00",
+   "texto": "👋 ¡Hola! Somos Javertix, un equipo de Madrid que hace que la tecnología de tu negocio funcione.\n\nCreamos apps y webs a medida, software de gestión e integraciones, y nos encargamos del soporte informático, las reparaciones y los servidores de pymes y autónomos. Hablamos claro y sin tecnicismos.\n\nPor aquí compartiremos noticias útiles, trucos, datos curiosos y algún meme del día a día informático 😄 ¡Síguenos y cuéntanos en qué te podemos ayudar! Más en javertix.site (enlace en la bio).",
+   "hashtags": [
+    "#javertix",
+    "#tecnologia",
+    "#pymes",
+    "#autonomos",
+    "#desarrolloweb",
+    "#apps",
+    "#soporteinformatico",
+    "#madrid"
+   ],
+   "enlace": "https://javertix.site/",
+   "alt": "Presentación de Javertix IT Solutions: logo de la empresa, lista de servicios (apps y webs a medida, software de gestión e integraciones, soporte informático y reparaciones, servidores y ciberseguridad) y llamada a contactar en javertix.site.",
+   "diapositivas": [
+    {
+     "plantilla": "logo",
+     "titulo": "Hacemos que la tecnología de tu negocio funcione",
+     "texto": "Madrid · javertix.site"
+    },
+    {
+     "plantilla": "puntos",
+     "titulo": "Qué hacemos",
+     "puntos": [
+      "Apps móviles y webs a medida",
+      "Software de gestión e integraciones",
+      "Soporte informático y reparaciones",
+      "Servidores, copias de seguridad y ciberseguridad"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "texto": "¿Hablamos de tu proyecto?",
+     "subtexto": "Presupuesto sin compromiso, en lenguaje claro.",
+     "cta": "javertix.site"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-04-presentacion-1.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-04-presentacion-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-04-presentacion-3.jpg"
+    }
+   ]
+  }
+ ]
+}

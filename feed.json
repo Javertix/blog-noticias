@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-03T08:20:00",
+ "updated": "2026-11-04T08:20:00",
  "posts": [
+  {
+   "id": "2026-11-04-actualidad",
+   "slug": "amd-resultados-tercer-trimestre-2026-centros-datos-ia",
+   "title": "AMD dispara sus ventas un 45 % gracias a la IA, mientras su negocio de consolas y gráficas cae un 40 %",
+   "category": "Actualidad",
+   "date": "2026-11-04T08:20:00",
+   "excerpt": "AMD facturó 13.377 millones de dólares entre julio y septiembre, empujada por los chips para centros de datos. Prevé 17.000 millones en el último trimestre y avisa del riesgo de la memoria.",
+   "metaTitle": "AMD factura 13.377 millones por la IA en el tercer trimestre",
+   "metaDescription": "AMD factura 13.377 millones de dólares, un 45 % más, por los centros de datos e IA. Gaming cae un 40 %. Qué significa para el precio de ordenadores y servidores.",
+   "tags": "amd, inteligencia artificial, procesadores, centros de datos, memoria ram",
+   "html": "<p><strong>AMD</strong>, el fabricante de procesadores Ryzen y EPYC y de tarjetas gráficas Radeon, presentó el 3 de noviembre sus resultados del tercer trimestre. Ingresó <strong>13.377 millones de dólares</strong>, un <strong>45 % más</strong> que un año antes y por encima de lo que había previsto. Para el último trimestre del año espera unos <strong>17.000 millones</strong>.</p>\n<p>Los datos son de la propia empresa, recogidos por Revista Cloud. El motor está claro: la <strong>inteligencia artificial (IA)</strong> en los grandes centros de datos.</p>\n<h2>Las cifras, por negocios</h2>\n<ul>\n<li><strong>Centros de datos</strong>: 8.546 millones, casi el doble que hace un año (+97 %). Ya es el 64 % de todo lo que vende AMD.</li>\n<li><strong>Procesadores para PC</strong>: 2.949 millones, un 7 % más.</li>\n<li><strong>Gaming</strong>: 773 millones, un 40 % menos, por menores ventas de chips para consolas y de tarjetas gráficas.</li>\n<li><strong>Embebidos</strong> (chips para equipos industriales y similares): 1.109 millones, un 29 % más.</li>\n</ul>\n<p>El beneficio neto fue de 2.428 millones, casi el doble que un año antes, ayudado por un beneficio fiscal de 555 millones.</p>\n<h2>La IA lo acapara todo</h2>\n<p>AMD destaca que Anthropic, Meta, Microsoft, OpenAI y Oracle ya ejecutan modelos en sus primeros armarios <strong>Helios</strong>, que combinan gráficas MI450 y procesadores EPYC de sexta generación. En Europa, la iniciativa EuroHPC ha elegido sus chips para el supercomputador LUMI-AI. También ha lanzado ROCm 10, su software para IA, y espera cerrar antes de fin de año la compra de World Labs y Taalas.</p>\n<p>No todo son buenas noticias: el dinero que realmente generó el negocio bajó a 554 millones, y el inventario creció casi 3.000 millones. La empresa cita como riesgos las restricciones a la exportación y la <strong>disponibilidad de componentes como la memoria</strong>.</p>\n<h2>Por qué le importa a una pyme</h2>\n<p>Los fabricantes de chips están volcados en los centros de datos de IA, que es donde está el dinero. Eso explica en parte la tensión en la memoria RAM de la que ya hablamos en este blog, y puede seguir notándose en el precio y la disponibilidad de ordenadores y servidores. La buena noticia: los procesadores para PC siguen creciendo, así que habrá oferta de equipos de oficina.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li>Si vas a renovar ordenadores o un servidor en los próximos meses, <strong>pide presupuesto pronto</strong> y compara la memoria incluida.</li>\n<li>Prioriza equipos con <strong>suficiente RAM de serie</strong>: ampliarla después puede salir más caro.</li>\n<li>No compres gráficas potentes «por si acaso» para usar IA: para la mayoría de pymes, los servicios en la nube salen más a cuenta.</li>\n<li>Planifica las compras de tecnología del año que viene con margen, por si los plazos de entrega se alargan.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Revista Cloud: AMD factura 13.377 millones en el tercer trimestre y prevé 17.000 en el cuarto",
+     "url": "https://revistacloud.com/amd-resultados-tercer-trimestre-2026-centro-datos-prevision"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1620368523635-df9d83338fc1?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Interior de un portátil abierto con sus componentes a la vista",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-04-sistemas",
+   "slug": "maester-3-revisar-seguridad-microsoft-365-gratis",
+   "title": "Maester 3.0: la herramienta gratuita para revisar la seguridad de tu Microsoft 365 llega con 747 pruebas",
+   "category": "Sistemas",
+   "date": "2026-11-04T08:15:00",
+   "excerpt": "Maester, un proyecto libre que comprueba si tu Microsoft 365 está bien configurado, prepara su versión 3.0 con 747 pruebas y un servicio de pago para vigilar varias empresas a la vez.",
+   "metaTitle": "Maester 3.0: revisa gratis la seguridad de Microsoft 365",
+   "metaDescription": "Maester 3.0 trae 747 pruebas para revisar la configuración de seguridad de Microsoft 365 y Entra ID. Qué es, qué cambia y cómo puede usarlo una pyme o su proveedor.",
+   "tags": "microsoft 365, seguridad, nube, código abierto, pymes",
+   "html": "<p>Muchas pymes trabajan con <strong>Microsoft 365</strong> (Outlook, Teams, OneDrive…), pero pocas saben si su configuración de seguridad está bien hecha. Para eso existe <strong>Maester</strong>, una herramienta <strong>gratuita y de código abierto</strong> que revisa tu cuenta de empresa y te dice qué está mal. Su versión <strong>3.0</strong>, ahora en pruebas, sube a <strong>747 comprobaciones</strong>, según contó Virtualization Review el 3 de noviembre.</p>\n<p>Maester es un proyecto de la comunidad. Su principal impulsor, Merill Fernando, salió de Microsoft hace unos meses. Según el artículo, lo usan más de 60.000 organizaciones y unas 40.000 lo ejecutan a diario.</p>\n<h2>Qué revisa</h2>\n<p>Maester repasa la configuración de Microsoft 365 y de <strong>Entra ID</strong> (el sistema de usuarios e inicios de sesión de Microsoft) y la compara con guías reconocidas, como el estándar de CIS o las recomendaciones de la agencia de ciberseguridad de EE. UU. (CISA). También revisa la protección del correo (Defender para Office 365) y, si se configura, el Active Directory de la oficina, solo con permisos de lectura.</p>\n<p>Cada prueba indica si pasas o fallas y <strong>explica cómo arreglarlo</strong>. La versión 2.3, de principios de octubre, ya añadió un informe que muestra los fallos de un usuario, grupo o aplicación concretos.</p>\n<h2>Qué trae la versión 3.0</h2>\n<ul>\n<li>Un <strong>motor de pruebas propio</strong> con 747 comprobaciones; cada una con su explicación y su solución.</li>\n<li>Se <strong>salta</strong> las pruebas que no aplican a tus licencias, así el informe tiene menos ruido.</li>\n<li>Un <strong>panel</strong> con el progreso, los datos de la cuenta y las áreas más débiles.</li>\n<li>Paquetes extra de pruebas, como uno basado en la evaluación de Confianza Cero (<em>Zero Trust</em>) de Microsoft.</li>\n<li>Necesita <strong>PowerShell 7.4</strong> o posterior.</li>\n</ul>\n<p>El autor del artículo espera la versión definitiva entre finales de noviembre y principios de diciembre, y aconseja no pasar las automatizaciones a la 3.0 hasta probarla.</p>\n<h2>Maester Cloud, para quien lleva varias empresas</h2>\n<p>Hay además un servicio de pago, <strong>Maester Cloud</strong>, que programa las revisiones, compara resultados y permite aceptar un riesgo con motivo, responsable y fecha de caducidad. Por ahora se instala en tu propia suscripción de Azure. Como referencia, el autor revisó cada noche cinco cuentas de pymes durante una semana por unos 1,75 dólares de Azure. El precio del servicio se consulta en su web.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li>Si tienes Microsoft 365, pide a quien lo gestione que <strong>pase Maester</strong> (versión estable) y te enseñe el informe.</li>\n<li>Empieza por los fallos de <strong>inicio de sesión</strong>: doble factor, cuentas de administrador y accesos condicionales.</li>\n<li>Trata el informe como <strong>confidencial</strong>: muestra los puntos débiles de tu empresa.</li>\n<li>Repite la revisión cada mes o tras cambios grandes, para ver si mejoras.</li>\n<li>Espera a la versión final de la 3.0 antes de usarla en tareas automáticas.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Virtualization Review: Security Testing for Everyone",
+     "url": "https://virtualizationreview.com/articles/2026/11/03/security-testing-for-everyone.aspx"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1762163516269-3c143e04175c?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Servidores con luces encendidas en un rack",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-04-automatizacion",
+   "slug": "gemini-crea-edita-documentos-hojas-presentaciones-chat",
+   "title": "Gemini ya crea y edita documentos, PDF y hojas de cálculo dentro del chat, y retoca presentaciones enteras",
+   "category": "Automatización",
+   "date": "2026-11-04T08:10:00",
+   "excerpt": "Google permite generar, previsualizar y editar archivos sin salir de Gemini, y en Slides basta una orden para cambiar toda una presentación. Así puede ahorrar tiempo a una pyme.",
+   "metaTitle": "Gemini crea y edita documentos y hojas dentro del chat",
+   "metaDescription": "Gemini ya genera y edita documentos, PDF, hojas de cálculo y presentaciones en el chat, y Slides cambia una presentación entera con una orden. Cómo aprovecharlo.",
+   "tags": "inteligencia artificial, google, gemini, productividad, automatización, pymes",
+   "html": "<p>Google ha dado otro paso para que su asistente de inteligencia artificial (IA), <strong>Gemini</strong>, no solo responda, sino que <strong>entregue el trabajo hecho</strong>. Desde el 29 de octubre, la app de Gemini permite <strong>crear, ver y editar documentos, PDF, hojas de cálculo, presentaciones y código</strong> dentro de la misma conversación. Al día siguiente anunció que en Google Slides se puede <strong>modificar una presentación completa con una sola orden</strong>.</p>\n<p>La información procede de Google, la empresa que vende el producto, así que conviene probarlo antes de dar por buenas todas las promesas.</p>\n<h2>Qué cambia en la app de Gemini</h2>\n<ul>\n<li>Pides un archivo (un presupuesto, un informe, una tabla) y aparece en el chat. Puedes <strong>abrirlo a pantalla completa</strong> y escribir encima como en un procesador de textos.</li>\n<li>Puedes <strong>subrayar un trozo</strong> y pedir a Gemini que lo reescriba o que cambie un gráfico.</li>\n<li>Los <strong>PDF</strong> se editan en web y en el móvil. Documentos de Google, hojas de cálculo, presentaciones, Markdown, texto y código, por ahora <strong>solo en la web</strong>.</li>\n<li>Según Google, llega a <strong>todos los usuarios</strong> (cuentas personales, Workspace y Workspace Individual) en todos los idiomas en que existe Gemini.</li>\n</ul>\n<p>Desde la primavera Gemini ya podía exportar lo que genera a formatos como Word, Excel, PDF o CSV, o guardarlo en Google Drive. La novedad es poder pulirlo sin salir del chat.</p>\n<h2>Presentaciones enteras con una orden</h2>\n<p>En Google Slides, el panel lateral de Gemini ya acepta peticiones que afectan a varias diapositivas: cambiar el estilo de todo, resumir contenido o <strong>actualizar datos a partir de archivos de Drive</strong>. Los cambios se pueden deshacer y quedan en el historial de versiones. De momento <strong>solo funciona en inglés</strong> y está en los planes Business y Enterprise Standard y Plus, entre otros.</p>\n<h2>Y en Hojas de cálculo</h2>\n<p>La función que rellena celdas con IA en Google Sheets ahora muestra <strong>de qué web ha sacado cada dato</strong> y admite hasta <strong>3.000 celdas</strong> por petición. Es útil para completar listados de proveedores o productos, siempre comprobando las fuentes.</p>\n<h2>Por qué le interesa a una pyme</h2>\n<p>Muchas tareas de oficina son repetitivas: preparar una oferta, pasar notas a limpio, adaptar la presentación comercial al cliente de turno. Tener el borrador listo para editar en un solo sitio ahorra copiar y pegar entre programas. Pero la IA se equivoca: los números, precios y datos de clientes hay que revisarlos siempre.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li>Prueba con una tarea real y poco delicada, por ejemplo: «hazme una plantilla de presupuesto para [tu servicio]». Compara el tiempo con tu forma habitual.</li>\n<li>Si usas Google Workspace, comprueba en la consola de administración qué funciones de Gemini tiene activas tu plan.</li>\n<li><strong>No subas datos sensibles</strong> (nóminas, datos de salud, contraseñas) sin revisar antes las condiciones de privacidad de tu cuenta.</li>\n<li>Revisa cada cifra y cada fuente antes de enviar nada a un cliente.</li>\n<li>Guarda los buenos resultados como plantillas para no empezar de cero la próxima vez.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Google: Create and edit files directly in the Gemini app",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
+    },
+    {
+     "title": "Google Workspace Updates: novedades de octubre de 2026",
+     "url": "https://workspaceupdates.googleblog.com/2026/"
+    },
+    {
+     "title": "iPhone in Canada: Gemini Can Now Edit Your Docs, PDFs and Spreadsheets Right in Chat",
+     "url": "https://www.iphoneincanada.ca/2026/10/29/gemini-can-now-edit-your-docs-pdfs-and-spreadsheets-right-in-chat/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1784334312040-5b3d4cf78b88?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Portátil abierto con una hoja de datos de un negocio en pantalla",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-04-apps",
+   "slug": "android-parche-seguridad-noviembre-2026-sms-de-la-muerte",
+   "title": "Parche de Android de noviembre: 23 fallos críticos y el «SMS de la muerte» que corta llamadas",
+   "category": "Apps",
+   "date": "2026-11-04T08:05:00",
+   "excerpt": "Google y Samsung han publicado las correcciones de seguridad de noviembre. Arreglan tres fallos que permiten atacar el móvil sin tocar nada y un SMS que tumba las llamadas.",
+   "metaTitle": "Parche Android de noviembre: 23 fallos críticos",
+   "metaDescription": "El parche de Android de noviembre corrige 23 fallos críticos y un SMS que corta llamadas en Android 14 a 17. Qué móviles afecta y cómo comprobar si lo tienes.",
+   "tags": "android, seguridad, actualizaciones, samsung, apps",
+   "html": "<p>Google ha publicado el <strong>boletín de seguridad de Android de noviembre</strong>, con <strong>23 vulnerabilidades críticas</strong>. Samsung sacó el suyo el 3 de noviembre: incluye 20 correcciones críticas de Google y 24 problemas propios de sus Galaxy.</p>\n<p>Lo más llamativo son <strong>tres fallos de ejecución remota de código</strong> (que un atacante haga funcionar programas en tu móvil a distancia) y un error bautizado como el <strong>«SMS de la muerte»</strong>, que se aprovecha con un simple mensaje de texto.</p>\n<h2>Qué arregla este parche</h2>\n<ul>\n<li><strong>Tres fallos remotos graves</strong>: según Techlicious, se podrían aprovechar sin que el dueño toque, abra ni acepte nada. No se conocen ataques reales con ellos.</li>\n<li><strong>El «SMS de la muerte»</strong>: un mensaje de texto preparado hace que se caiga el servicio de llamadas. Se cortan las llamadas y, a veces, el móvil se bloquea una y otra vez o se reinicia. Afecta a <strong>Android 14 a 17</strong>. Hay código de prueba publicado, aunque no se ha detectado ninguna campaña contra usuarios.</li>\n<li>Correcciones para los <strong>chips</strong> de los fabricantes y el núcleo del sistema.</li>\n</ul>\n<h2>Los dos niveles de parche</h2>\n<p>Como cada mes, hay dos fechas de parche. El nivel <strong>1 de noviembre de 2026</strong> ya cubre el SMS y los tres fallos remotos. El nivel <strong>5 de noviembre de 2026</strong> o posterior incluye además todo lo de chips y sistema. Si tu móvil muestra el del día 5, lo tienes todo.</p>\n<p>La llegada depende del fabricante. El 3 de noviembre, un Pixel 10 Pro XL seguía en el parche del 5 de octubre, y en Samsung varía por modelo y país; algunas correcciones de chips pueden llegar más tarde.</p>\n<h2>Por qué importa en un negocio</h2>\n<p>Para muchos autónomos el móvil es la oficina: llamadas de clientes, WhatsApp, banca y correo. Un fallo que corta llamadas o permite entrar sin que hagas nada es un problema de trabajo, no solo de privacidad. Y si la empresa da móviles al equipo, conviene saber cuáles no reciben ya parches.</p>\n<p>Ojo con los móviles viejos: el investigador que encontró el fallo del SMS dice que <strong>Android 12 y 13 también son vulnerables</strong>. Si un equipo con esas versiones ya no recibe actualizaciones, Techlicious recomienda plantearse cambiarlo.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Pixel y Android en general</strong>: Ajustes › Seguridad y privacidad › Sistema y actualizaciones. Mira la fecha del parche e instala lo que haya. Los nombres de menú cambian según la marca.</li>\n<li><strong>Samsung</strong>: Ajustes › Actualización de software › Descargar e instalar. Después, en la versión de software de seguridad debería aparecer «SMR Nov-2026 Release 1».</li>\n<li>Si aún no te aparece, <strong>vuelve a mirar en unos días</strong>: el despliegue es gradual.</li>\n<li>Haz inventario de los móviles de la empresa y apunta cuáles <strong>ya no reciben parches</strong> para sustituirlos.</li>\n<li>Si un móvil empieza a cortar llamadas o reiniciarse tras recibir un SMS raro, actualízalo en cuanto sea posible.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Techlicious: Android's November update fixes 23 critical security flaws",
+     "url": "https://www.techlicious.com/blog/android-novembers-update-fixes-23-critical-security-flaws/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Persona usando una app en un móvil Android",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-04-ciberseguridad",
+   "slug": "gitlab-fallo-critico-cve-2026-97229-explotado-actualizar",
+   "title": "GitLab: atacan ya un fallo de gravedad máxima que permite tomar el control del servidor",
+   "category": "Ciberseguridad",
+   "date": "2026-11-04T08:00:00",
+   "excerpt": "La CISA confirma que se está explotando CVE-2026-97229, un fallo de GitLab con nota 10 sobre 10. Si tu empresa o tu proveedor tiene un GitLab propio, hay que actualizar ya.",
+   "metaTitle": "GitLab CVE-2026-97229: fallo crítico ya explotado",
+   "metaDescription": "Explotan CVE-2026-97229, fallo de gravedad máxima en GitLab que permite ejecutar código en el servidor. Versiones afectadas, parches y qué hacer en tu empresa.",
+   "tags": "vulnerabilidades, actualizaciones, gitlab, servidores, pymes",
+   "html": "<p>Si tu empresa guarda el código de sus aplicaciones o de su web en un <strong>GitLab instalado en un servidor propio</strong>, hoy toca revisar la versión. La agencia de ciberseguridad de Estados Unidos (CISA) confirmó el 29 de octubre que se está <strong>explotando en ataques reales</strong> el fallo <strong>CVE-2026-97229</strong>, que tiene la nota máxima de gravedad: 10 sobre 10.</p>\n<p>GitLab ya lo corrigió en su ronda de parches de octubre. El problema es que muchos servidores siguen sin actualizar: la organización Shadowserver vigila casi <strong>2.800 instalaciones de GitLab Community Edition</strong> visibles desde internet, sin saber cuántas están ya protegidas.</p>\n<h2>Qué es el fallo</h2>\n<p>GitLab es una plataforma para guardar código y automatizar cómo se prueba y se publica (lo que se llama CI/CD, integración y despliegue continuos). El error está en la pieza que interpreta las <em>expresiones regulares</em> (patrones de texto) dentro de los archivos de configuración de esas automatizaciones.</p>\n<p>Con una expresión preparada a propósito, un atacante puede <strong>ejecutar programas en el servidor de GitLab</strong>. Según GitLab, en ciertas condiciones puede hacerlo incluso sin tener usuario. En una prueba de la empresa de seguridad Rapid7, los comandos se ejecutaron con los permisos del usuario <code>git</code> del servidor, lo que da acceso al código fuente, a contraseñas guardadas y a los sistemas conectados para publicar.</p>\n<h2>A quién afecta</h2>\n<ul>\n<li><strong>GitLab instalado por tu cuenta</strong> (Community Edition o Enterprise Edition) en versiones anteriores a <strong>19.4.2, 19.3.5 y 19.2.8</strong>, según tu rama.</li>\n<li><strong>GitLab.com</strong> (el servicio en la nube) ya está parcheado, y los clientes de GitLab Dedicated no tienen que hacer nada.</li>\n<li>Los más expuestos son los servidores que <strong>permiten registrarse a cualquiera y crear proyectos</strong>, porque el atacante puede montarse su propio proyecto para lanzar el ataque.</li>\n</ul>\n<h2>Por qué importa a una pyme</h2>\n<p>No hace falta ser una empresa de software para tener GitLab: muchas agencias, estudios y proveedores lo usan para el código de las webs y apps de sus clientes. Si alguien entra en ese servidor, puede robar el código, las claves de acceso a otros sistemas o colar cambios maliciosos en lo que se publica después.</p>\n<p>Además, GitLab acumula este año varios fallos graves: en octubre ya se corrigió otro de gravedad máxima en la misma pieza (CVE-2026-110264) y en septiembre uno que podía exponer credenciales.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Mira qué versión tienes</strong> (en el área de administración de GitLab) y actualiza a <strong>19.4.2, 19.3.5 o 19.2.8</strong> o posterior. GitLab pide hacerlo «inmediatamente».</li>\n<li>Si no puedes actualizar hoy, <strong>desactiva el registro público</strong> y limita quién puede crear o modificar proyectos.</li>\n<li>Activa las <strong>detecciones de amenazas</strong> que GitLab ha publicado para servidores propios y revisa si hay pipelines que no reconoces, cambios raros en repositorios o accesos sospechosos.</li>\n<li>Si crees que te han atacado, <strong>cambia las contraseñas y claves</strong> que guarde GitLab (despliegue, nube, bases de datos).</li>\n<li>Separa el servidor de GitLab y sus ejecutores (<em>runners</em>) de la red donde está lo más sensible del negocio.</li>\n<li>Si el GitLab lo gestiona tu proveedor, <strong>pregúntale hoy</strong> si ya está actualizado.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "BleepingComputer: CISA says max severity GitLab flaw now exploited in the wild",
+     "url": "https://bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks"
+    },
+    {
+     "title": "eSecurity Planet: GitLab Warns of CVSS 10.0 Flaw That Could Allow Server Takeover",
+     "url": "https://www.esecurityplanet.com/news/news-gitlab-critical-server-takeover-flaw/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Candado rojo apoyado sobre el teclado de un ordenador",
+   "imageCredit": "Foto: Unsplash"
+  },
   {
    "id": "2026-11-03-actualidad",
    "slug": "robots-txt-usage-ai-training-bloquear-entrenamiento-ia-web",

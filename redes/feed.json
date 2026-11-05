@@ -1,6 +1,271 @@
 {
- "updated": "2026-11-04T07:06:15+00:00",
+ "updated": "2026-11-05T07:21:03+00:00",
  "posts": [
+  {
+   "id": "2026-11-05-meme",
+   "tipo": "meme",
+   "publicar": "2026-11-05T20:00:00+01:00",
+   "texto": "Este año la carta va a ser complicada 🎁😅 Etiqueta a quien lleva meses esperando a que baje la RAM.",
+   "hashtags": [
+    "#humorinformatico",
+    "#memesinformaticos",
+    "#programacion",
+    "#ram",
+    "#hardware",
+    "#devhumor",
+    "#javertix"
+   ],
+   "alt": "Meme con código JavaScript en un editor oscuro, archivo carta_reyes.js. Una lista con tres deseos: un coche, un piso en Madrid y 16 GB de RAM DDR5. Si la carta pide RAM, los Reyes responden en un comentario: «Lo del piso, vale. Lo de la RAM, no flipes».",
+   "tendencia": {
+    "formato": "Precio de la RAM por las nubes (escasez de memoria, oct-nov 2026) · plantilla codigo",
+    "fuente": "https://programmerhumor.io/memes/ram-prices"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "codigo",
+     "fondo": "oscuro",
+     "archivo": "carta_reyes.js",
+     "codigo": "const carta = [\n  \"un coche\",\n  \"un piso en Madrid\",\n  \"16 GB de RAM DDR5\",\n];\n\nconst pideRAM = carta.some(\n  (d) => d.includes(\"RAM\"));\n\nif (pideRAM) {\n  // Reyes: \"Lo del piso, vale.\n  //  Lo de la RAM, no flipes.\"\n}",
+     "titulo": "Mi carta a los Reyes este año:"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-05-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-video",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-05T19:00:00+01:00",
+   "texto": "💾 El primer disco duro de la historia pesaba casi una tonelada y guardaba menos que una foto de tu móvil. ¿Qué cacharro antiguo quieres que investiguemos? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#historiadelainformatica",
+    "#discoduro",
+    "#ibm",
+    "#tecnologia",
+    "#javertix"
+   ],
+   "alt": "Vídeo explicado sobre el IBM 350, el primer disco duro, de 1956: casi una tonelada, 52 discos de 61 cm y unos 3,75 MB.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-05-video.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-05-video.mp4",
+    "portada": "redes/img/2026-11-05-video.jpg"
+   }
+  },
+  {
+   "id": "2026-11-05-truco",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-05T17:30:00+01:00",
+   "texto": "Truco pro: recupera con git reflog los commits que creías perdidos 🛟",
+   "hashtags": [
+    "#git",
+    "#programacion",
+    "#developer",
+    "#javertix"
+   ],
+   "alt": "Tres imágenes. 1: ¿Un git reset te ha borrado commits? No están perdidos. 2: terminal con git reflog, que muestra el commit perdido en HEAD@{1}, y git branch rescate HEAD@{1}, que lo recupera. 3: aviso: el reflog solo está en tu copia local y caduca a los 90 días, o 30 si el commit no está en ninguna rama.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Truco pro",
+     "emoji": "🛟",
+     "titulo": "¿Un git reset te ha «borrado» commits?\n**No están perdidos**",
+     "texto": "Git apunta en un diario cada sitio por el que pasa tu HEAD."
+    },
+    {
+     "plantilla": "terminal",
+     "fondo": "oscuro",
+     "titulo": "Truco pro · 2/3",
+     "ventana": "mi-proyecto",
+     "lineas": [
+      {
+       "cmd": "git reflog"
+      },
+      {
+       "out": "4f9e2a1 HEAD@{0}: reset",
+       "color": "gris"
+      },
+      {
+       "out": "c7d81b0 HEAD@{1}: commit: login",
+       "color": "warn"
+      },
+      {
+       "cmd": "git branch rescate HEAD@{1}"
+      },
+      {
+       "cmd": "git log -1 --oneline rescate"
+      },
+      {
+       "out": "c7d81b0 login  ← ¡ha vuelto!",
+       "color": "ok"
+      }
+     ],
+     "prompt": "$"
+    },
+    {
+     "plantilla": "texto",
+     "fondo": "oscuro",
+     "etiqueta": "Truco pro · 3/3",
+     "titulo": "Ojo ⚠️",
+     "texto": "Busca la línea de antes del desastre y usa su número. El reflog solo vive en **tu copia local** y caduca: 90 días, o 30 si el commit ya no está en ninguna rama. Crear una rama no toca nada: es la forma segura de rescatar."
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-05-truco-1.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-05-truco-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-05-truco-3.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-dato",
+   "tipo": "dato",
+   "publicar": "2026-11-05T13:30:00+01:00",
+   "texto": "☕ La primera webcam famosa no vigilaba nada importante: vigilaba una cafetera. En 1991, unos informáticos de Cambridge la apuntaron a la del Trojan Room para no bajar en balde si estaba vacía. En 1993 llegó a la web y, cuando la apagaron en 2001, la cafetera acabó subastada en eBay por 3.350 libras. 🤯 ¿Lo sabías? Compártelo con quien siempre se acaba el café.",
+   "hashtags": [
+    "#datocurioso",
+    "#historiadelainformatica",
+    "#webcam",
+    "#internet",
+    "#tecnologia",
+    "#javertix"
+   ],
+   "alt": "Dato curioso sobre fondo amarillo con la cifra 1991: la primera webcam famosa vigilaba la cafetera del Trojan Room de la Universidad de Cambridge.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "1991",
+     "texto": "☕ La primera webcam famosa vigilaba **una cafetera**: la del Trojan Room de Cambridge, para no bajar en balde. En 1993 llegó a la web.",
+     "fuente": "Wikipedia · Trojan Room coffee pot"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-05-dato-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-historia-manana",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-05T10:30:00+01:00",
+   "texto": "Tip rápido: Gmail te deja hasta 30 segundos para deshacer un envío ✉️",
+   "hashtags": [
+    "#gmail",
+    "#tips",
+    "#productividad",
+    "#javertix"
+   ],
+   "alt": "Tip sobre fondo azul: Gmail te deja hasta 30 segundos para deshacer un correo enviado. Ajustes, Ver todos los ajustes, Deshacer el envío, 30 segundos. Por defecto son solo 5.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "✉️",
+     "titulo": "Gmail te da **30 segundos** para deshacer un envío",
+     "texto": "Ajustes ⚙️ › Ver todos los ajustes › Deshacer el envío › 30 s. Por defecto, solo tienes 5."
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-05-historia-manana-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-05-noticia",
+   "tipo": "noticia",
+   "publicar": "2026-11-05T08:45:00+01:00",
+   "texto": "🐧 ¿Tienes un servidor o un VPS con Debian o Ubuntu? Un fallo crítico en APT, la herramienta que instala y actualiza los programas, permite colar un paquete falso que se ejecuta como root. Ya hay versiones corregidas: actualízalo hoy. Te contamos cómo en el carrusel y todos los detalles en el blog (enlace en la bio). 🔧 ¿Cuántos servidores tienes sin revisar?",
+   "hashtags": [
+    "#ciberseguridad",
+    "#linux",
+    "#debian",
+    "#ubuntu",
+    "#servidores",
+    "#sysadmin",
+    "#pymes",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/fallo-apt-debian-ubuntu-cve-2026-109518-actualizar-servidores",
+   "alt": "Carrusel sobre un fallo crítico en APT de Debian y Ubuntu. Portada con un pasillo de servidores y el titular; después, lo esencial del fallo, los pasos para actualizar y una llamada a contactar con Javertix.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Sistemas · Seguridad",
+     "titulo": "¿Servidor Debian o Ubuntu?\nActualiza APT hoy",
+     "subtitulo": "Un fallo permite colar paquetes falsos que se ejecutan como root",
+     "foto": "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "APT puede instalar un paquete cambiado por el atacante, que se ejecuta como **root**",
+      "Expuestos por defecto: **Debian 12** y **Ubuntu 22.04** o posteriores",
+      "El atacante necesita controlar un espejo o un proxy de descargas",
+      "Por ahora no se conocen ataques reales"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer hoy",
+     "puntos": [
+      "Actualiza APT: **sudo apt update && sudo apt install --only-upgrade apt**",
+      "Comprueba la versión con **apt --version**",
+      "Usa solo repositorios oficiales o de confianza",
+      "Busca **Acquire::Retries** en tu configuración y tus scripts"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Servidores que nadie actualiza desde hace meses?",
+     "subtexto": "Los revisamos, los ponemos al día y automatizamos los parches de seguridad.",
+     "cta": "Servidores y sistemas en javertix.site"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-05-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-05-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-05-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-05-noticia-4.jpg"
+    }
+   ]
+  },
   {
    "id": "2026-11-04-meme",
    "tipo": "meme",

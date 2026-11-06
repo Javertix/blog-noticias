@@ -1,6 +1,259 @@
 {
- "updated": "2026-11-05T07:21:03+00:00",
+ "updated": "2026-11-06T07:29:51+00:00",
  "posts": [
+  {
+   "id": "2026-11-06-meme",
+   "tipo": "meme",
+   "publicar": "2026-11-06T20:00:00+01:00",
+   "texto": "Viernes, 19:58, y la IA muy segura de sí misma 🙃 Etiqueta a quien ya ha instalado un paquete que no existía.",
+   "hashtags": [
+    "#humorinformatico",
+    "#programacion",
+    "#memesdeprogramacion",
+    "#ia",
+    "#npm",
+    "#programmerhumor",
+    "#javertix"
+   ],
+   "alt": "Meme con una terminal: npm install pdfmagic da error 404, no existe. Se le pregunta a la IA y responde «Tienes razón, no existe. Usa pdfmagic-pro». Ese también da 404. Se le dice que tampoco existe y la IA responde: «¡Buen ojo! ¿Lo publico yo?».",
+   "tendencia": {
+    "formato": "La IA se inventa dependencias que no existen («Being a programmer in 2026») · plantilla terminal",
+    "fuente": "https://programmerhumor.io/memes/2026"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "terminal",
+     "fondo": "oscuro",
+     "ventana": "viernes-19-58",
+     "lineas": [
+      {
+       "cmd": "npm install pdfmagic"
+      },
+      {
+       "out": "npm error 404 Not Found - pdfmagic",
+       "color": "error"
+      },
+      {
+       "cmd": "ia \"¿y ese paquete?\""
+      },
+      {
+       "out": "Tienes razón, no existe. Usa pdfmagic-pro 😊"
+      },
+      {
+       "cmd": "npm install pdfmagic-pro"
+      },
+      {
+       "out": "npm error 404 Not Found - pdfmagic-pro",
+       "color": "error"
+      },
+      {
+       "cmd": "ia \"tampoco existe\""
+      },
+      {
+       "out": "¡Buen ojo! ¿Lo publico yo? 🚀",
+       "color": "warn"
+      }
+     ]
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-06-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-reel-cifras",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-06T19:00:00+01:00",
+   "texto": "📱 ¿Una videollamada de una hora con datos móviles? Casi un giga. Te contamos cómo gastar catorce veces menos 👇 Reto: ¿cuántas horas de reuniones tienes a la semana? 😅",
+   "hashtags": [
+    "#datocurioso",
+    "#videollamadas",
+    "#datosmoviles",
+    "#teletrabajo",
+    "#tips",
+    "#tecnologia",
+    "#javertix"
+   ],
+   "alt": "Vídeo explicado con cifras grandes: una videollamada 1 a 1 en 720p usa 1,2 Mbps de subida y otro tanto de bajada, casi 1 GB por hora; solo con audio, unos 70 MB por hora. Termina con una lista de consejos para gastar menos datos.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-06-reel-cifras.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-06-reel-cifras.mp4",
+    "portada": "redes/img/2026-11-06-reel-cifras.jpg"
+   }
+  },
+  {
+   "id": "2026-11-06-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-06T17:30:00+01:00",
+   "texto": "Tip rápido: deja de pelearte con el cursor en el móvil ⌨️ Mantén pulsada la barra espaciadora. ¿Lo sabías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#tips",
+    "#trucosmovil",
+    "#android",
+    "#iphone",
+    "#javertix"
+   ],
+   "alt": "Tip sobre fondo azul: para mover el cursor al escribir en el móvil, mantén pulsada la barra espaciadora y desliza el dedo. En iPhone el teclado se convierte en un panel táctil; en Android, con Gboard, desliza el dedo sobre la barra espaciadora.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "⌨️",
+     "titulo": "¿Cursor rebelde?\n**Usa la barra espaciadora**",
+     "puntos": [
+      "**iPhone:** mantenla pulsada y el teclado se vuelve un panel táctil",
+      "**Android (Gboard):** desliza el dedo sobre ella"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-06-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-reel-truco",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-06T13:30:00+01:00",
+   "texto": "💻 «Port 8080 was already in use». Si programas, te ha pasado. Así encuentras en segundos qué proceso tiene el puerto y lo cierras sin romper nada. Guárdalo para la próxima 📌 Reto: ¿cuál es el error que más te sale a ti al arrancar un proyecto? 👇",
+   "hashtags": [
+    "#trucopro",
+    "#linux",
+    "#terminal",
+    "#springboot",
+    "#programacion",
+    "#desarrolloweb",
+    "#sysadmin",
+    "#devtips",
+    "#javertix"
+   ],
+   "alt": "Vídeo con una terminal que se escribe sola: un proyecto Spring Boot falla porque el puerto 8080 está ocupado; con el comando ss se ve que lo usa un proceso java, con ps se comprueba que era la misma aplicación abierta desde ayer, se cierra con kill y arranca bien. Después, los comandos equivalentes en Windows y los avisos de seguridad.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-06-reel-truco.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-06-reel-truco.mp4",
+    "portada": "redes/img/2026-11-06-reel-truco.jpg"
+   }
+  },
+  {
+   "id": "2026-11-06-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-06T10:30:00+01:00",
+   "texto": "¿Sabías que el primer .com de la historia se registró en 1985? 🌐 Era symbolics.com. ¿Te acuerdas de tu primer dominio? Cuéntanoslo por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#historiadeinternet",
+    "#dominios",
+    "#javertix"
+   ],
+   "fuente": "https://betanews.com/2025/03/15/the-internets-first-com-was-registered-40-years-ago-today-six-years-before-the-launch-of-the-web/",
+   "alt": "Dato curioso sobre fondo amarillo: la cifra 1985 en grande y el texto «El primer .com de la historia fue symbolics.com, registrado el 15 de marzo de 1985 por una empresa de ordenadores de Massachusetts. Seis años antes de que existiera la web».",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "1985",
+     "texto": "🌐 El primer .com de la historia fue **symbolics.com**, registrado el 15 de marzo de 1985 por una empresa de ordenadores de Massachusetts. **Seis años antes de que existiera la web.**",
+     "fuente": "BetaNews · Symbolics.com"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-06-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-06-noticia",
+   "tipo": "noticia",
+   "publicar": "2026-11-06T08:45:00+01:00",
+   "texto": "🌐 Chrome 157 ya está aquí y corrige 213 fallos de seguridad, siete de ellos críticos. Ojo: Chrome descarga la actualización, pero no la aplica hasta que lo reinicias. Te contamos cómo comprobarlo en el carrusel y todos los detalles en el blog (enlace en la bio). 🔄 ¿Cuántos días lleva tu Chrome sin cerrarse?",
+   "hashtags": [
+    "#ciberseguridad",
+    "#chrome",
+    "#google",
+    "#navegadores",
+    "#actualizaciones",
+    "#pymes",
+    "#autonomos",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/chrome-157-actualizar-213-fallos-seguridad-novedades",
+   "alt": "Carrusel sobre Chrome 157. Portada con una foto de un portátil y el titular «Si usas Chrome, reinícialo hoy»; después, lo esencial de la actualización, los pasos para comprobar la versión y una llamada a contactar con Javertix.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Apps · Seguridad",
+     "titulo": "Si usas Chrome,\nreinícialo hoy",
+     "subtitulo": "Chrome 157 corrige 213 fallos de seguridad, siete críticos",
+     "foto": "https://images.unsplash.com/photo-1522199696220-f42195d8b7fb?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "**213** fallos corregidos: **7 críticos** y 77 graves",
+      "En el peor caso, una web maliciosa podría ejecutar código en tu equipo",
+      "Google no indica que se estén explotando ya",
+      "Chrome solo se actualiza de verdad **al reiniciarse**"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer hoy",
+     "puntos": [
+      "Menú ⋮ › Ayuda › **Información de Google Chrome**",
+      "Pulsa **Reiniciar**: tus pestañas vuelven solas",
+      "La versión debe empezar por **157.0.8103**",
+      "¿Edge, Brave u Opera? Vigila sus actualizaciones"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Cada equipo de la oficina con una versión distinta?",
+     "subtexto": "Centralizamos las actualizaciones para que no dependan de que alguien reinicie.",
+     "cta": "Soporte informático en javertix.site"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-06-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1522199696220-f42195d8b7fb?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-06-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-06-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-06-noticia-4.jpg"
+    }
+   ]
+  },
   {
    "id": "2026-11-05-meme",
    "tipo": "meme",

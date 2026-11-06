@@ -212,7 +212,7 @@ def textos(p):
     return json.dumps([p.get("texto"), p.get("hashtags"), p.get("diapositivas"), p.get("alt"), p.get("guion")], ensure_ascii=False)
 
 
-VISUALES = {"titulo", "cifra", "lista", "cierre"}
+VISUALES = {"titulo", "cifra", "lista", "cierre", "escena", "terminal"}
 
 
 def check_guion(g):
@@ -230,19 +230,25 @@ def check_guion(g):
             errs.append(f"escena {i}: falta texto (lo que se dice)")
         palabras += len(str(e.get("texto", "")).split())
         if v.get("tipo") not in VISUALES:
-            errs.append(f"escena {i}: visual.tipo tiene que ser titulo, cifra, lista o cierre")
+            errs.append(f"escena {i}: visual.tipo tiene que ser titulo, cifra, lista, escena, terminal o cierre")
+        if v.get("tipo") == "escena" and (not (1 <= len(v.get("emojis") or []) <= 3) or len(str(v.get("etiqueta", ""))) > 16):
+            errs.append(f"escena {i}: escena lleva 1-3 emojis y una etiqueta de máx. 16 caracteres")
+        if v.get("tipo") == "terminal":
+            ls = v.get("lineas") or []
+            if not (1 <= len(ls) <= 8) or any(len(str(l.get("cmd") or l.get("out") or "")) > 60 for l in ls):
+                errs.append(f"escena {i}: terminal lleva 1-8 líneas de máx. 60 caracteres")
         if v.get("tipo") == "cifra" and (not v.get("cifra") or len(v["cifra"]) > 14):
             errs.append(f"escena {i}: cifra obligatoria y corta (máx. 14 caracteres)")
         if v.get("tipo") == "lista" and not (2 <= len(v.get("puntos") or []) <= 4):
             errs.append(f"escena {i}: la lista lleva 2-4 puntos")
         if g.get("escala") and v.get("tipo") == "cifra" and not isinstance(v.get("segundos"), (int, float)):
             errs.append(f"escena {i}: con escala, cada cifra necesita 'segundos'")
-    if esc and (esc[0].get("visual") or {}).get("tipo") != "titulo":
-        errs.append("guion: la primera escena es el título (gancho)")
+    if esc and (esc[0].get("visual") or {}).get("tipo") not in ("titulo", "escena", "terminal"):
+        errs.append("guion: la primera escena es el gancho (titulo, escena o terminal)")
     if esc and (esc[-1].get("visual") or {}).get("tipo") != "cierre":
         errs.append("guion: la última escena es el cierre")
-    if not (50 <= palabras <= 140):
-        errs.append(f"guion: {palabras} palabras; tiene que quedar entre 50 y 140 (25-60 s)")
+    if not (45 <= palabras <= 160):
+        errs.append(f"guion: {palabras} palabras; tiene que quedar entre 45 y 160 (25-65 s)")
     if not g.get("fuente"):
         errs.append("guion: falta fuente")
     return errs

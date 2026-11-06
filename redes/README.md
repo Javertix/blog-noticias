@@ -96,7 +96,15 @@ La puntuación marca las pausas: cada coma y cada punto es una pausa real en la 
   ]
 }
 ```
-- 4-12 escenas; la primera `titulo` y la última `cierre`. Entre 50 y 140 palabras habladas en total.
+- `visual.tipo` puede ser:
+  - `titulo`: gancho con texto grande (`titulo`, `destacar`).
+  - `cifra`: número grande (`cifra`, `pie`, `chip`, `segundos`, `alerta`).
+  - `escena`: estilo «historia/datazo»: 1-3 emojis grandes animados sobre fondo de rayos + etiqueta amarilla
+    de máx. 16 caracteres (`emojis`, `etiqueta`, y opcional `titulo`/`destacar` arriba). Para contar historias.
+  - `terminal`: terminal que se escribe sola mientras se habla (`ventana`, `prompt`, `lineas`: [{`cmd`} o
+    {`out`, `color`: ok/warn/error/gris}], 1-8 líneas de máx. 60 caracteres). Para trucos técnicos.
+  - `lista`: 2-4 puntos. `cierre`: final con la mascota.
+- 4-12 escenas; la primera es el gancho (`titulo`, `escena` o `terminal`) y la última `cierre`. Entre 45 y 160 palabras habladas en total.
 - `cifra`: máx. 14 caracteres. `escala: true` añade una barra de tiempo (1 s → 1000 años) y entonces
   cada cifra lleva `segundos`. `alerta: true` la pone en rojo.
 - `lista`: 2-4 puntos cortos. Jota (voz robótica) para el giro o la frase graciosa; Dora para el resto.

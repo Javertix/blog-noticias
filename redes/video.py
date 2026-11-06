@@ -216,6 +216,28 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:var(--azul)}
 .marca.fin::before{left:auto;right:0}.marca.ini::before{left:0}.marca::before{content:'';position:absolute;left:50%;top:-22px;width:2px;height:14px;background:#4d6a8f}
 #candado{position:absolute;top:28px;width:84px;height:84px;transform:translateX(-50%)}
 #lista{top:300px}
+#escena{position:absolute;left:0;right:0;top:300px;height:880px}
+#escena .disco{position:absolute;left:50%;top:330px;width:620px;height:620px;margin:-310px 0 0 -310px;border-radius:50%;
+  background:radial-gradient(circle at 50% 45%,rgba(255,255,255,.18),rgba(255,255,255,.04) 60%,transparent 70%)}
+#escena .rayos{position:absolute;left:50%;top:330px;width:1400px;height:1400px;margin:-700px 0 0 -700px;opacity:.10;
+  background:repeating-conic-gradient(from 0deg,#fff 0deg 6deg,transparent 6deg 18deg)}
+#emos{position:absolute;left:0;right:0;top:130px;height:400px;display:flex;justify-content:center;align-items:center;gap:30px}
+#emos img{width:300px;height:300px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.4))}
+#emos.dos img{width:260px;height:260px} #emos.tres img{width:220px;height:220px}
+#etiq{position:absolute;left:50%;top:560px;transform:translateX(-50%) rotate(-3deg);background:var(--amarillo);color:var(--azul);
+  font:800 92px/1 'Bricolage Grotesque',sans-serif;text-transform:uppercase;padding:18px 40px;border-radius:18px;white-space:nowrap;
+  box-shadow:0 14px 0 #c99410,0 24px 40px rgba(0,0,0,.35)}
+#escTit{position:absolute;left:80px;right:80px;top:0;font:800 64px/1.05 'Bricolage Grotesque',sans-serif;text-transform:uppercase}
+#escTit .d{color:var(--amarillo)}
+#term{position:absolute;left:60px;right:60px;top:300px;background:#060d18;border:2px solid #22344f;border-radius:24px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+#term .barra{display:flex;align-items:center;gap:12px;padding:20px 26px;background:#15233a;font:600 28px 'JetBrains Mono',monospace;color:#8fa6c4}
+#term .barra i{width:20px;height:20px;border-radius:50%;background:#FF5F57;display:inline-block}
+#term .barra i:nth-child(2){background:#FEBC2E}#term .barra i:nth-child(3){background:#28C840}
+#tcuerpo{padding:30px 32px 40px;font:500 36px/1.45 'JetBrains Mono',monospace;color:#E6EDF7;min-height:420px}
+#tcuerpo .l{white-space:pre-wrap;word-break:break-word;margin-bottom:6px}
+#tcuerpo .p{color:#5CE1E6;font-weight:700}
+#tcuerpo .error{color:#FF6B6B}#tcuerpo .ok{color:#4ADE80}#tcuerpo .warn{color:#FFC83D}#tcuerpo .gris{color:#7E8FA8}
+#tcuerpo .cur{display:inline-block;width:20px;height:40px;background:#E6EDF7;vertical-align:middle}
 #lista h3{font:800 84px 'Bricolage Grotesque',sans-serif;margin-bottom:36px}
 .punto{display:flex;gap:26px;align-items:center;font:600 54px/1.15 'Instrument Sans',sans-serif;margin-bottom:34px}
 .punto .ok{flex:none;width:64px;height:64px;border-radius:16px;background:var(--amarillo);color:var(--azul);font:800 44px/64px 'Bricolage Grotesque';text-align:center}
@@ -244,6 +266,8 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:var(--azul)}
   <path id="arco" d="M26 36 V26 a16 16 0 0 1 32 0 V36" fill="none" stroke="#FFC83D" stroke-width="9" stroke-linecap="round"/>
   <circle cx="42" cy="55" r="6" fill="#0B1E33"/><rect x="39" y="56" width="6" height="12" rx="3" fill="#0B1E33"/></svg>
   <div id="pista"><div id="relleno"></div></div></div>
+<div id="escena" class="oculto"><div class="rayos"></div><div class="disco"></div><div id="escTit"></div><div id="emos"></div><div id="etiq"></div></div>
+<div id="term" class="oculto"><div class="barra"><i></i><i></i><i></i><span id="tventana">bash</span></div><div id="tcuerpo"></div></div>
 <div id="lista" class="zona oculto"><h3 id="listaTit"></h3><div id="puntos"></div></div>
 <svg id="jota" viewBox="0 0 250 300">
   <g id="cuerpo">
@@ -266,6 +290,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:var(--azul)}
 <script>
 const D = __DATOS__;
 const $ = id => document.getElementById(id);
+const escH = x => String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;');
 const ease = x => x<0?0:x>1?1:1-Math.pow(1-x,3);
 const back = x => {x=Math.max(0,Math.min(1,x));const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
 const MARCAS = [[1,'1 s'],[60,'1 min'],[3600,'1 h'],[86400,'1 día'],[31536000,'1 año'],[31536000000,'1000 años']];
@@ -321,6 +346,39 @@ function frame(t){
     const ps = [...document.querySelectorAll('.punto')], n = ps.length, durS = s.b - s.a;
     ps.forEach((p,i)=>{ const ti = (durS*0.9)*i/n; const k=ease((dt-ti)/0.35); p.style.opacity=k; p.style.transform=`translateX(${(1-k)*-40}px)`; });
   } else li.classList.add('oculto');
+  // escena (historia con dibujo y etiqueta)
+  const es = $('escena');
+  if (v.tipo === 'escena') {
+    es.classList.remove('oculto');
+    if (es.dataset.s !== String(s.a)) { es.dataset.s = s.a;
+      $('emos').innerHTML = v.emojisHtml || ''; $('emos').className = ['','','dos','tres'][Math.min(3,(v.n||1))];
+      $('etiq').textContent = v.etiqueta || ''; $('etiq').style.display = v.etiqueta ? '' : 'none';
+      $('escTit').innerHTML = v.titulo ? (v.titulo + (v.destacar ? ' <span class="d">'+v.destacar+'</span>' : '')) : ''; }
+    const k = back(dt/0.5);
+    [...$('emos').children].forEach((im,i)=>{ const ki=back((dt-0.12*i)/0.5); im.style.transform=`scale(${Math.max(0,ki)}) translateY(${Math.sin(t*2.2+i)*10}px) rotate(${Math.sin(t*1.3+i)*4}deg)`; });
+    const ke = back((dt-0.35)/0.45); $('etiq').style.transform = `translateX(-50%) rotate(-3deg) scale(${Math.max(0,ke)})`;
+    es.querySelector('.rayos').style.transform = `rotate(${t*6}deg)`;
+    $('escTit').style.opacity = ease(dt/0.3);
+    $('chip').style.opacity = 1; $('titulo').style.display='none'; $('bloqueCifra').classList.add('oculto');
+  } else es.classList.add('oculto');
+  // terminal que se escribe sola
+  const te = $('term');
+  if (v.tipo === 'terminal') {
+    te.classList.remove('oculto'); $('tventana').textContent = v.ventana || 'bash';
+    const ls = v.lineas || [], dur = Math.max(1, (s.b - s.a) * 0.85);
+    // cada comando se teclea; cada salida aparece de golpe
+    const pesos = ls.map(l => l.cmd != null ? Math.max(6, l.cmd.length) : 8), tot = pesos.reduce((a,b)=>a+b,0);
+    let acc = 0, html = '', cursor = true;
+    for (let i=0;i<ls.length;i++){ const l=ls[i], a0=acc/tot*dur, a1=(acc+pesos[i])/tot*dur; acc+=pesos[i];
+      if (dt < a0) break;
+      const f = Math.min(1,(dt-a0)/(a1-a0));
+      if (l.cmd != null) { const n=Math.floor(l.cmd.length*f); html += '<div class="l"><span class="p">'+(v.prompt||'$')+'</span> '+escH(l.cmd.slice(0,n))+(f<1?'<span class="cur"></span>':'')+'</div>'; if(f<1){cursor=false;} }
+      else if (f>0.2) html += '<div class="l '+(l.color||'')+'">'+escH(l.out||'')+'</div>';
+    }
+    if (cursor) html += '<span class="cur" style="opacity:'+((t*2|0)%2)+'"></span>';
+    $('tcuerpo').innerHTML = html;
+    $('chip').style.opacity = 1; $('titulo').style.display='none'; $('bloqueCifra').classList.add('oculto');
+  } else te.classList.add('oculto');
   // subtítulos
   const sub = $('subs');
   let g = null; for (const x of D.grupos) if (t >= x.a - 0.05 && t <= x.b + 0.25) g = x;
@@ -344,7 +402,7 @@ function frame(t){
   // cierre
   const ci = $('cierre');
   if (cierre) { const k=ease(dt/0.5); ci.style.opacity=k; ci.style.transform=`scale(${0.92+0.08*k})`;
-    ['cabeza','escala','lista','fuente','marca'].forEach(id=>$(id).style.opacity=1-k); }
+    ['cabeza','escala','lista','fuente','marca','escena','term'].forEach(id=>$(id).style.opacity=1-k); }
   else { ci.style.opacity=0; ['cabeza','fuente','marca'].forEach(id=>$(id).style.opacity=1); }
   // fundido de entrada
   $('lienzo').style.opacity = Math.min(1, t/0.3);
@@ -368,7 +426,13 @@ def generar(guion, salida):
         ws = []
         for tz, a, b in marcas:
             ws += palabras(tz, t + a, b - a)
-        e = {"a": round(t, 3), "b": round(t + dur, 3), "voz": voz, "visual": esc.get("visual", {})}
+        vis = dict(esc.get("visual", {}))
+        if vis.get("tipo") == "escena":
+            from crear import emojis as a_imagen
+            lista = vis.get("emojis") or []
+            vis["emojisHtml"] = "".join(a_imagen(x) for x in lista)
+            vis["n"] = len(lista)
+        e = {"a": round(t, 3), "b": round(t + dur, 3), "voz": voz, "visual": vis}
         if voz == "jota":
             e["niveles"] = niveles(wav)
         escenas.append(e)

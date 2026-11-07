@@ -1,6 +1,147 @@
 {
- "updated": "2026-11-06T07:29:51+00:00",
+ "updated": "2026-11-07T07:26:27+00:00",
  "posts": [
+  {
+   "id": "2026-11-07-reel-cifras",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-07T18:30:00+01:00",
+   "texto": "💾 «No uses tanto el SSD, que se gasta». Hemos hecho las cuentas: te jubilas tú antes que él. Lo que sí tienes que vigilar te lo contamos al final 👇 Reto: ¿cuántos años tiene el disco de tu ordenador?",
+   "hashtags": [
+    "#datorapido",
+    "#ssd",
+    "#hardware",
+    "#tips",
+    "#copiasdeseguridad",
+    "#tecnologia",
+    "#javertix"
+   ],
+   "alt": "Vídeo explicado con cifras grandes: un SSD de 1 TB típico aguanta 600 TB escritos según el fabricante; para gastarlo en 5 años habría que escribir 328 GB cada día, y escribiendo 30 GB al día duraría unos 55 años. Aviso en rojo: un SSD puede fallar de golpe sin avisar. Termina con una lista: mirar su salud con CrystalDiskInfo o smartctl, dejar espacio libre y hacer copias de seguridad.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-07-reel-cifras.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-07-reel-cifras.mp4",
+    "portada": "redes/img/2026-11-07-reel-cifras.jpg"
+   }
+  },
+  {
+   "id": "2026-11-07-reel-historia",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-07T13:30:00+01:00",
+   "texto": "🛰️ Diez meses de viaje hasta Marte… y una sonda de 125 millones de dólares perdida por no convertir unidades. La historia de la Mars Climate Orbiter, el error más caro de un «ya lo convierto luego». Reto: ¿cuál es el bug más absurdo que te ha costado un día entero? 👇",
+   "hashtags": [
+    "#datazoit",
+    "#historiadelainformatica",
+    "#nasa",
+    "#marte",
+    "#bugs",
+    "#programacion",
+    "#ingenieria",
+    "#javertix"
+   ],
+   "alt": "Vídeo narrado con escenas de emojis: en 1998 la NASA lanza la sonda Mars Climate Orbiter; tras casi diez meses de viaje, en 1999 pasa a solo 57 km de Marte y la atmósfera la destruye. La causa: un programa daba la fuerza en libras y otro esperaba newtons, un factor de 4,45. Coste: 125 millones de dólares. Termina con la mascota Jota y la lección: poner las unidades en el nombre de las variables.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-07-reel-historia.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-07-reel-historia.mp4",
+    "portada": "redes/img/2026-11-07-reel-historia.jpg"
+   }
+  },
+  {
+   "id": "2026-11-07-meme",
+   "tipo": "meme",
+   "publicar": "2026-11-07T12:00:00+01:00",
+   "texto": "Rebase terminado en tiempo récord 😇 Etiqueta a ese compi que resuelve los conflictos así.",
+   "hashtags": [
+    "#humorinformatico",
+    "#programadores",
+    "#git",
+    "#memesdeprogramacion",
+    "#devhumor",
+    "#programacion",
+    "#javertix"
+   ],
+   "alt": "Captura de un chat inventado con «Compi de backend». Él escribe: «Antes de mergear, haz rebase con main». Yo: «Hecho ✅». Él: «¿Muchos conflictos? Tocamos los dos el login». Yo: «Ninguno». Él: «¿Cómo que ninguno?». Yo: «Le di a ‹aceptar los míos› en todos 😇».",
+   "tendencia": {
+    "formato": "Bucles de rebase y conflictos de merge (monorepos) · plantilla chat",
+    "fuente": "https://programmerhumor.io/"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "chat",
+     "fondo": "claro",
+     "contacto": "Compi de backend",
+     "emoji": "👨‍💻",
+     "mensajes": [
+      {
+       "texto": "Antes de mergear, haz rebase con main 🙏"
+      },
+      {
+       "texto": "Hecho ✅",
+       "yo": true
+      },
+      {
+       "texto": "¿Muchos conflictos? Tocamos los dos el login"
+      },
+      {
+       "texto": "Ninguno",
+       "yo": true
+      },
+      {
+       "texto": "¿Cómo que ninguno?"
+      },
+      {
+       "texto": "Le di a «aceptar los míos» en todos 😇",
+       "yo": true
+      }
+     ]
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-07-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-07-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-07T11:00:00+01:00",
+   "texto": "¿Sabías que los primeros emojis eran solo 176 y cabían en 12 × 12 píxeles? 😄 Hoy están en el MoMA de Nueva York. ¿Cuál es el emoji que más usas? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#emoji",
+    "#historiadelainformatica",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo amarillo con la cifra 176 en grande y el texto: los primeros emojis los diseñó Shigetaka Kurita en 1999 para la operadora japonesa NTT DOCOMO; eran 176, de 12 por 12 píxeles, y desde 2016 están en la colección del MoMA de Nueva York.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "176",
+     "texto": "😄 Los primeros emojis eran **176**, de solo **12 × 12 píxeles**. Los dibujó Shigetaka Kurita en 1999 para una operadora japonesa. **Hoy están en el MoMA de Nueva York.**",
+     "fuente": "MoMA · Emoji, Shigetaka Kurita (1999)"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-07-dato-historia-1.jpg"
+    }
+   ]
+  },
   {
    "id": "2026-11-06-meme",
    "tipo": "meme",

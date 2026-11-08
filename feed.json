@@ -1,6 +1,135 @@
 {
- "updated": "2026-11-07T08:20:00",
+ "updated": "2026-11-08T08:20:00",
  "posts": [
+  {
+   "id": "2026-11-08-actualidad",
+   "slug": "nuevos-macbook-pro-tactil-m6-imac-ya-a-la-venta-espana-cual-elegir-empresa",
+   "title": "Ya a la venta el MacBook Pro táctil y los Mac con M6: precios en España y cuál conviene a tu negocio",
+   "category": "Actualidad",
+   "date": "2026-11-08T08:20:00",
+   "excerpt": "Desde el 6 de noviembre se venden el primer MacBook Pro con pantalla táctil, los MacBook Pro e iMac con chip M6 y el nuevo iPad mini. Repasamos precios y en qué casos merece la pena el gasto.",
+   "metaTitle": "MacBook Pro táctil y Mac M6: precios y cuál elegir",
+   "metaDescription": "El MacBook Pro táctil cuesta desde 3.349 € en España y el MacBook Pro M6 desde 2.329 €. Qué cambia, qué modelo conviene a una pyme y qué alternativas hay.",
+   "tags": "apple, ordenadores, portátiles, compras, oficina",
+   "html": "<p>Apple puso a la venta el viernes 6 de noviembre cinco productos nuevos: el <strong>primer MacBook Pro con pantalla táctil</strong> (en 14 y 16 pulgadas), un MacBook Pro de 14 pulgadas con el chip M6, un iMac con M6 y un iPad mini con pantalla OLED. Fueron presentados a finales de octubre y algunas configuraciones táctiles ya tardan de dos a tres semanas en entregarse, según MacRumors.</p>\n<p>Si en tu empresa estáis pensando en renovar portátiles antes de fin de año, estos son los datos que importan.</p>\n<h2>Qué ha llegado y cuánto cuesta</h2>\n<p>Según Xataka, en España los precios de partida de los MacBook Pro de 14 pulgadas son:</p>\n<ul>\n<li><strong>MacBook Pro M6 (no táctil)</strong>: desde 2.329 €, con 16 GB de memoria y 1 TB de almacenamiento. Con 24 GB sube a 2.549 €.</li>\n<li><strong>MacBook Pro con M5 Pro (no táctil)</strong>: desde 2.949 €, con 24 GB y 1 TB.</li>\n<li><strong>MacBook Pro táctil</strong>: desde 3.349 €, con chip M5 Pro, 24 GB y 1 TB. Es decir, 400 € más que el modelo no táctil con las mismas características.</li>\n</ul>\n<p>El modelo táctil estrena una pantalla OLED (con negros más profundos), pesa menos (1,38 kg frente a 1,55 kg) y tiene puertos Thunderbolt 5 con soporte para tres monitores externos. El M6 se queda en Thunderbolt 4 y dos monitores.</p>\n<h2>Qué dicen las primeras pruebas</h2>\n<p>En su análisis del MacBook Pro M6, Xataka destaca un rendimiento muy alto en tareas de un solo núcleo y una batería que, en un día de uso real, llegó a casi 13 horas (Apple promete hasta 24 horas reproduciendo vídeo). Su conclusión es que solo merece la pena si sabes responder a dos preguntas: por qué no te basta un MacBook Air y por qué no necesitas un M5 Pro. También advierte de que con 16 GB de memoria se queda corto para usar modelos de IA en local.</p>\n<h2>Por qué importa a una pyme</h2>\n<p>Son ordenadores caros y la mayoría de puestos de oficina (correo, facturación, ofimática, videollamadas) no necesitan esta potencia. La pantalla táctil es una novedad interesante, pero <strong>no es un motivo de trabajo</strong> para pagar 400 € más salvo que tu equipo lo vaya a aprovechar de verdad.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Define el uso de cada puesto</strong> antes de comprar: ofimática, diseño, vídeo o desarrollo no necesitan el mismo equipo.</li>\n<li>Para trabajo de oficina, valora un <strong>MacBook Air</strong> o un portátil Windows de gama media: el ahorro por puesto es grande.</li>\n<li>Si eliges un MacBook Pro M6, <strong>sube a 24 GB de memoria</strong>: alarga su vida útil y es lo que recomienda Xataka si usas IA.</li>\n<li>Comprueba que tus programas de gestión, facturación o certificados digitales funcionan en macOS antes de cambiar de plataforma.</li>\n<li>Compra como empresa, con factura a nombre de la sociedad, y pregunta por la garantía y por la gestión del equipo (altas, bajas y borrado remoto) si vais a tener varios.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Xataka: El nuevo MacBook Pro con pantalla táctil cuesta desde 3.349 euros en España",
+     "url": "https://www.xataka.com/ordenadores/nuevo-macbook-pro-pantalla-tactil-cuesta-3-349-euros-espana-1-000-euros-que-su-hermano-no-tactil"
+    },
+    {
+     "title": "Xataka: MacBook Pro M6, análisis",
+     "url": "https://www.xataka.com/analisis/macbook-pro-m6-analisis-portatil-estupendo-que-exige-responder-dos-preguntas-antes-comprarlo"
+    },
+    {
+     "title": "MacRumors: Apple Launching Five New Products",
+     "url": "https://macrumors.com/2026/11/05/apple-launching-five-new-products-tomorrow"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Persona con una tarjeta de crédito en la mano pagando desde un portátil",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-08-sistemas",
+   "slug": "veeam-software-appliance-no-arranca-amd-epyc-kernel-panic-copias",
+   "title": "Veeam avisa: su appliance de copias puede no arrancar en servidores AMD EPYC. Qué hacer para no perder backups",
+   "category": "Sistemas",
+   "date": "2026-11-08T08:15:00",
+   "excerpt": "Veeam ha detectado que su Software Appliance, la máquina virtual lista para hacer copias de seguridad, puede quedarse bloqueada al reiniciar en algunos procesadores AMD EPYC. No hay parche definitivo, pero sí soluciones temporales.",
+   "metaTitle": "Veeam Software Appliance no arranca en AMD EPYC",
+   "metaDescription": "Veeam avisa de que su Software Appliance puede fallar al arrancar en servidores con AMD EPYC tras una actualización. Modelos afectados y solución temporal.",
+   "tags": "copias de seguridad, veeam, servidores, virtualización, linux",
+   "html": "<p>Veeam, uno de los programas de copias de seguridad más usados en empresas, ha publicado un aviso (artículo de soporte KB4960) sobre un problema en su <strong>Veeam Software Appliance</strong>: la máquina virtual con Linux que ya viene preparada para ejecutar Veeam Backup &amp; Replication. En servidores con ciertos procesadores AMD EPYC, puede no volver a arrancar tras un reinicio.</p>\n<p>El fallo afecta a la versión 13.1 y posteriores del appliance y se ha visto, sobre todo, después de actualizaciones que instalan un núcleo (kernel) de Linux nuevo y obligan a reiniciar. Lo contó BleepingComputer el 6 de noviembre.</p>\n<h2>Qué está pasando</h2>\n<p>Al arrancar, el sistema se detiene con un error grave del núcleo («kernel panic») que menciona <code>jitterentropy</code>. La causa es una comprobación que hace Linux al inicio cuando está activado el modo FIPS (un estándar de seguridad que exige generar números aleatorios de calidad). En algunos procesadores AMD EPYC esa prueba falla de vez en cuando y el sistema decide parar.</p>\n<p>Veeam cita como afectados los modelos <strong>EPYC 7262, 7302 y 7F72</strong>, aunque deja abierto que pueda haber otros. Es un fallo intermitente: un reinicio puede ir bien y el siguiente no.</p>\n<h2>Por qué importa</h2>\n<p>El servidor de copias es de los que nadie mira hasta que hace falta. Si el appliance se queda parado tras una actualización automática de madrugada, <strong>las copias dejan de hacerse</strong> y puedes no enterarte hasta que necesites restaurar algo. La buena noticia es que, según Veeam, una vez que arranca bien no hay más errores y el funcionamiento de las copias no se ve afectado.</p>\n<p>Por ahora Veeam no ha anunciado un parche definitivo ni una fecha.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Averigua qué procesador tiene el servidor</strong> donde corre el appliance de Veeam. Si no es un AMD EPYC, este problema no te afecta.</li>\n<li>Si es uno de los modelos citados, la recomendación principal de Veeam es <strong>volver a desplegar el appliance en otro servidor</strong> con un procesador distinto.</li>\n<li>Si no puedes moverlo, <strong>desactiva las actualizaciones automáticas</strong> del appliance e instálalas a mano, vigilando el reinicio.</li>\n<li>Si se queda bloqueado, <strong>apaga la máquina virtual y vuelve a encenderla</strong> desde el hipervisor. Reiniciar el sistema desde dentro no lo soluciona.</li>\n<li>Activa las <strong>alertas por correo de trabajos fallidos</strong> en Veeam y revisa cada semana que las copias se completan. Y haz de vez en cuando una prueba de restauración real.</li>\n</ol>\n<p>Si no tienes claro cómo están montadas tus copias de seguridad, en Javertix podemos revisarlo contigo.</p>",
+   "sources": [
+    {
+     "title": "BleepingComputer: Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+     "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Disco duro abierto con el plato y el cabezal de lectura a la vista",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-08-automatizacion",
+   "slug": "perplexity-teammates-agentes-ia-persistentes-trabajo-continuo-slack-gmail",
+   "title": "Perplexity lanza Teammates: agentes de IA que vigilan tu trabajo y actúan solos cuando algo cambia",
+   "category": "Automatización",
+   "date": "2026-11-08T08:10:00",
+   "excerpt": "Perplexity estrena Teammates, agentes de inteligencia artificial que se encargan de tareas continuas, como seguir clientes o plazos, y se conectan a Slack, Gmail o GitHub. Te contamos qué hacen y qué tener en cuenta antes de probarlos.",
+   "metaTitle": "Perplexity Teammates: agentes de IA para tareas continuas",
+   "metaDescription": "Perplexity lanza Teammates, agentes de IA que siguen tareas continuas y actúan solos en Slack, Gmail o GitHub. Qué hacen, precio y cómo aplicarlo en tu pyme.",
+   "tags": "inteligencia artificial, agentes de ia, automatización, productividad, pymes",
+   "html": "<p>Perplexity, la empresa conocida por su buscador con inteligencia artificial (IA), anunció el 4 de noviembre <strong>Teammates</strong> («compañeros de equipo»). Son agentes de IA pensados para trabajos que no se acaban en una sola pregunta: llevar el seguimiento de clientes, vigilar plazos o preparar informes de forma continuada.</p>\n<p>A diferencia de un chat, en el que tú preguntas y la IA responde, estos agentes se quedan funcionando en segundo plano, recuerdan el contexto del proyecto y <strong>actúan cuando detectan un cambio</strong>, sin esperar a que les escribas. Por ahora solo están disponibles en la web para el plan Max, el más caro de Perplexity.</p>\n<h2>Qué hacen los Teammates</h2>\n<p>Cada agente se crea para un proyecto concreto: se le pone nombre, se conectan las herramientas que puede usar (Slack, Gmail o GitHub, entre otras) y se describe el trabajo: de dónde llega, qué debe entregar y cuándo tiene que actuar. Los ejemplos que da la propia Perplexity son muy de negocio:</p>\n<ul>\n<li><strong>Ventas</strong>: detectar que un cliente habitual ha dejado de comprar, revisar su historial y proponer una oferta.</li>\n<li><strong>Atención al cliente</strong>: resumir las quejas más repetidas y preparar borradores de respuesta.</li>\n<li><strong>Operaciones</strong>: revisar listas de tareas, proveedores y papeleo, y avisar 72 horas antes de un plazo si falta algo.</li>\n<li><strong>Marketing</strong>: preparar publicaciones y campañas y vigilar las promociones de la competencia.</li>\n</ul>\n<p>Pueden trabajar dentro de un canal de Slack, donde el equipo les asigna tareas, y pasarse trabajo entre ellos. También guardan memoria: si les corriges algo (por ejemplo, que un proveedor necesita dos semanas de aviso), lo aplican en adelante.</p>\n<h2>Control y seguridad</h2>\n<p>Según Perplexity, cada agente funciona en su propio entorno, respeta los permisos de las herramientas conectadas y <strong>pide aprobación</strong> en los puntos clave antes de dar algo por terminado. Las credenciales guardadas van cifradas. Conviene recordar que todo esto lo dice la propia empresa: aún no hay análisis independientes y Perplexity no ha detallado cuánto tiempo conserva los datos.</p>\n<h2>Por qué importa</h2>\n<p>Es un paso más en una tendencia clara: pasar de la IA que contesta a la IA que <strong>se encarga de un trabajo</strong>. Otras grandes tecnológicas preparan agentes parecidos. Para una pyme, la idea es atractiva (tener a alguien vigilando el correo o los pedidos), pero el precio actual lo deja, de momento, para equipos que ya sacan mucho partido a la IA.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Elige una tarea repetitiva y medible</strong> antes de pensar en la herramienta: por ejemplo, avisar de clientes que llevan 60 días sin pedir.</li>\n<li><strong>Empieza con permisos mínimos</strong>: deja que el agente lea y proponga, pero que una persona apruebe antes de enviar correos o tocar datos.</li>\n<li><strong>No conectes cuentas con datos sensibles</strong> (nóminas, datos de salud, bancos) sin revisar las condiciones de privacidad y el cumplimiento del RGPD.</li>\n<li>Compara con lo que ya pagas: Microsoft 365, Google Workspace o herramientas como n8n o Zapier pueden cubrir parte de estas automatizaciones a menor coste.</li>\n<li>Haz una prueba de un mes con un objetivo claro y decide con datos si compensa.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Perplexity: Teammates are agents for complex, ongoing work",
+     "url": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+    },
+    {
+     "title": "Blog du Modérateur: Perplexity lance Teammates, des agents IA pour les tâches de longue haleine",
+     "url": "https://www.blogdumoderateur.com/perplexity-lance-teammates-agents-ia-taches-longue-haleine/"
+    },
+    {
+     "title": "Runtime Wire: Perplexity launches Teammates to own ongoing work inside Computer",
+     "url": "https://runtimewire.com/article/perplexity-teammates-computer-agents-ongoing-work"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1760349748488-bd2a7ef25ea0?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Pantalla de un móvil con varios mensajes de una conversación",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-08-apps",
+   "slug": "ghostmap-fallo-android-app-bloquea-movil-reinicios-sin-parche",
+   "title": "GhostMap: el fallo de Android que bloquea el móvil en reinicios al instalar una app, y Google no lo parcheará",
+   "category": "Apps",
+   "date": "2026-11-08T08:05:00",
+   "excerpt": "Investigadores de Bitdefender han descubierto que una app sin código ni permisos puede dejar un móvil Android atascado en el logo de arranque. Google no prevé un parche de seguridad, así que la prevención y las copias son clave.",
+   "metaTitle": "GhostMap: el fallo de Android que bloquea el móvil",
+   "metaDescription": "GhostMap es un fallo de Android que, al instalar una app manipulada, deja el móvil en un bucle de reinicios. Google no lo parcheará: cómo protegerte.",
+   "tags": "android, apps, seguridad, google play, copias de seguridad",
+   "html": "<p>La empresa de seguridad Bitdefender publicó el 5 de noviembre una investigación sobre <strong>GhostMap</strong>, un fallo de Android que permite dejar un móvil inservible con solo instalar una app. No hace falta abrirla ni darle permisos: basta con que se instale para que el teléfono entre en un bucle de reinicios y se quede parado en la animación de arranque.</p>\n<p>Lo más llamativo es la respuesta de Google: según Bitdefender, la compañía ha decidido que no lo corregirá mediante una actualización de seguridad y lo ha pasado a un equipo de producto para valorarlo en una versión futura de Android. Hoy no hay parche.</p>\n<h2>Qué es GhostMap y cómo se descubrió</h2>\n<p>Todo empezó en agosto, cuando un troyano bancario recogido por Bitdefender bloqueó sus propios equipos de análisis al intentar instalarlo. Al investigar el motivo, encontraron el problema de fondo: dos partes de Android interpretan de forma distinta cómo está comprimido el contenido de un archivo de app (APK). Con un archivo manipulado, el sistema intenta leer más datos de los que existen y el proceso se cae.</p>\n<p>Si lo que falla es el instalador, la instalación simplemente se interrumpe. Pero si el archivo afecta a un proceso central del sistema, el fallo se repite en cada arranque. En las pruebas, el móvil se reinició más de cien veces seguidas y ni siquiera el modo seguro sirvió de algo.</p>\n<h2>A quién afecta</h2>\n<ul>\n<li>Bitdefender lo reprodujo en un <strong>Pixel 10 con Android 17</strong> y el parche de seguridad de agosto, y asegura que el fallo existe desde Android 10.</li>\n<li>Solo se ha probado en móviles Pixel; no se sabe todavía cómo se comportan otras marcas.</li>\n<li>De momento <strong>no se ha visto usado en ataques reales</strong>, aunque los investigadores apuntan usos posibles: inutilizar el móvil de alguien, extorsionar con la amenaza de un borrado o dificultar que se desinstale una app maliciosa.</li>\n</ul>\n<h2>Por qué importa</h2>\n<p>La única salida habitual es <strong>restablecer el móvil de fábrica</strong>, lo que borra todo lo que no esté copiado en otro sitio. Para un autónomo o una pyme, perder el móvil de trabajo un día entero, con sus fotos, documentos y conversaciones, es un problema serio. Y al no haber parche ni identificador de vulnerabilidad (CVE), muchas herramientas de seguridad no lo tendrán en cuenta.</p>\n<p>Conviene tener presente que la fuente principal es la propia Bitdefender, una empresa que vende antivirus para móviles.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Instala apps solo desde Google Play</strong> o desde la tienda del fabricante. Evita archivos APK que te pasen por WhatsApp, correo o webs.</li>\n<li><strong>Activa la copia de seguridad</strong> del móvil (Ajustes &gt; Google &gt; Copia de seguridad) y la de WhatsApp, y comprueba que se hacen a diario.</li>\n<li>Guarda fotos y documentos de trabajo en la nube (Google Drive, OneDrive o similar), no solo en el teléfono.</li>\n<li>En los móviles de empresa, <strong>bloquea la instalación de apps de origen desconocido</strong>. Si tienes varios dispositivos, una herramienta de gestión de móviles (MDM) lo hace por ti.</li>\n<li>Si un móvil se queda en bucle, no lo restablezcas a la primera: consulta antes con tu servicio técnico por si se puede recuperar algo.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "Bitdefender: GhostMap, the Android flaw that crashes your phone before you open the app",
+     "url": "https://www.bitdefender.com/en-us/blog/labs/ghostmap-android"
+    },
+    {
+     "title": "Help Net Security: A banking malware sample led researchers to an Android bug that can loop-crash phones",
+     "url": "https://www.helpnetsecurity.com/2026/11/05/ghostmap-android-bug-research/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Persona sujetando un móvil Android y usando una app",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-08-ciberseguridad",
+   "slug": "sonicwall-vpn-fallo-cve-2026-19868-salta-doble-factor-actualizar-sonicos",
+   "title": "SonicWall: atacan un fallo de su VPN que se salta el doble factor. Cómo saber si tu firewall está expuesto",
+   "category": "Ciberseguridad",
+   "date": "2026-11-08T08:00:00",
+   "excerpt": "SonicWall ha corregido siete fallos en sus firewalls y uno de ellos, que permite entrar por la VPN sin pasar el doble factor, ya se está usando en ataques. Si tu empresa usa SonicWall con SAML, toca actualizar ya.",
+   "metaTitle": "SonicWall CVE-2026-19868: fallo de VPN que salta el MFA",
+   "metaDescription": "SonicWall corrige un fallo explotado en su VPN SSL que permite saltarse el doble factor con SAML. Versiones afectadas y qué hacer en tu firewall.",
+   "tags": "ciberseguridad, vulnerabilidades, vpn, firewall, actualizaciones, pymes",
+   "html": "<p>SonicWall, uno de los fabricantes de cortafuegos (firewalls) más habituales en pymes, publicó el 6 de noviembre un aviso de seguridad con siete fallos en su sistema SonicOS. Uno de ellos, el <strong>CVE-2026-19868</strong>, ya se está aprovechando en ataques reales: ese mismo día la agencia de ciberseguridad de Estados Unidos (CISA) lo añadió a su lista de vulnerabilidades explotadas.</p>\n<p>El problema afecta a la VPN SSL del equipo, la conexión segura que usan los empleados para entrar a la red de la oficina desde casa o desde fuera. En ciertas condiciones, un atacante puede entrar sin pasar por el doble factor de autenticación (MFA, el código extra que se pide además de la contraseña).</p>\n<h2>Qué ha pasado exactamente</h2>\n<p>Muchas empresas configuran la VPN para que el inicio de sesión pase por SAML, un sistema que delega el acceso en un proveedor de identidad (por ejemplo, Microsoft o Google) y que es el que exige el doble factor. El fallo permite que alguien con un usuario y contraseña válidos para otro método de acceso distinto de SAML abra una sesión de VPN <strong>sin pasar por esa comprobación</strong>. Es decir: si te han robado una contraseña, el doble factor deja de protegerte.</p>\n<p>SonicWall indica en su aviso que el fallo solo afecta a la VPN SSL cuando SAML está activado para iniciar sesión. Según el análisis de Ostorlab, el fabricante califica el fallo de gravedad alta y no hay de momento detalles públicos sobre quién lo está usando ni contra quién.</p>\n<h2>Qué equipos están afectados</h2>\n<ul>\n<li><strong>Gen7</strong>: SonicOS 7.3.3-7015 y anteriores. Corregido en la 7.3.4-7013 o superior.</li>\n<li><strong>Gen8</strong>: SonicOS 8.2.2-8015 y anteriores. Corregido en la 8.2.3-8015 o superior.</li>\n<li>También los cortafuegos virtuales NSv.</li>\n</ul>\n<p>El mismo aviso corrige otros seis fallos, entre ellos dos en el portal web de administración con gravedad alta y varios desbordamientos de memoria que pueden atacarse sin iniciar sesión. De esos no consta que se estén explotando, pero son otro motivo para actualizar aunque no uses SAML.</p>\n<h2>Por qué importa a una pyme</h2>\n<p>La VPN es la puerta de entrada a la red de la empresa: servidores, carpetas compartidas, programas de gestión. Las contraseñas robadas circulan mucho (por estafas de phishing o filtraciones de otros servicios) y el doble factor es justo lo que impide que basten para entrar. Un fallo que lo anula es especialmente peligroso, y SonicWall afirma que <strong>no hay forma de mitigarlo</strong> sin actualizar.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Comprueba qué versión de SonicOS tiene tu firewall</strong> en el panel de administración. Si no lo gestionas tú, pregúntaselo hoy a tu proveedor informático.</li>\n<li><strong>Guarda una copia de la configuración</strong> y anota la versión actual antes de tocar nada.</li>\n<li><strong>Actualiza</strong> a la 7.3.4-7013 (Gen7) o a la 8.2.3-8015 (Gen8) o posteriores, en un horario en el que un corte breve no moleste.</li>\n<li><strong>Mira si usas SAML en la VPN.</strong> Si es así, revisa los registros en busca de accesos que no hayan pasado por SAML en cuentas que deberían usarlo.</li>\n<li>Mientras actualizas, <strong>desactiva las cuentas que puedan entrar sin SAML</strong> y que no hagan falta, y limita la VPN a direcciones de origen de confianza si puedes.</li>\n<li>Si sospechas un acceso indebido, <strong>cambia las contraseñas</strong> de las cuentas implicadas y revisa a qué tenían acceso.</li>\n</ol>\n<p>Si quieres que revisemos tu firewall o tu VPN, en Javertix podemos echarte una mano.</p>",
+   "sources": [
+    {
+     "title": "Daily CyberSecurity: SonicWall SonicOS SSLVPN CVE-2026-19868 exploited",
+     "url": "https://securityonline.info/sonicwall-sonicos-sslvpn-cve-2026-19868-exploited/"
+    },
+    {
+     "title": "Ostorlab: SonicWall SSLVPN SAML Bypass, Exploited in the Wild (CVE-2026-19868)",
+     "url": "https://blog.ostorlab.co/sonicwall-sslvpn-saml-bypass-cve-2026-19868.html"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Candado rojo colocado sobre el teclado de un ordenador",
+   "imageCredit": "Foto: Unsplash"
+  },
   {
    "id": "2026-11-07-actualidad",
    "slug": "openai-gpt-6-cyber-modelo-ia-encuentra-fallos-firefox-linux",

@@ -1,6 +1,124 @@
 {
- "updated": "2026-11-07T07:26:27+00:00",
+ "updated": "2026-11-08T07:12:55+00:00",
  "posts": [
+  {
+   "id": "2026-11-08-pregunta",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-08T19:30:00+01:00",
+   "texto": "Pregunta del domingo: ¿cuál fue tu primer ordenador? 💾 Respóndenos por privado 👇",
+   "hashtags": [
+    "#preguntadeldomingo",
+    "#nostalgia",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Historia con la etiqueta Pregunta del domingo y el texto: ¿Cuál fue tu primer ordenador? Marca, modelo, año y qué hacías con él. Respóndenos por privado.",
+   "diapositivas": [
+    {
+     "plantilla": "texto",
+     "fondo": "suave",
+     "etiqueta": "Pregunta del domingo 💬",
+     "titulo": "¿Cuál fue tu\n**primer ordenador**? 💾",
+     "texto": "Marca, modelo, año… y qué hacías con él 👀\n\n**Respóndenos por privado** 👇"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-08-pregunta-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-08-reel-truco",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-08T18:30:00+01:00",
+   "texto": "💻 ¿Sigues actualizando los programas de Windows uno a uno? Con winget lo haces todo de golpe desde la terminal: primero miras la lista y luego un solo comando. Guárdalo para el lunes 📌 Reto: ¿cuál es el comando que más usas?",
+   "hashtags": [
+    "#trucoinformatico",
+    "#windows",
+    "#winget",
+    "#terminal",
+    "#powershell",
+    "#sysadmin",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo vertical animado. Una terminal de Windows se escribe sola: el comando winget upgrade muestra una tabla con 7-Zip, VLC y Git con versión nueva disponible; después winget upgrade --all los va actualizando uno a uno con el mensaje Successfully installed. La mascota robot Jota hace una broma, aparece una lista de avisos antes de lanzarlo y un cierre con la mascota.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-08-reel-truco.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-08-reel-truco.mp4",
+    "portada": "redes/img/2026-11-08-reel-truco.jpg"
+   }
+  },
+  {
+   "id": "2026-11-08-dato",
+   "tipo": "dato",
+   "publicar": "2026-11-08T12:00:00+01:00",
+   "texto": "📧 Antes de las ofertas milagro y los príncipes nigerianos hubo un primer spam… y lo mandó un comercial con prisa en 1978. Desliza para conocer la historia y de dónde sale el nombre 👉 ¿Cuántos correos de spam crees que tienes ahora mismo en la bandeja? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#historiadelainformatica",
+    "#spam",
+    "#correoelectronico",
+    "#internet",
+    "#tecnologia",
+    "#javertix"
+   ],
+   "alt": "Carrusel de fondo amarillo en cuatro partes. 1: la cifra 1978 y el texto: el primer spam de la historia se envió el 3 de mayo de 1978 a unas 400 personas a la vez. 2: la historia de Gary Thuerk, comercial de DEC, que copió a mano las direcciones de un listín de ARPANET y escribió el anuncio en mayúsculas. 3: la cifra 12 millones de dólares, las ventas que según él trajo aquel correo pese a las quejas. 4: el nombre spam viene de un sketch de Monty Python de 1970.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "1978",
+     "texto": "📧 El primer **spam** de la historia se envió el **3 de mayo de 1978**… a unas **400 personas** a la vez."
+    },
+    {
+     "plantilla": "texto",
+     "fondo": "amarillo",
+     "etiqueta": "La historia · 2/4",
+     "titulo": "Un comercial con prisa 🏃",
+     "texto": "Gary Thuerk, de la empresa DEC, quería invitar a la presentación de sus nuevos ordenadores. En vez de escribir uno a uno, copió a mano las direcciones de un **listín de ARPANET** y lo mandó todo **EN MAYÚSCULAS**."
+    },
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Funcionó? · 3/4",
+     "cifra": "12 M$",
+     "texto": "La red se le echó encima: los responsables de ARPANET lo llamaron «violación flagrante» de las normas. Pero, según Thuerk, trajo **más de 12 millones de dólares** en ventas 😅",
+     "fuente": "BRG, «Remembering the Dawn of Spam»"
+    },
+    {
+     "plantilla": "texto",
+     "fondo": "amarillo",
+     "etiqueta": "¿Y el nombre? · 4/4",
+     "titulo": "¿Por qué «spam»? 🥫",
+     "texto": "El nombre llegó en los 90, en Usenet. Viene de un sketch de **Monty Python** (1970) en el que todo el menú lleva Spam, una carne en lata, repetida hasta hartar. Como los correos basura."
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-08-dato-1.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-08-dato-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-08-dato-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-08-dato-4.jpg"
+    }
+   ]
+  },
   {
    "id": "2026-11-07-reel-cifras",
    "tipo": "dato",

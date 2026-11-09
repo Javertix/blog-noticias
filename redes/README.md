@@ -37,8 +37,8 @@ Borra solo las publicaciones de más de 21 días y sus imágenes. `redes/prueba/
   - `reel`: vídeo vertical de 2-8 diapositivas con zoom suave y fundidos (unos 3,5 s cada una,
     `segundos` lo cambia). Se publica como reel en Instagram y como vídeo en Facebook.
     No admite la plantilla `portada`.
-  - `explicado`: vídeo animado con voz (25-60 s) al estilo «dato rápido»: gancho, cifras grandes que
-    aparecen, subtítulos palabra a palabra, la mascota Jota y cierre. En vez de `diapositivas` lleva
+  - `explicado`: reel animado con voz (18-30 s, formato v2): gancho en el primer fotograma, zoom en cada
+    corte, contadores, subtítulos grandes palabra a palabra, la mascota Jota y cierre. En vez de `diapositivas` lleva
     `guion` (ver abajo). Se publica como reel en Instagram/Facebook y va a los borradores de TikTok.
 - `publicar`: hora de Madrid con zona (`+01:00` en invierno, `+02:00` en verano).
 - `texto`: hasta 1800 caracteres. En Instagram los enlaces no funcionan; si hay `enlace`, en el texto
@@ -76,39 +76,48 @@ perfil quede ordenado: noticias en oscuro, memes en claro/suave, tips en azul y 
 La foto de la `portada` la pone la web: aquí se genera un PNG transparente y la web coloca debajo la foto
 de Unsplash (el contenedor de la tarea no puede descargarla).
 
-## Vídeos explicados (`"formato": "explicado"`)
+## Vídeos explicados (`"formato": "explicado"`) — formato v2
 
-Los monta `redes/video.py`. Voces gratuitas y locales: **Dora** (narradora, Kokoro `ef_dora`) y **Jota**
-(la mascota robot, Piper `es-carlfm`). Los modelos (~140 MB) se descargan de GitHub la primera vez.
-La puntuación marca las pausas: cada coma y cada punto es una pausa real en la voz.
+Los monta `redes/video.py` con la plantilla `plantillas/reel.html`. Voces gratuitas y locales, en español de España:
+**narrador** (Álex, Kokoro `em_alex`, modelo completo) y **jota** (la mascota robot, Piper `es_ES-sharvard-medium`).
+Los modelos (~420 MB) se descargan de GitHub releases la primera vez. Cada frase se sintetiza entera (la
+entonación sale natural); la puntuación marca las pausas. Efectos (whoosh, pop, ding, golpe) y una base
+rítmica suave se sintetizan en el propio script (sin derechos de autor).
 
 ```json
 "guion": {
-  "etiqueta": "DATO RÁPIDO",
-  "fuente": "Hive Systems 2025 · 12× RTX 5090",
-  "escala": true,
+  "etiqueta": "MITO O VERDAD",
+  "fuente": "Samsung 990 EVO Plus 1 TB · ficha técnica (600 TBW)",
   "escenas": [
-    {"voz": "dora", "texto": "¿Cuánto tarda…?", "visual": {"tipo": "titulo", "titulo": "¿Cuánto tarda…", "destacar": "tu contraseña?"}},
-    {"voz": "dora", "texto": "…tres semanas.", "visual": {"tipo": "cifra", "cifra": "≈ 3 semanas", "pie": "8 caracteres", "chip": "a-z 0-9", "segundos": 1814400}},
-    {"voz": "jota", "texto": "Pero ojo…", "visual": {"tipo": "cifra", "cifra": "0 segundos", "pie": "si se filtra", "segundos": 0, "alerta": true}},
-    {"voz": "dora", "texto": "Así que…", "visual": {"tipo": "lista", "titulo": "Qué hacer", "puntos": ["…", "…", "…"]}},
-    {"voz": "dora", "texto": "Síguenos para más. ¿Qué quieres que investiguemos?", "visual": {"tipo": "cierre"}}
+    {"texto": "¿Tu SSD se gasta si lo usas mucho?", "visual": {"tipo": "gancho", "titulo": "¿TU SSD SE", "destacar": "GASTA?", "emoji": "ssd", "sello": "¿MITO?"}},
+    {"voz": "jota", "texto": "Espóiler: te jubilas tú antes que él.", "visual": {"tipo": "gancho", "titulo": "TE JUBILAS", "destacar": "TÚ ANTES", "emoji": "🧓"}},
+    {"texto": "Un SSD de un terabyte aguanta unos seiscientos terabytes escritos.", "visual": {"tipo": "cifra", "antes": "Un SSD de <b>1 TB</b> aguanta…", "hasta": 600, "unidad": "TB", "pie": "escritos, según el fabricante", "emoji": "ssd"}},
+    {"texto": "Si escribes treinta gigas cada día, que ya es mucho, te dura…", "visual": {"tipo": "barra", "antes": "Escribiendo <b>30 GB al día</b>", "hasta": 55, "unidad": "AÑOS", "pie": "de vida útil", "emoji": "👴", "oculto": true}},
+    {"texto": "¡Cincuenta y cinco años!", "pausa": 0.2, "visual": {"tipo": "barra", "antes": "Escribiendo <b>30 GB al día</b>", "hasta": 55, "unidad": "AÑOS", "pie": "de vida útil", "emoji": "👴", "sigue": true, "ding": true}},
+    {"texto": "Pero ojo: puede morir de golpe, sin avisar.", "visual": {"tipo": "alerta", "titulo": "PUEDE MORIR", "destacar": "SIN AVISAR", "emoji": "💀"}},
+    {"texto": "Mira su salud con CrystalDiskInfo y haz copias de seguridad.", "visual": {"tipo": "lista", "titulo": "QUÉ HACER", "puntos": [{"e": "🩺", "t": "Mira su salud", "s": "CrystalDiskInfo o smartctl"}, {"e": "☁️", "t": "Copias de seguridad", "s": "regla 3-2-1"}]}},
+    {"voz": "jota", "texto": "Dale a seguir: cada semana desmontamos un mito.", "visual": {"tipo": "cierre", "texto": "Un mito informático cada semana"}}
   ]
 }
 ```
-- `visual.tipo` puede ser:
-  - `titulo`: gancho con texto grande (`titulo`, `destacar`).
-  - `cifra`: número grande (`cifra`, `pie`, `chip`, `segundos`, `alerta`).
-  - `escena`: estilo «historia/datazo»: 1-3 emojis grandes animados sobre fondo de rayos + etiqueta amarilla
-    de máx. 16 caracteres (`emojis`, `etiqueta`, y opcional `titulo`/`destacar` arriba). Para contar historias.
-  - `terminal`: terminal que se escribe sola mientras se habla (`ventana`, `prompt`, `lineas`: [{`cmd`} o
-    {`out`, `color`: ok/warn/error/gris}], 1-8 líneas de máx. 60 caracteres). Para trucos técnicos.
-  - `lista`: 2-4 puntos. `cierre`: final con la mascota.
-- 4-12 escenas; la primera es el gancho (`titulo`, `escena` o `terminal`) y la última `cierre`. Entre 45 y 160 palabras habladas en total.
-- `cifra`: máx. 14 caracteres. `escala: true` añade una barra de tiempo (1 s → 1000 años) y entonces
-  cada cifra lleva `segundos`. `alerta: true` la pone en rojo.
-- `lista`: 2-4 puntos cortos. Jota (voz robótica) para el giro o la frase graciosa; Dora para el resto.
-- Escribe los números con letras en `texto` («sesenta y dos») y con cifras en `visual`.
+- `voz`: `narrador` (por defecto) o `jota` (para el giro gracioso, el «espóiler» y el cierre).
+- `visual.tipo`:
+  - `gancho`: texto enorme (`titulo` + `destacar`, máx. 34 caracteres entre los dos), `emoji` grande y `sello` opcional («¿MITO?», «¡OJO!»).
+  - `cifra`: número que se cuenta solo (`hasta` numérico, `unidad` ≤ 6, `decimales`, `prefijo`, `antes`, `pie`, `emoji`).
+    Si no es un número, `cifra` con texto corto (≤ 8). `oculto: true` enseña «¿?» (suspense para la escena siguiente).
+  - `barra`: como `cifra` con una barra que se llena. `sigue: true` continúa la barra de la escena anterior. `ding: true` confeti y campanita.
+  - `alerta`: fondo rojo, sacudida y golpe (`titulo`, `destacar`, `emoji`). Para el «pero ojo».
+  - `lista`: 2-3 tarjetas (`titulo`, `puntos`: [{`e`: emoji, `t`: ≤ 22 caracteres, `s`: subtítulo}]).
+  - `terminal`: se escribe sola (`titulo` opcional arriba, `ventana`, `prompt`, `lineas`: [{`cmd`} o {`out`, `color`: ok/warn/error/gris}], 1-7 líneas de ≤ 36 caracteres).
+  - `escena`: 1-3 emojis grandes + etiqueta amarilla (≤ 14) y `titulo`/`destacar` opcionales. Para contar historias.
+  - `cierre`: logo, `texto` (la serie: «Un mito informático cada semana») y botón «SÍGUENOS».
+- Emojis: el carácter (💀) o su código Twemoji; `ssd` es un dibujo propio de un SSD.
+- 5-10 escenas, 60-105 palabras habladas (≈ 18-30 s). La primera es el gancho (`gancho`, `escena` o `terminal` con `titulo`):
+  se ve completo en el fotograma 0, sin fundidos. La última es `cierre`.
+- Números con letras en `texto` («cincuenta y cinco») y con cifras en `visual`.
+- **Nada de palabras en inglés en `texto`** (las voces las leen mal): o se traduce o se escribe como suena
+  («espóiler», «backup» → «copia de seguridad»). Los comandos van en `visual`, y en `texto` se dicen en castellano.
+  Evitar «Síguenos» (la voz de Jota lo pronuncia mal): «Dale a seguir».
 - Datos siempre comprobados y con `fuente`.
 
 ## Créditos

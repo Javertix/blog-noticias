@@ -212,43 +212,57 @@ def textos(p):
     return json.dumps([p.get("texto"), p.get("hashtags"), p.get("diapositivas"), p.get("alt"), p.get("guion")], ensure_ascii=False)
 
 
-VISUALES = {"titulo", "cifra", "lista", "cierre", "escena", "terminal"}
+VISUALES = {"gancho", "cifra", "barra", "alerta", "lista", "terminal", "escena", "cierre"}
 
 
 def check_guion(g):
-    """Comprueba el guion de un vídeo explicado (ver video.py)."""
+    """Comprueba el guion de un reel con voz (formato v2, ver video.py y README)."""
+    from video import emoji as a_emoji
     errs = []
     esc = g.get("escenas") or []
-    if not (4 <= len(esc) <= 12):
-        errs.append("guion: entre 4 y 12 escenas")
+    if not (5 <= len(esc) <= 10):
+        errs.append("guion: entre 5 y 10 escenas")
     palabras = 0
     for i, e in enumerate(esc, 1):
         v = e.get("visual") or {}
-        if e.get("voz", "dora") not in ("dora", "jota"):
-            errs.append(f"escena {i}: voz tiene que ser dora o jota")
+        tipo = v.get("tipo")
+        if e.get("voz", "narrador") not in ("narrador", "jota"):
+            errs.append(f"escena {i}: voz tiene que ser narrador o jota")
         if not e.get("texto"):
             errs.append(f"escena {i}: falta texto (lo que se dice)")
         palabras += len(str(e.get("texto", "")).split())
-        if v.get("tipo") not in VISUALES:
-            errs.append(f"escena {i}: visual.tipo tiene que ser titulo, cifra, lista, escena, terminal o cierre")
-        if v.get("tipo") == "escena" and (not (1 <= len(v.get("emojis") or []) <= 3) or len(str(v.get("etiqueta", ""))) > 16):
-            errs.append(f"escena {i}: escena lleva 1-3 emojis y una etiqueta de máx. 16 caracteres")
-        if v.get("tipo") == "terminal":
+        if tipo not in VISUALES:
+            errs.append(f"escena {i}: visual.tipo tiene que ser " + ", ".join(sorted(VISUALES)))
+        for k in ("emoji",):
+            if v.get(k) and not a_emoji(v[k]):
+                errs.append(f"escena {i}: emoji {v[k]!r} no disponible")
+        if tipo in ("gancho", "alerta") and (not v.get("titulo") or len(str(v.get("titulo", "")) + str(v.get("destacar", ""))) > 34):
+            errs.append(f"escena {i}: {tipo} lleva titulo (+ destacar), entre los dos máx. 34 caracteres")
+        if tipo == "escena" and (not (1 <= len(v.get("emojis") or []) <= 3) or len(str(v.get("etiqueta", ""))) > 14):
+            errs.append(f"escena {i}: escena lleva 1-3 emojis y una etiqueta de máx. 14 caracteres")
+        if tipo == "terminal":
             ls = v.get("lineas") or []
-            if not (1 <= len(ls) <= 8) or any(len(str(l.get("cmd") or l.get("out") or "")) > 60 for l in ls):
-                errs.append(f"escena {i}: terminal lleva 1-8 líneas de máx. 60 caracteres")
-        if v.get("tipo") == "cifra" and (not v.get("cifra") or len(v["cifra"]) > 14):
-            errs.append(f"escena {i}: cifra obligatoria y corta (máx. 14 caracteres)")
-        if v.get("tipo") == "lista" and not (2 <= len(v.get("puntos") or []) <= 4):
-            errs.append(f"escena {i}: la lista lleva 2-4 puntos")
-        if g.get("escala") and v.get("tipo") == "cifra" and not isinstance(v.get("segundos"), (int, float)):
-            errs.append(f"escena {i}: con escala, cada cifra necesita 'segundos'")
-    if esc and (esc[0].get("visual") or {}).get("tipo") not in ("titulo", "escena", "terminal"):
-        errs.append("guion: la primera escena es el gancho (titulo, escena o terminal)")
+            if not (1 <= len(ls) <= 7) or any(len(str(l.get("cmd") or l.get("out") or "")) > 36 for l in ls):
+                errs.append(f"escena {i}: terminal lleva 1-7 líneas de máx. 36 caracteres")
+        if tipo in ("cifra", "barra"):
+            if v.get("hasta") is None and (tipo == "barra" or not v.get("cifra") or len(str(v["cifra"])) > 8):
+                errs.append(f"escena {i}: {tipo} necesita 'hasta' (número que se cuenta) o, solo en cifra, 'cifra' corta (máx. 8)")
+            if v.get("hasta") is not None and not isinstance(v["hasta"], (int, float)):
+                errs.append(f"escena {i}: 'hasta' tiene que ser un número")
+            if len(str(v.get("unidad", ""))) > 6:
+                errs.append(f"escena {i}: unidad de máx. 6 caracteres")
+        if tipo == "lista":
+            ps = v.get("puntos") or []
+            if not (2 <= len(ps) <= 3) or any(len(str(p.get("t", "") if isinstance(p, dict) else p)) > 22 for p in ps):
+                errs.append(f"escena {i}: la lista lleva 2-3 puntos de máx. 22 caracteres (+ 's' opcional)")
+    if esc and (esc[0].get("visual") or {}).get("tipo") not in ("gancho", "escena", "terminal"):
+        errs.append("guion: la primera escena es el gancho (gancho, escena o terminal)")
+    if esc and (esc[0].get("visual") or {}).get("tipo") == "terminal" and not esc[0]["visual"].get("titulo"):
+        errs.append("guion: si el gancho es una terminal, lleva titulo (se tiene que entender sin sonido)")
     if esc and (esc[-1].get("visual") or {}).get("tipo") != "cierre":
         errs.append("guion: la última escena es el cierre")
-    if not (45 <= palabras <= 160):
-        errs.append(f"guion: {palabras} palabras; tiene que quedar entre 45 y 160 (25-65 s)")
+    if not (60 <= palabras <= 105):
+        errs.append(f"guion: {palabras} palabras; tiene que quedar entre 60 y 105 (unos 18-30 s)")
     if not g.get("fuente"):
         errs.append("guion: falta fuente")
     return errs

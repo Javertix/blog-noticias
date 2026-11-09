@@ -1,6 +1,131 @@
 {
- "updated": "2026-11-08T08:20:00",
+ "updated": "2026-11-09T08:20:00",
  "posts": [
+  {
+   "id": "2026-11-09-actualidad",
+   "slug": "meta-pausa-condiciones-rastrear-webs-empresas-20-noviembre",
+   "title": "Meta frena sus nuevas condiciones para rastrear las webs de las empresas que usan sus herramientas",
+   "category": "Actualidad",
+   "date": "2026-11-09T08:20:00",
+   "excerpt": "Las condiciones que entraban en vigor el 20 de noviembre quedan en pausa tras demandas en Noruega y Brasil. Afectaban a cualquier negocio que use las herramientas comerciales de Meta, no solo a los medios.",
+   "metaTitle": "Meta pausa sus condiciones para rastrear webs de empresas",
+   "metaDescription": "Meta pausa las condiciones comerciales que le permitían rastrear las webs de negocios que usan sus herramientas. Qué decían, por qué se frenan y qué hacer.",
+   "tags": "regulación, privacidad, páginas web, inteligencia artificial, comercios",
+   "html": "<p><strong>Meta</strong>, la empresa de Facebook, Instagram y WhatsApp, ha puesto en pausa indefinida una actualización de sus condiciones para empresas que iba a entrar en vigor el <strong>20 de noviembre</strong>. Entre otras cosas, permitía a sus programas automáticos rastrear las webs de los negocios que usan sus herramientas, y aceptarlo bastaba con seguir usándolas.</p>\n<p>Meta lo anunció el 5 de noviembre en su centro de ayuda para empresas. Las condiciones actuales siguen vigentes y no hay nueva fecha.</p>\n<h2>Qué ha pasado</h2>\n<p>La actualización afectaba a cuatro textos: las condiciones comerciales de Meta, las del catálogo de productos, las de anuncios de autoservicio y las de anuncios creados con IA generativa. Las críticas se centraron en dos puntos:</p>\n<ul>\n<li><strong>El rastreo de webs.</strong> Meta podría recorrer con sus robots las páginas web asociadas a las empresas que usan sus herramientas. Tras las primeras quejas, Meta quitó la palabra «entrenar» y limitó el uso del contenido a «productos publicitarios y de negocio».</li>\n<li><strong>La responsabilidad por la IA.</strong> Otra sección hacía responsable al anunciante del contenido de anuncios creados o retocados con IA.</li>\n</ul>\n<h2>Cómo se ha llegado a la pausa</h2>\n<p>Según PPC Land, los medios de comunicación fueron los más críticos, porque temían que Meta usara su periodismo sin pedir permiso. El 28 de octubre, un juzgado de Oslo bloqueó de forma temporal las condiciones tras la demanda de diez grupos de medios noruegos. El 30 de octubre, la autoridad de competencia del Reino Unido abrió una investigación. Y el 3 de noviembre, un tribunal de São Paulo suspendió la cláusula de rastreo para los miembros de tres asociaciones de medios brasileñas, con multas de hasta un millón de reales al día.</p>\n<p>Meta ha prometido una consulta, pero no ha dicho qué cambiará, a quién consultará ni cuándo terminará. Una pausa no es una retirada: el mismo texto, u otro parecido, puede volver.</p>\n<h2>Por qué importa a una pyme</h2>\n<p>La cláusula de rastreo no era solo para los periódicos. Se aplicaba a la web de <strong>cualquier negocio</strong> que use las herramientas de Meta: tiendas, agencias, desarrolladores de apps o un pequeño comercio que pone anuncios en Instagram o sube su catálogo a Facebook. Es el tipo de cambio que se acepta sin leerlo y que decide qué se puede hacer con el contenido de tu web.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Revisa los avisos de Meta Business</strong> y lee los cambios de condiciones cuando lleguen, sobre todo lo que se acepta «por seguir usando» el servicio.</li>\n<li><strong>Repasa tu archivo robots.txt</strong>, el que indica a los robots qué pueden rastrear en tu web. Decide qué quieres abrir y qué no.</li>\n<li><strong>Revisa los anuncios hechos con IA</strong>: comprueba textos e imágenes antes de publicarlos, porque la responsabilidad puede acabar siendo tuya.</li>\n<li><strong>Guarda copia de las condiciones</strong> que aceptas hoy, por si cambian.</li>\n<li><strong>Consulta a tu asesor</strong> si tu web tiene contenido propio de valor, como fichas de producto o artículos.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "PPC Land: Meta halts its Nov 20 terms that would let it crawl business websites",
+     "url": "https://ppc.land/meta-halts-its-nov-20-terms-that-would-let-it-crawl-business-websites/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Persona trabajando con un portátil",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-09-sistemas",
+   "slug": "brecha-dreamhost-ftp-webmail-que-hacer-si-tu-web-esta-en-un-hosting",
+   "title": "DreamHost confirma un robo de contraseñas FTP y sesiones de webmail que duró meses: qué revisar en tu hosting",
+   "category": "Sistemas",
+   "date": "2026-11-09T08:15:00",
+   "excerpt": "Atacantes entraron por el gestor de archivos web de DreamHost y se llevaron accesos FTP y de correo. Aunque no seas cliente, el caso sirve para revisar cómo proteges tu web y tu correo en cualquier proveedor.",
+   "metaTitle": "Brecha en DreamHost: qué revisar en tu hosting",
+   "metaDescription": "DreamHost sufrió una brecha desde agosto que expuso contraseñas FTP/SFTP y sesiones de webmail. Qué pasó y qué revisar en tu web y tu correo en cualquier hosting.",
+   "tags": "servidores, páginas web, contraseñas, copias de seguridad, nube",
+   "html": "<p>El proveedor de alojamiento web <strong>DreamHost</strong> ha confirmado que unos atacantes accedieron durante meses a datos de sus clientes. Entraron por el <strong>gestor de archivos web</strong> de la empresa, la herramienta para subir y editar archivos de una web desde el navegador. Desde ahí obtuvieron usuarios y contraseñas FTP y SFTP (los accesos para subir archivos al servidor) y, en algunos casos, credenciales y sesiones de correo web.</p>\n<p>Según eSecurityPlanet, el acceso pudo empezar hacia agosto de 2026. DreamHost lo detectó el 23 de octubre y lo hizo público el 29.</p>\n<h2>Qué se sabe</h2>\n<ul>\n<li>El fallo estaba en un software de terceros que usaba el gestor de archivos. DreamHost no ha dicho cuál.</li>\n<li>Quedaron expuestas las contraseñas FTP/SFTP de quienes usaron esa herramienta en esos meses.</li>\n<li>En un número «limitado» de cuentas de correo web, los atacantes se llevaron credenciales o datos de sesión. DreamHost cree que en algunos casos pudieron leer los buzones.</li>\n<li>La empresa calcula que afecta a bastante menos del 10 % de las cuentas de correo y FTP, pero no da una cifra exacta.</li>\n<li>No ha encontrado indicios de acceso al panel de control ni a los datos de facturación.</li>\n</ul>\n<p>DreamHost ha desactivado y reconstruido el gestor de archivos, ha cambiado las contraseñas afectadas y ha cerrado las sesiones abiertas. También avisa de que circulan correos falsos que imitan sus notificaciones de seguridad.</p>\n<h2>Por qué importa aunque no seas cliente</h2>\n<p>Con una contraseña FTP, un atacante puede cambiar los archivos de tu web: meter malware, páginas de phishing o enlaces de spam. Con el correo, puede leer facturas y conversaciones con clientes y preparar estafas muy creíbles, como el famoso cambio de número de cuenta bancaria.</p>\n<p>Además, no es un caso aislado. A finales de octubre, la plataforma en la nube Northflank pidió a sus clientes que dieran por robadas todas las claves guardadas en sus variables de entorno, y algunos vieron cómo usaban sus claves de servicios de IA sin permiso. La lección es la misma: lo que guardas en un proveedor también depende de su seguridad.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Cambia las contraseñas FTP/SFTP y de correo</strong> de tu hosting si hace tiempo que no lo haces, y no las repitas en otros servicios.</li>\n<li><strong>Activa el doble factor</strong> en el panel del hosting y en el correo siempre que se pueda.</li>\n<li><strong>Revisa usuarios y reglas</strong>: cuentas FTP que no reconozcas, claves SSH nuevas y reglas de reenvío en el correo que no hayas creado.</li>\n<li><strong>Cambia también las claves internas</strong>: la contraseña de la base de datos de tu web y las claves de API que estén guardadas en archivos del servidor.</li>\n<li><strong>Comprueba tu web</strong> comparándola con una copia de seguridad fiable, y asegúrate de que sabes restaurarla.</li>\n<li><strong>Entra siempre al panel escribiendo la dirección</strong>, nunca desde un enlace de un correo que diga ser de tu proveedor.</li>\n</ol>\n<p>Si no tienes claro cómo está montado tu hosting o tu correo, en Javertix podemos hacer la revisión contigo.</p>",
+   "sources": [
+    {
+     "title": "eSecurityPlanet: DreamHost Breach Exposes FTP/SFTP and Webmail Credentials",
+     "url": "https://www.esecurityplanet.com/news/news-dreamhost-breach-ftp-sftp-webmail-credentials/"
+    },
+    {
+     "title": "TechRadar: DreamHost admits major cyberattack saw hackers steal customer data and access inboxes",
+     "url": "https://www.techradar.com/pro/security/dreamhost-admits-major-cyberattack-saw-hackers-steal-customer-data-and-access-inboxes"
+    },
+    {
+     "title": "Resultsense: Northflank breach joins run of attacks on AI dev platforms",
+     "url": "https://www.resultsense.com/news/2026-11-02-ai-developer-platforms-breaches-northflank-wiz/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1762163516269-3c143e04175c?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Servidores con luces encendidas en un rack",
+   "imageCredit": "Foto: Unsplash"
+  },
+  {
+   "id": "2026-11-09-automatizacion",
+   "slug": "copilot-chat-gratis-limites-uso-microsoft-365-empresas",
+   "title": "Copilot Chat gratuito ya tiene límites de uso en Microsoft 365: qué cambia para tu empresa",
+   "category": "Automatización",
+   "date": "2026-11-09T08:10:00",
+   "excerpt": "Desde el 2 de noviembre, Microsoft limita algunas funciones de Copilot Chat en las empresas que no pagan la licencia de Microsoft 365 Copilot. No publica las cifras y los administradores no pueden cambiarlas.",
+   "metaTitle": "Copilot Chat gratis ya tiene límites de uso en empresas",
+   "metaDescription": "Microsoft limita Copilot Chat a quien no paga Microsoft 365 Copilot desde el 2 de noviembre en empresas de hasta 2.000 puestos. Qué cambia y cómo organizarse.",
+   "tags": "Copilot, microsoft 365, inteligencia artificial, productividad, pymes",
+   "html": "<p>Si en tu empresa usáis <strong>Copilot Chat</strong>, el asistente de inteligencia artificial que viene incluido en Microsoft 365, puede que pronto alguien vea un aviso de que ha llegado al límite. Microsoft ha empezado a aplicar «límites de uso razonable» a los usuarios que no tienen la licencia de pago <strong>Microsoft 365 Copilot</strong>.</p>\n<p>El cambio empezó el <strong>2 de noviembre</strong> en las organizaciones de hasta 2.000 puestos de Microsoft 365, es decir, casi todas las pymes. En las más grandes arranca hoy, 9 de noviembre. Lo ha comunicado Microsoft a sus socios y en el centro de mensajes de los administradores.</p>\n<h2>Qué ha cambiado</h2>\n<p>Copilot Chat sigue incluido en las suscripciones de Microsoft 365 para empresas. Sin la licencia de pago, puede trabajar con información de internet y con los archivos que le subas. Lo que no hace es consultar tu correo, tus reuniones o tus documentos de trabajo: eso es lo que añade la licencia.</p>\n<p>Ahora, además, algunas funciones tienen tope. Microsoft pone como ejemplo la <strong>generación de imágenes</strong> y dice que hay otras funciones limitadas, pero no detalla cuáles.</p>\n<h2>Cómo funcionan los límites</h2>\n<ul>\n<li><strong>No hay cifras públicas.</strong> Microsoft dice que no las publica porque pueden cambiar, y que pueden variar a lo largo del día.</li>\n<li><strong>El administrador no puede tocarlos.</strong> Ni verlos ni ampliarlos.</li>\n<li><strong>Lo que estaba en marcha no se corta.</strong> Si llegas al límite a mitad de una respuesta, termina.</li>\n<li><strong>Aviso con hora.</strong> Al llegar al tope, el usuario ve un mensaje que indica cuándo podrá volver a usar esa función.</li>\n<li><strong>Botón para pedir más.</strong> En la mayoría de empresas el aviso incluye la opción de solicitar una licencia al administrador y, si la empresa lo permite, incluso de comprarla directamente.</li>\n</ul>\n<h2>Por qué importa</h2>\n<p>Microsoft presenta el límite como una señal de que el usuario «podría estar interesado» en más funciones de Copilot. El medio británico The Register lo interpreta como una forma de empujar hacia la licencia de pago: los empleados topan con el límite y presionan para conseguirla.</p>\n<p>Para una pyme, el riesgo práctico es doble. Por un lado, si habéis montado procesos que dependen de Copilot Chat, pueden fallar sin aviso previo en el peor momento. Por otro, si las compras directas están activas, un empleado podría contratar una licencia sin pasar por quien lleva las cuentas.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Avisa al equipo</strong> de que pueden aparecer estos mensajes y de que es normal. Así no lo confundirán con una avería.</li>\n<li><strong>Revisa las compras directas.</strong> En el centro de administración de Microsoft 365 puedes desactivar que los usuarios compren licencias por su cuenta, producto a producto.</li>\n<li><strong>Decide quién aprueba</strong> las solicitudes de licencia y con qué criterio. Llegan al centro de administración y se pueden aceptar o rechazar.</li>\n<li><strong>No hagas depender tareas críticas</strong> de una herramienta con límites que no conoces. Ten un plan B.</li>\n<li><strong>Calcula si te compensa</strong> la licencia solo para quien la use a diario y le saque partido con el correo y los documentos. Para el resto, la versión incluida puede bastar.</li>\n</ol>\n<p>Si necesitas ayuda para revisar la configuración de tu Microsoft 365, en Javertix te echamos una mano.</p>",
+   "sources": [
+    {
+     "title": "Microsoft Partner Center: November 2026 announcements",
+     "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-november"
+    },
+    {
+     "title": "The Register: Copilot Chat has usage caps, and Microsoft would rather you found them by hitting them",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/05/copilot-chat-has-usage-caps-and-microsoft-would-rather-you-found-them-by-hitting-them/5307814"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1773332611612-ffdaa753afb1?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Hombre trabajando en una mesa con un portátil y un móvil",
+   "imageCredit": "Foto: Microsoft Copilot en Unsplash"
+  },
+  {
+   "id": "2026-11-09-apps",
+   "slug": "apple-watch-siri-recap-live-rewind-watchos-27-3-privacidad-trabajo",
+   "title": "El Apple Watch ya resume tus conversaciones: qué son Siri Recap y Live Rewind y qué suponen en la oficina",
+   "category": "Apps",
+   "date": "2026-11-09T08:05:00",
+   "excerpt": "La beta de watchOS 27.3 estrena dos funciones que escuchan lo que se habla alrededor y lo convierten en texto. Repasamos cómo funcionan, qué promete Apple sobre la privacidad y qué conviene pensar si se usan en una oficina.",
+   "metaTitle": "Siri Recap y Live Rewind: el Apple Watch que escucha",
+   "metaDescription": "watchOS 27.3 beta trae Siri Recap y Live Rewind, que resumen y transcriben conversaciones en el Apple Watch. Cómo funcionan y qué implica en reuniones de trabajo.",
+   "tags": "apple, privacidad, inteligencia artificial, actualizaciones, empresas",
+   "html": "<p>Apple ha publicado la primera beta de <strong>watchOS 27.3</strong>, el sistema del Apple Watch, con dos funciones nuevas que dan que hablar: <strong>Siri Recap</strong> y <strong>Live Rewind</strong>. Las dos usan el micrófono del reloj para entender lo que se dice a tu alrededor. La beta salió el 3 de noviembre para desarrolladores y, según MacRumors, la versión final podría llegar en diciembre junto con iOS 27.3.</p>\n<p>De momento solo funcionan en inglés y en los modelos más nuevos. Pero conviene conocerlas ya, porque plantean preguntas en cualquier entorno de trabajo.</p>\n<h2>Qué hacen estas funciones</h2>\n<ul>\n<li><strong>Live Rewind</strong> muestra en la pantalla el texto de los últimos 15 segundos de conversación. Se activa pulsando dos veces la corona digital. Sirve para recuperar algo que no has oído bien sin pedir que te lo repitan.</li>\n<li><strong>Siri Recap</strong> funciona en segundo plano. Escucha las conversaciones del día y genera resúmenes con un título y los puntos principales. No guarda transcripciones completas y los resúmenes se borran a los siete días, salvo que decidas guardarlos. Se consultan en la app de Siri del iPhone.</li>\n</ul>\n<p>Siri Recap se puede programar por horario, por lugar o por ambos (por ejemplo, solo en horas de oficina) o activarse a mano desde el centro de control del reloj.</p>\n<h2>Requisitos</h2>\n<p>Hace falta un <strong>Apple Watch Series 12 o Ultra 4</strong>, que llevan el chip S11, y un iPhone 16 o posterior con Apple Intelligence. Al lanzarse estará solo en inglés. Ni MacRumors ni 9to5Mac aclaran cuándo llegará al español o a Europa.</p>\n<h2>Qué promete Apple sobre la privacidad</h2>\n<p>Los datos que siguen son lo que dice Apple, no una auditoría independiente. Según la compañía, las funciones son opcionales y <strong>no crean ni guardan grabaciones de audio</strong>. El sonido se procesa en una zona aislada del chip y se borra al momento. Los resúmenes van cifrados de extremo a extremo y se generan en Private Cloud Compute, los servidores de Apple pensados para la IA privada. Tampoco identifican quién habla y filtran datos sensibles, como información financiera o números de identificación.</p>\n<p>Para avisar a los demás, el reloj muestra un indicador de micrófono activo. Además, Live Rewind hace sonar un aviso cada vez que se usa, aunque el reloj esté en silencio.</p>\n<h2>Por qué importa en un negocio</h2>\n<p>Aunque no se guarde el audio, sí queda un resumen escrito de lo que se habló. En una reunión con un cliente, una entrevista de trabajo o una conversación con un proveedor, eso puede ser un problema si la otra persona no lo sabe. Y la gente que está cerca no tiene forma de impedirlo, más allá de ver el indicador.</p>\n<p>No es solo cosa de Apple: cada vez más dispositivos y apps ofrecen tomar notas automáticas de reuniones. Lo sensato es tener una norma clara antes de que aparezcan en la oficina.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Decide una norma interna</strong> sobre relojes, gafas y apps que transcriben o resumen conversaciones: cuándo se permiten y cuándo no.</li>\n<li><strong>Avisa siempre</strong> a clientes y compañeros si alguien va a usar una herramienta que toma notas automáticas.</li>\n<li><strong>Prohíbelas en conversaciones sensibles</strong>: datos de salud, nóminas, procesos de selección o temas legales.</li>\n<li><strong>Si tienes uno de estos relojes</strong>, programa Siri Recap solo en los momentos que quieras y revisa y borra los resúmenes que no necesites.</li>\n<li><strong>Consulta a tu asesor</strong> si tienes dudas sobre protección de datos en tu caso concreto.</li>\n</ol>",
+   "sources": [
+    {
+     "title": "MacRumors: watchOS 27.3 Brings Live Rewind and Siri Recap to Apple Watch",
+     "url": "https://www.macrumors.com/2026/11/03/watchos-27-3-audio-intelligence/"
+    },
+    {
+     "title": "9to5Mac: watchOS 27.3 beta adds new Siri Recap and Live Rewind features for Apple Watch",
+     "url": "https://9to5mac.com/2026/11/03/watchos-27-3-beta-adds-new-siri-recap-and-live-rewind-features-for-apple-watch/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1631729171446-b7868592cc08?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Primer plano de una muñeca con un Apple Watch",
+   "imageCredit": "Foto: Taylor Beach en Unsplash"
+  },
+  {
+   "id": "2026-11-09-ciberseguridad",
+   "slug": "fallo-paint-windows-11-cve-2026-83844-actualizar-desde-microsoft-store",
+   "title": "Un fallo en Paint permite ejecutar código en Windows 11 y el parche no llega por Windows Update",
+   "category": "Ciberseguridad",
+   "date": "2026-11-09T08:00:00",
+   "excerpt": "Microsoft ha corregido una vulnerabilidad grave en Paint, pero la versión segura solo se instala desde Microsoft Store. Te explicamos cómo comprobar si tus ordenadores están protegidos.",
+   "metaTitle": "Fallo en Paint de Windows 11: cómo instalar el parche",
+   "metaDescription": "La vulnerabilidad CVE-2026-83844 de Paint permite ejecutar código en Windows 11. El parche llega por Microsoft Store, no por Windows Update. Cómo comprobarlo.",
+   "tags": "vulnerabilidades, actualizaciones, windows, Microsoft, pymes",
+   "html": "<p>Paint, el programa de dibujo que viene con Windows 11, tiene una vulnerabilidad que podría permitir a un atacante ejecutar código en el ordenador. Microsoft la publicó el 13 de octubre con el identificador <strong>CVE-2026-83844</strong> y una puntuación de gravedad de 8,1 sobre 10. El problema es que la versión corregida no se instala con Windows Update, sino solo desde Microsoft Store, y durante semanas muchos administradores no han conseguido descargarla.</p>\n<p>Según The Hacker News y Techzine, a 6 de noviembre la versión segura ya aparecía en la tienda de la mayoría de países revisados. Pero eso no garantiza que tus equipos la tengan instalada.</p>\n<h2>Qué ha pasado</h2>\n<p>El fallo es una lectura fuera de los límites de memoria: Paint lee datos donde no debería al procesar ciertos contenidos. Microsoft indica que el ataque puede hacerse a través de la red, sin iniciar sesión y sin que el usuario tenga que hacer nada. Algunos medios hablan de una imagen manipulada como vía de entrada. Microsoft también reconoce que el ataque es complejo y exige conocer bien el sistema de la víctima.</p>\n<p>Por ahora no hay constancia de que se esté aprovechando en ataques reales: no figura en el catálogo de vulnerabilidades explotadas de CISA, la agencia de ciberseguridad de Estados Unidos.</p>\n<h2>Por qué el parche se ha atascado</h2>\n<p>Paint es una app de Microsoft Store. Por eso se actualiza como cualquier otra app de la tienda y no con los parches mensuales de Windows. Si en tu empresa solo vigiláis Windows Update, este fallo se os puede escapar.</p>\n<p>Además, ha habido confusión con el número de versión. El aviso de Microsoft indicaba al principio que la versión segura era la 11.2605.91.0, pero nadie la encontraba. Ahora el aviso señala la <strong>11.2609.401.0</strong>, sin explicar el cambio. Un investigador de la empresa RFF comprobó que en varios países la tienda seguía ofreciendo la 11.2605.81.0, que no está corregida. Y aunque la tienda diga que Paint está «actualizado», puede no estarlo.</p>\n<h2>A quién afecta</h2>\n<p>A cualquier ordenador con Windows 11 que tenga Paint instalado, que es lo normal porque viene de serie. Hay un detalle importante para oficinas con varios usuarios: Paint se instala <em>por cada cuenta de usuario</em>, y Windows guarda además una copia para las cuentas nuevas. Puede que una cuenta esté al día y otra no.</p>\n<h2>Qué hacer</h2>\n<ol>\n<li><strong>Comprueba la versión.</strong> Abre PowerShell y ejecuta <code>Get-AppxPackage Microsoft.Paint | Select-Object Name, Version</code>. Tiene que salir la 11.2609.401.0 o una posterior.</li>\n<li><strong>Revisa todas las cuentas.</strong> Como administrador, <code>Get-AppxPackage -AllUsers</code> muestra Paint en cada usuario y <code>Get-AppxProvisionedPackage -Online</code> muestra la copia para usuarios nuevos.</li>\n<li><strong>Actualiza desde Microsoft Store.</strong> Entra en Biblioteca y pulsa «Obtener actualizaciones». Si gestionáis los equipos con Intune u otra herramienta similar, lanzad una búsqueda de actualizaciones de apps de la tienda.</li>\n<li><strong>Vuelve a comprobarlo</strong> después de actualizar. No te fíes solo del mensaje de la tienda.</li>\n<li><strong>Si nadie usa Paint</strong>, plantéate desinstalarlo en esos equipos.</li>\n<li><strong>Mientras tanto</strong>, desconfía de imágenes adjuntas de remitentes desconocidos y no las abras con Paint.</li>\n</ol>\n<p>Y una lección general: las apps de Microsoft Store también necesitan parches. Incluye la tienda en tu rutina de mantenimiento, igual que Windows Update. Si quieres que revisemos tus equipos, en Javertix podemos ayudarte.</p>",
+   "sources": [
+    {
+     "title": "The Hacker News: Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+     "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+    },
+    {
+     "title": "Techzine: Paint vulnerability allows RCE, patch is hard to find",
+     "url": "https://www.techzine.eu/news/security/145581/paint-vulnerability-allows-rce-patch-is-hard-to-find/"
+    }
+   ],
+   "image": "https://images.unsplash.com/photo-1754039984985-ef607d80113a?fm=jpg&q=80&w=1600&fit=max",
+   "imageAlt": "Varias pantallas de ordenador con líneas de código",
+   "imageCredit": "Foto: Unsplash"
+  },
   {
    "id": "2026-11-08-actualidad",
    "slug": "nuevos-macbook-pro-tactil-m6-imac-ya-a-la-venta-espana-cual-elegir-empresa",

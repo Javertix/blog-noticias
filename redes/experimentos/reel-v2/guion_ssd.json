@@ -15,7 +15,7 @@
   },
   {
    "voz": "jota",
-   "texto": "Spoiler: te jubilas tú antes que él.",
+   "texto": "Espóiler: te jubilas tú antes que él.",
    "visual": {
     "tipo": "gancho",
     "titulo": "TE JUBILAS",
@@ -95,7 +95,7 @@
   },
   {
    "voz": "jota",
-   "texto": "Síguenos, que cada semana desmontamos un mito.",
+   "texto": "Dale a seguir: cada semana desmontamos un mito.",
    "visual": {
     "tipo": "cierre",
     "texto": "Un mito informático cada semana"

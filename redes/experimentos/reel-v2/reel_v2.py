@@ -31,7 +31,7 @@ def voz(texto, quien):
         if _K is None:
             from kokoro_onnx import Kokoro
             _K = Kokoro(str(AQ / "kokoro-v1.0.onnx"), str(AQ / "voices-v1.0.bin"))
-        a, sr = _K.create(texto, voice="ef_dora", speed=1.12, lang="es")
+        a, sr = _K.create(texto, voice="em_alex", speed=1.1, lang="es")
     a = np.asarray(a, np.float32)
     idx = np.where(np.abs(a) > 0.006)[0]
     a = a[max(0, idx[0] - 200): idx[-1] + 400]

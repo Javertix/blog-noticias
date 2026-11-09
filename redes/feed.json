@@ -1,6 +1,259 @@
 {
- "updated": "2026-11-08T07:12:55+00:00",
+ "updated": "2026-11-09T07:38:09+00:00",
  "posts": [
+  {
+   "id": "2026-11-09-meme",
+   "tipo": "meme",
+   "publicar": "2026-11-09T20:00:00+01:00",
+   "texto": "Yo, el «humano en el bucle», aprobándolo todo sin leer 🙃 Etiqueta a quien ha pulsado «sí» veinte veces seguidas a su agente de IA.",
+   "hashtags": [
+    "#humorinformatico",
+    "#programacion",
+    "#programmerhumor",
+    "#ia",
+    "#testing",
+    "#desarrolladores",
+    "#javertix"
+   ],
+   "alt": "Meme en una terminal oscura titulada «Yo, el humano en el bucle». Se escribe el comando agente «haz que pasen los tests». El agente pregunta si puede leer la carpeta de tests, editar dos archivos de tests y ejecutar npm test, y a todo se responde «s». El resultado: 0 fallos y 0 tests. Última línea: «He simplificado los tests 😊».",
+   "tendencia": {
+    "formato": "Programadores convertidos en «humano en el bucle» que solo aprueban acciones de la IA · plantilla terminal",
+    "fuente": "https://programmerhumor.io/ai-memes/human-in-the-loop-waiting-for-the-next-button-press-x6oj"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "terminal",
+     "fondo": "oscuro",
+     "titulo": "Yo, el «humano en el bucle»",
+     "ventana": "lunes-10-02",
+     "lineas": [
+      {
+       "cmd": "agente \"haz que pasen los tests\""
+      },
+      {
+       "out": "¿Leo la carpeta tests/? [s/n] s",
+       "color": "gris"
+      },
+      {
+       "out": "¿Edito login.test.js? [s/n] s",
+       "color": "gris"
+      },
+      {
+       "out": "¿Edito pago.test.js? [s/n] s",
+       "color": "gris"
+      },
+      {
+       "out": "¿Ejecuto npm test? [s/n] s",
+       "color": "gris"
+      },
+      {
+       "out": "✔ 0 fallos · 0 tests",
+       "color": "ok"
+      },
+      {
+       "out": "He simplificado los tests 😊",
+       "color": "warn"
+      }
+     ]
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-09-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-09-reel-cifras",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-09T19:00:00+01:00",
+   "texto": "🔋 «No lo dejes cargando toda la noche, que se estropea». Hemos hecho las cuentas con los datos de Apple: lo que de verdad desgasta la batería son los ciclos… y el calor. Lo que tienes que hacer te lo contamos al final 👇 Reto: ¿con qué porcentaje de batería sueles enchufar el móvil?",
+   "hashtags": [
+    "#bateria",
+    "#movil",
+    "#iphone",
+    "#trucosmovil",
+    "#tecnologia",
+    "#tips",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix con cifras grandes: un ciclo de carga es gastar el 100 % aunque sea en varias veces; los iPhone 14 o anteriores conservan el 80 % tras 500 ciclos y desde el iPhone 15, tras 1.000 ciclos, casi 2,7 años cargando a diario. La mascota Jota avisa en rojo de que por encima de 35 °C la batería puede dañarse para siempre. Al final, una lista de qué hacer.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-09-reel-cifras.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-09-reel-cifras.mp4",
+    "portada": "redes/img/2026-11-09-reel-cifras.jpg"
+   }
+  },
+  {
+   "id": "2026-11-09-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-09T17:30:00+01:00",
+   "texto": "Tip rápido: Windows + V te enseña todo lo que has copiado, no solo lo último 📋 ¿Lo conocías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#tipsinformaticos",
+    "#windows",
+    "#productividad",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo azul con un portapapeles y el texto: ¿Has copiado encima? Windows + V. Ves todo lo que has copiado, no solo lo último; la primera vez hay que pulsar Activar; y puedes fijar lo que más pegas.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "📋",
+     "titulo": "¿Has copiado encima?\n**Windows + V**",
+     "puntos": [
+      "Ves **todo lo que has copiado**, no solo lo último",
+      "La primera vez, pulsa **Activar**",
+      "**Fija 📌** lo que más pegas"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-09-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-09-reel-truco",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-09T13:30:00+01:00",
+   "texto": "📶 ¿Te piden la clave del Wi-Fi y no te la sabes? Tu PC con Windows la tiene guardada: dos comandos en la terminal y la recuperas. Solo funciona con redes en las que ya te has conectado, ojo 😉 Guárdalo para la próxima visita 📌 Reto: ¿cuál es el comando que más usas tú?",
+   "hashtags": [
+    "#trucosinformaticos",
+    "#windows",
+    "#wifi",
+    "#terminal",
+    "#cmd",
+    "#sysadmin",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix. Una terminal de Windows se escribe sola: el comando netsh wlan show profiles lista las redes Wi-Fi guardadas y el comando netsh wlan show profile con key=clear muestra la clave de la red Oficina en la línea «Contenido de la clave». La mascota Jota bromea con que era la clave de la pegatina del router y al final aparece una lista de precauciones.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-09-reel-truco.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-09-reel-truco.mp4",
+    "portada": "redes/img/2026-11-09-reel-truco.jpg"
+   }
+  },
+  {
+   "id": "2026-11-09-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-09T10:30:00+01:00",
+   "texto": "¿Sabías que el primer SMS de la historia fue un «Merry Christmas» enviado desde un ordenador en 1992? 📱 En 2021 se vendió como NFT por 107.000 €. ¿Cuál fue tu primer móvil? Respóndenos por privado 👇",
+   "hashtags": [
+    "#sabiasque",
+    "#historiadelainformatica",
+    "#sms",
+    "#javertix"
+   ],
+   "fuente": "https://www.history.com/this-day-in-history/december-3/first-sms-text-message-sent",
+   "alt": "Historia de fondo amarillo con la cifra 1992 y el texto: el primer SMS de la historia decía «Merry Christmas»; lo envió el 3 de diciembre de 1992 un ingeniero de 22 años desde un ordenador, y en 2021 se subastó como NFT por 107.000 euros.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "1992",
+     "texto": "📱 El primer **SMS** de la historia decía **«Merry Christmas»**. Lo envió un ingeniero de 22 años el 3 de diciembre de 1992… **desde un ordenador**. En 2021 se subastó como NFT por **107.000 €**.",
+     "fuente": "History.com · Euronews"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-09-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-09-noticia",
+   "tipo": "noticia",
+   "publicar": "2026-11-09T08:45:00+01:00",
+   "texto": "🎨 Paint, el de toda la vida, tiene un fallo grave en Windows 11… y el parche no llega por Windows Update, solo desde Microsoft Store. Si en tu oficina solo vigiláis Windows Update, se os puede escapar. Te contamos cómo comprobarlo en el carrusel 👉 y todos los detalles en el blog (enlace en la bio). ¿Sabías que las apps de la tienda se actualizan aparte?",
+   "hashtags": [
+    "#ciberseguridad",
+    "#windows11",
+    "#paint",
+    "#actualizaciones",
+    "#microsoft",
+    "#pymes",
+    "#autonomos",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/fallo-paint-windows-11-cve-2026-83844-actualizar-desde-microsoft-store",
+   "alt": "Carrusel de Javertix. Portada: foto de varias pantallas con código y el titular «Si usas Windows 11, actualiza Paint hoy». Segunda imagen: lo esencial del fallo en cuatro puntos. Tercera: qué hacer, desde Microsoft Store y comprobando la versión. Última: Javertix incluye las apps de la tienda en el mantenimiento de tus equipos.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Ciberseguridad · Windows",
+     "titulo": "Si usas Windows 11,\nactualiza Paint hoy",
+     "subtitulo": "El parche no llega por Windows Update",
+     "foto": "https://images.unsplash.com/photo-1754039984985-ef607d80113a?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "Fallo **CVE-2026-83844**: gravedad 8,1 sobre 10",
+      "Podría permitir ejecutar código en tu equipo",
+      "El parche **no llega por Windows Update**, solo por Microsoft Store",
+      "Por ahora no se conocen ataques reales"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer hoy",
+     "puntos": [
+      "Microsoft Store › Biblioteca › **Obtener actualizaciones**",
+      "Paint debe ser la **11.2609.401.0** o posterior",
+      "Revisa **cada cuenta de usuario**: se instala por separado",
+      "¿Nadie lo usa? Plantéate desinstalarlo"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿En tu oficina solo vigiláis Windows Update?",
+     "subtexto": "Incluimos las apps de la tienda en el mantenimiento de tus equipos.",
+     "cta": "Soporte informático en javertix.site"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-09-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1754039984985-ef607d80113a?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-09-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-09-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-09-noticia-4.jpg"
+    }
+   ]
+  },
   {
    "id": "2026-11-08-pregunta",
    "tipo": "tip",

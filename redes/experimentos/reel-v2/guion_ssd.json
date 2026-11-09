@@ -1,0 +1,105 @@
+{
+ "etiqueta": "MITO O VERDAD",
+ "fuente": "Samsung 990 EVO Plus 1 TB · ficha técnica (600 TBW)",
+ "escenas": [
+  {
+   "voz": "dora",
+   "texto": "¿Tu SSD se gasta si lo usas mucho?",
+   "visual": {
+    "tipo": "gancho",
+    "titulo": "¿TU SSD SE",
+    "destacar": "GASTA?",
+    "emoji": "ssd",
+    "sello": "¿MITO?"
+   }
+  },
+  {
+   "voz": "jota",
+   "texto": "Spoiler: te jubilas tú antes que él.",
+   "visual": {
+    "tipo": "gancho",
+    "titulo": "TE JUBILAS",
+    "destacar": "TÚ ANTES",
+    "emoji": "1f9d3"
+   }
+  },
+  {
+   "voz": "dora",
+   "texto": "Un SSD de un terabyte aguanta unos seiscientos terabytes escritos.",
+   "visual": {
+    "tipo": "cifra",
+    "antes": "Un SSD de <b>1 TB</b> aguanta…",
+    "hasta": 600,
+    "unidad": "TB",
+    "pie": "escritos, según el fabricante",
+    "emoji": "ssd"
+   }
+  },
+  {
+   "voz": "dora",
+   "texto": "Si escribes treinta gigas cada día, que ya es mucho, te dura…",
+   "visual": {
+    "tipo": "barra",
+    "antes": "Escribiendo <b>30 GB al día</b>",
+    "hasta": 55,
+    "unidad": "AÑOS",
+    "pie": "de vida útil",
+    "emoji": "1f474",
+    "oculto": true
+   }
+  },
+  {
+   "voz": "dora",
+   "texto": "¡Cincuenta y cinco años!",
+   "pausa": 0.2,
+   "visual": {
+    "tipo": "barra",
+    "antes": "Escribiendo <b>30 GB al día</b>",
+    "hasta": 55,
+    "unidad": "AÑOS",
+    "pie": "de vida útil",
+    "emoji": "1f474",
+    "ding": true,
+    "sigue": true
+   }
+  },
+  {
+   "voz": "dora",
+   "texto": "Pero ojo: puede morir de golpe, sin avisar.",
+   "visual": {
+    "tipo": "alerta",
+    "titulo": "PUEDE MORIR",
+    "destacar": "SIN AVISAR",
+    "emoji": "1f480"
+   }
+  },
+  {
+   "voz": "dora",
+   "texto": "Mira su salud con CrystalDiskInfo y haz copias de seguridad.",
+   "visual": {
+    "tipo": "lista",
+    "titulo": "QUÉ HACER",
+    "puntos": [
+     {
+      "e": "1fa7a",
+      "t": "Mira su salud",
+      "s": "CrystalDiskInfo o smartctl"
+     },
+     {
+      "e": "2601",
+      "t": "Copias de seguridad",
+      "s": "regla 3-2-1"
+     }
+    ]
+   }
+  },
+  {
+   "voz": "jota",
+   "texto": "Síguenos, que cada semana desmontamos un mito.",
+   "visual": {
+    "tipo": "cierre",
+    "texto": "Un mito informático cada semana"
+   }
+  }
+ ]
+}

@@ -21,7 +21,7 @@ PLANTILLAS = AQUI / "plantillas"
 FEED = AQUI / "feed.json"
 DIAS_GUARDADOS = 21
 
-TIPOS = {"meme", "noticia", "dato", "tip", "presentacion"}
+TIPOS = {"meme", "noticia", "dato", "tip", "presentacion", "servicio"}
 FORMATOS = {"post", "historia", "reel", "explicado"}
 PLANTILLAS_VALIDAS = {
     "comparacion", "nadie-yo", "chat", "post", "expectativa", "escala", "clasico",   # memes
@@ -279,7 +279,7 @@ def check(p):
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}-[a-z0-9]+(-[a-z0-9]+)*", p["id"]):
         errs.append("id no válido (AAAA-MM-DD-algo)")
     if p["tipo"] not in TIPOS:
-        errs.append("tipo no válido (meme, noticia o dato)")
+        errs.append("tipo no válido (meme, noticia, dato, tip, servicio o presentacion)")
     try:
         cuando = dt.datetime.fromisoformat(p["publicar"])
         if cuando.tzinfo is None:

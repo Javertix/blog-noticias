@@ -1,6 +1,6 @@
 # Noticias automáticas del blog de Javertix
 
-Cada mañana una tarea programada de Claude escribe 5 artículos (ciberseguridad, apps, automatización,
+Cada mañana una tarea programada de Claude escribe entre 2 y 4 artículos útiles para pymes (ciberseguridad, apps, automatización,
 sistemas y actualidad) y los añade a `feed.json`. La web **javertix.site** lee este archivo cada 15 minutos
 y publica sola los artículos nuevos en el blog, con su foto, su SEO y las fuentes.
 

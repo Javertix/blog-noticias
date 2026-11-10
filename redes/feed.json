@@ -1,6 +1,149 @@
 {
- "updated": "2026-11-09T07:38:09+00:00",
+ "updated": "2026-11-10T07:07:54+00:00",
  "posts": [
+  {
+   "id": "2026-11-10-reel-datazo",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-10T19:00:00+01:00",
+   "texto": "🦋 El 9 de septiembre de 1947, un ordenador de Harvard dejó de funcionar… y el culpable tenía alas. La historia del «primer bug de verdad», con giro final incluido. Reto: ¿cuál es el bug más raro que te has encontrado? 👇",
+   "hashtags": [
+    "#datazoit",
+    "#historiadelainformatica",
+    "#bug",
+    "#programacion",
+    "#curiosidades",
+    "#ingenieria",
+    "#javertix"
+   ],
+   "alt": "Vídeo narrado con escenas de emojis: en 1947 el ordenador Mark II de Harvard falla; el 9 de septiembre a las 15:45 los ingenieros encuentran una polilla atascada en un relé, la pegan en el cuaderno de registro y escriben «primer caso real de bug encontrado». Giro de la mascota Jota: la palabra ya la usaba Edison en los años 1870. Hoy el cuaderno está en el Smithsonian.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-10-reel-datazo.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-10-reel-datazo.mp4",
+    "portada": "redes/img/2026-11-10-reel-datazo.jpg"
+   }
+  },
+  {
+   "id": "2026-11-10-meme",
+   "tipo": "meme",
+   "formato": "historia",
+   "publicar": "2026-11-10T17:30:00+01:00",
+   "texto": "La «reunión rápida» de las 10:00, compilada 😅 Etiqueta a quien siempre tiene «una cosita».",
+   "hashtags": [
+    "#humorinformatico",
+    "#programacion",
+    "#reuniones",
+    "#javertix"
+   ],
+   "alt": "Meme en forma de código JavaScript sobre fondo oscuro, archivo reunion_rapida.js: la duración empieza en 5 minutos y, mientras la reunión sigue abierta, cada vez que alguien dice «una cosita» suma 20 minutos. Al final: duración 85 minutos, decisiones 0, y la última línea agenda una reunión de seguimiento.",
+   "tendencia": {
+    "formato": "Código (remate en la última línea) · tema de la semana: reuniones eternas y lo que cuestan",
+    "fuente": "https://thecodinglove.com/"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "codigo",
+     "fondo": "oscuro",
+     "titulo": "Mi «reunión rápida» 🙃",
+     "archivo": "reunion_rapida.js",
+     "codigo": "let duracion = 5; // minutos\n\nwhile (reunion.abierta) {\n  if (alguien.dice(\"una cosita\")) {\n    duracion += 20;\n  }\n}\n\n// duracion: 85\n// decisiones: 0\nagendar(\"reunión de seguimiento\");"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-10-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-10-reel-pyme",
+   "tipo": "servicio",
+   "formato": "reel",
+   "publicar": "2026-11-10T13:30:00+01:00",
+   "texto": "🐌 Si el ordenador de tu negocio tarda cinco minutos en encender, pierdes más de 18 horas al año por equipo. Y muchas veces no hace falta comprar uno nuevo. ¿Cuánto tarda el tuyo? Cuéntanoslo en comentarios 👇 Pide presupuesto sin compromiso en javertix.site (enlace en la bio).",
+   "hashtags": [
+    "#pymes",
+    "#autonomos",
+    "#ordenadorlento",
+    "#mantenimientoinformatico",
+    "#ssd",
+    "#soporteinformatico",
+    "#madrid",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: un ordenador que tarda 5 minutos en encender hace perder más de 18 horas al año (5 minutos × 220 días laborables); con 5 ordenadores, más de 91 horas. La mascota Jota bromea con una pausa para el café obligatoria. Aviso: muchas veces no hace falta comprar uno nuevo. Lista de soluciones: disco SSD, limpiar el arranque y mantenimiento. Cierre: pide presupuesto en javertix.site.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-10-reel-pyme.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-10-reel-pyme.mp4",
+    "portada": "redes/img/2026-11-10-reel-pyme.jpg"
+   }
+  },
+  {
+   "id": "2026-11-10-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-10T10:30:00+01:00",
+   "texto": "¿Sabías que Ctrl + Alt + Supr se inventó para el primer PC de IBM y su autor tardó unos minutos en programarlo? ⌨️ ¿Cuántas veces lo has pulsado hoy? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#historiadelainformatica",
+    "#windows",
+    "#javertix"
+   ],
+   "alt": "Historia amarilla de Javertix con la cifra 1981: Ctrl + Alt + Supr lo inventó David Bradley, programador de IBM, para reiniciar el primer PC sin esperar a las pruebas de memoria. Tardó unos 5-10 minutos en programarlo.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "1981",
+     "texto": "⌨️ **Ctrl + Alt + Supr** lo inventó David Bradley, de IBM, para el primer PC: reiniciar sin esperar a las pruebas de memoria. Programarlo le llevó **5 o 10 minutos**.",
+     "fuente": "Mental Floss · The History of Ctrl+Alt+Delete"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-10-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-10-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-10T09:00:00+01:00",
+   "texto": "🚀 El ordenador que llevó al hombre a la Luna tenía unos 4 KB de memoria de trabajo. Tu móvil tiene unas dos millones de veces más… y lo usamos para ver vídeos de gatos 🐱 Reto: ¿cuántos GB de RAM tiene tu móvil? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#apolo11",
+    "#historiadelainformatica",
+    "#nasa",
+    "#tecnologia",
+    "#programacion",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: el ordenador del Apolo 11 (1969) tenía unos 4 KB de memoria de trabajo; un móvil de 8 GB tiene unos 2 millones de veces más. La mascota Jota bromea con los vídeos de gatos. El programa iba en 72 KB de memoria fija tejida a mano con hilo de cobre. Cierre: un dato curioso cada día.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-10-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-10-reel-dato.mp4",
+    "portada": "redes/img/2026-11-10-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-09-meme",
    "tipo": "meme",

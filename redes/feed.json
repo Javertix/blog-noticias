@@ -1,6 +1,220 @@
 {
- "updated": "2026-11-10T07:07:54+00:00",
+ "updated": "2026-11-11T07:02:02+00:00",
  "posts": [
+  {
+   "id": "2026-11-11-noticia",
+   "tipo": "noticia",
+   "formato": "post",
+   "publicar": "2026-11-11T20:00:00+01:00",
+   "texto": "🧾 ¿Dabas Verifactu por aplazado hasta 2028? Hacienda lo anunció en octubre, pero el cambio todavía no está en el BOE: hoy siguen valiendo el 1 de enero de 2027 para sociedades y el 1 de julio de 2027 para autónomos. Te contamos qué hacer en el carrusel 👉 y el artículo completo, en el blog (enlace en la bio). ¿Tu programa de facturación ya está adaptado?",
+   "hashtags": [
+    "#verifactu",
+    "#facturacion",
+    "#autonomos",
+    "#pymes",
+    "#hacienda",
+    "#facturaelectronica",
+    "#softwaredegestion",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/verifactu-aplazamiento-2028-sin-boe-fechas-2027-siguen-vigentes-que-hacer",
+   "alt": "Carrusel de Javertix. Portada: foto de unas manos escribiendo en un portátil con una hoja de cálculo y el titular «Verifactu: el retraso a 2028 no es oficial». Segunda imagen: lo esencial en tres puntos, con las fechas de 2027 que siguen vigentes y la sanción de hasta 50.000 euros. Tercera: qué hacer. Última: Javertix revisa qué le falta a tu programa de facturación.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Actualidad · Facturación",
+     "titulo": "Verifactu: el retraso\na 2028 no es oficial",
+     "subtitulo": "Las fechas de 2027 siguen vigentes",
+     "foto": "https://images.unsplash.com/photo-1783115259399-3a5a3e0e4592?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "Hacienda anunció el retraso a **octubre de 2028**, pero a 5 de noviembre no estaba en el BOE",
+      "Siguen valiendo: **1 de enero de 2027** (sociedades) y **1 de julio de 2027** (autónomos)",
+      "Programa no adaptado cuando sea obligatorio: hasta **50.000 €** por ejercicio"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer",
+     "puntos": [
+      "Pregunta a tu proveedor si su programa ya está preparado",
+      "¿Sociedad? Plan B para enero: programa elegido y pruebas hechas",
+      "Revisa el BOE a primeros de diciembre o pídeselo a tu gestoría",
+      "¿Programa a medida, tienda online o TPV? Habla ya con quien lo mantiene"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Tu facturación sale de un programa a medida?",
+     "subtexto": "Revisamos qué le falta para cumplir con Verifactu.",
+     "cta": "Software de gestión en javertix.site"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-11-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1783115259399-3a5a3e0e4592?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-11-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-11-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-11-noticia-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-11-reel-estafa",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-11T19:00:00+01:00",
+   "texto": "📱 «Mamá, se me ha roto el móvil, este es mi número nuevo». Si te llega este mensaje, no es tu hijo: es una de las estafas más repetidas en España y acaba pidiéndote un Bizum urgente. Te contamos las señales y qué hacer. Mándaselo a tus padres 🙏 ¿Te ha llegado alguna vez? 👇",
+   "hashtags": [
+    "#esunaestafa",
+    "#ciberseguridad",
+    "#estafas",
+    "#fraude",
+    "#bizum",
+    "#incibe",
+    "#017",
+    "#seguridaddigital",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix sobre la estafa del hijo en apuros: llega el mensaje «Mamá, se me ha roto el móvil» desde un número nuevo; la mascota Jota avisa de que no es tu hijo. Primero piden escribir al número nuevo y después dinero urgente por Bizum. Señales: número desconocido, mucha prisa y mensajes sin tildes. Qué hacer: llamar a su número de siempre, hacer una pregunta que solo él sepa, bloquear y borrar. Si ya has pagado, llama al banco, guarda capturas y denuncia. El 017 de INCIBE ayuda gratis.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-11-reel-estafa.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-11-reel-estafa.mp4",
+    "portada": "redes/img/2026-11-11-reel-estafa.jpg"
+   }
+  },
+  {
+   "id": "2026-11-11-pregunta",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-11T17:30:00+01:00",
+   "texto": "Pregunta del miércoles: ¿qué error te ha costado más horas este año? 🐛 Respóndenos por privado 👇",
+   "hashtags": [
+    "#programacion",
+    "#informatica",
+    "#comunidad",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con la pregunta del miércoles: ¿qué error te ha costado más horas este año? Un punto y coma, un cable suelto, un permiso… Invita a responder por privado.",
+   "diapositivas": [
+    {
+     "plantilla": "texto",
+     "fondo": "suave",
+     "etiqueta": "Pregunta del miércoles 💬",
+     "titulo": "¿Qué **error** te ha costado más horas este año? 🐛",
+     "texto": "Un punto y coma, un cable suelto, un permiso… 👀\n\n**Respóndenos por privado** 👇"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-11-pregunta-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-11-reel-error",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-11T13:30:00+01:00",
+   "texto": "🔒 «Permission denied» al lanzar tu propio script. No has roto nada: al archivo le falta el permiso de ejecución, y se arregla con un comando. Eso sí, nunca con chmod 777. Guárdalo para la próxima 📌 Reto: ¿qué error quieres que resolvamos la semana que viene? 👇",
+   "hashtags": [
+    "#errordeldia",
+    "#linux",
+    "#terminal",
+    "#bash",
+    "#programacion",
+    "#desarrolladores",
+    "#devops",
+    "#chmod",
+    "#javertix"
+   ],
+   "alt": "Vídeo con una terminal que se escribe sola: al ejecutar ./run.sh aparece en rojo «Permission denied»; el comando stat muestra los permisos -rw-r--r--, sin la x de ejecutar; con chmod +x run.sh el script arranca. La mascota Jota avisa de que no se ha roto nada. Aviso en rojo: nunca usar chmod 777. Al final, una lista de qué revisar si sigue fallando: la carpeta, el dueño del archivo y los discos montados con noexec.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-11-reel-error.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-11-reel-error.mp4",
+    "portada": "redes/img/2026-11-11-reel-error.jpg"
+   }
+  },
+  {
+   "id": "2026-11-11-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-11T10:30:00+01:00",
+   "texto": "¿Sabías que el primer ratón de ordenador era de madera? 🖱️ Tenía dos ruedas y un solo botón. ¿Tú eres de ratón o de touchpad? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#historiadelainformatica",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo y la cifra 1964: el primer ratón de ordenador era de madera, con dos ruedas y un solo botón; lo construyó Bill English a partir de la idea de Douglas Engelbart.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "1964",
+     "texto": "🖱️ El primer **ratón** de ordenador era **de madera**, con dos ruedas y **un solo botón**. Lo construyó Bill English con la idea de Douglas Engelbart.",
+     "fuente": "Computer History Museum · SRI"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-11-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-11-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-11T09:00:00+01:00",
+   "texto": "🌊 Internet no va por satélite: más del 99 % del tráfico entre continentes viaja por cables tendidos en el fondo del mar. Hay más de 1,5 millones de kilómetros en servicio y cada cable es tan fino como una manguera de jardín. Reto: ¿por dónde creías tú que viajaban tus wasaps? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#internet",
+    "#cablessubmarinos",
+    "#tecnologia",
+    "#informatica",
+    "#sabiasque",
+    "#curiosidades",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: internet no va por satélite, más del 99 % del tráfico entre continentes viaja por cables submarinos; todos los cables en servicio suman más de 1,5 millones de kilómetros, casi dos viajes de ida y vuelta a la Luna, y cada uno es tan fino como una manguera de jardín. Aviso en rojo: sufren unas 200 averías al año, sobre todo por anclas y redes de pesca. Cierre con la mascota Jota: un dato curioso cada día.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-11-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-11-reel-dato.mp4",
+    "portada": "redes/img/2026-11-11-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-10-reel-datazo",
    "tipo": "dato",

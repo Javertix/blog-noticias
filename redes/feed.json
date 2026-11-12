@@ -1,6 +1,236 @@
 {
- "updated": "2026-11-11T07:02:02+00:00",
+ "updated": "2026-11-12T06:59:37+00:00",
  "posts": [
+  {
+   "id": "2026-11-12-chuleta",
+   "tipo": "tip",
+   "formato": "post",
+   "publicar": "2026-11-12T20:00:00+01:00",
+   "texto": "🔌 La chuleta de puertos que todo informático acaba buscando en mitad de una incidencia: web, acceso remoto, correo, red y bases de datos, en 3 pantallas. Guárdalo 📌 y pásaselo a quien siempre pregunta «¿el de MySQL cuál era?». ¿Cuál echas en falta? 👇",
+   "hashtags": [
+    "#chuleta",
+    "#puertos",
+    "#redes",
+    "#sysadmin",
+    "#informatica",
+    "#programacion",
+    "#ciberseguridad",
+    "#devops",
+    "#javertix"
+   ],
+   "alt": "Carrusel de Javertix: chuleta de 22 puertos. Web: 80 HTTP, 443 HTTPS, 8080 HTTP alternativo. Acceso remoto: 22 SSH y SFTP, 3389 RDP, 21 FTP, 23 Telnet. Correo: 25, 587 y 465 SMTP, 993 IMAP y 995 POP3 sobre TLS. Red: 53 DNS, 67 y 68 DHCP, 123 NTP. Bases de datos: 3306 MySQL y MariaDB, 5432 PostgreSQL, 1433 SQL Server, 1521 Oracle, 27017 MongoDB, 6379 Redis, 9200 Elasticsearch. Aviso: no abras a internet el 3389, el 3306 ni el 23; mejor VPN o túnel SSH.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Chuleta",
+     "emoji": "🔌",
+     "titulo": "**22 puertos** que todo informático debería saberse",
+     "texto": "Web, acceso remoto, correo, red y bases de datos. Guárdala 📌 y desliza →"
+    },
+    {
+     "plantilla": "codigo",
+     "titulo": "Web y acceso remoto",
+     "archivo": "puertos.txt",
+     "codigo": "# WEB\n80     HTTP\n443    HTTPS\n8080   HTTP alternativo (pruebas)\n\n# ACCESO REMOTO\n22     SSH / SFTP\n3389   RDP (Escritorio remoto)\n21     FTP (sin cifrar)\n23     Telnet (sin cifrar)"
+    },
+    {
+     "plantilla": "codigo",
+     "titulo": "Correo y red",
+     "archivo": "puertos.txt",
+     "codigo": "# CORREO\n25     SMTP (entre servidores)\n587    SMTP (envío, STARTTLS)\n465    SMTP sobre TLS\n993    IMAP sobre TLS\n995    POP3 sobre TLS\n\n# RED\n53     DNS\n67/68  DHCP\n123    NTP (la hora)"
+    },
+    {
+     "plantilla": "codigo",
+     "titulo": "Bases de datos",
+     "archivo": "puertos.txt",
+     "codigo": "# BASES DE DATOS\n3306   MySQL / MariaDB\n5432   PostgreSQL\n1433   SQL Server\n1521   Oracle\n27017  MongoDB\n6379   Redis\n9200   Elasticsearch"
+    },
+    {
+     "plantilla": "texto",
+     "fondo": "oscuro",
+     "etiqueta": "Ojo ⚠️",
+     "titulo": "No los abras a internet",
+     "texto": "El **3389**, el **3306** y el **23** son de lo primero que escanean los bots. Si necesitas entrar desde fuera, usa **VPN** o un **túnel SSH**."
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "azul",
+     "texto": "¿Cuál te sabías de memoria?",
+     "subtexto": "Guárdala 📌 y compártela con tu equipo."
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-12-chuleta-1.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-12-chuleta-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-12-chuleta-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-12-chuleta-4.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-12-chuleta-5.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-12-chuleta-6.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-12-reel-pyme",
+   "tipo": "servicio",
+   "formato": "reel",
+   "publicar": "2026-11-12T19:00:00+01:00",
+   "texto": "📅 Media hora al día contestando mensajes y apuntando citas a mano son 110 horas al año: casi 14 jornadas enteras. Y la cita que se pierde entre mensajes ya no vuelve. ¿Cómo gestionas las citas en tu negocio? Cuéntanoslo en comentarios 👇 Pide presupuesto sin compromiso en javertix.site (enlace en la bio).",
+   "hashtags": [
+    "#pymes",
+    "#autonomos",
+    "#citasonline",
+    "#reservasonline",
+    "#softwaredegestion",
+    "#digitalizacion",
+    "#negocios",
+    "#madrid",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/servicios",
+   "alt": "Vídeo animado de Javertix: gestionar las citas a mano por WhatsApp. Media hora al día, por 220 días laborables, son 110 horas al año. La mascota Jota calcula que son casi 14 jornadas enteras. Aviso: cita perdida, cliente perdido. Lista de soluciones: reservas online las 24 horas, recordatorios automáticos y una sola agenda para todo el equipo. Cierre: pide presupuesto en javertix.site.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-12-reel-pyme.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-12-reel-pyme.mp4",
+    "portada": "redes/img/2026-11-12-reel-pyme.jpg"
+   }
+  },
+  {
+   "id": "2026-11-12-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-12T17:30:00+01:00",
+   "texto": "Tip rápido: ¿has cerrado una pestaña sin querer? Ctrl + Mayús + T la devuelve 🗂️ ¿Lo conocías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#tipsinformaticos",
+    "#navegador",
+    "#productividad",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo azul con el texto: ¿Has cerrado una pestaña sin querer? Ctrl + Mayús + T. La reabre al instante, con su historial; si lo pulsas más veces recupera las anteriores, en orden; y en Mac es Cmd + Mayús + T.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "🗂️",
+     "titulo": "¿Pestaña cerrada?\n**Ctrl + Mayús + T**",
+     "puntos": [
+      "La **reabre al instante**, con su historial",
+      "Otra vez: vuelve **la anterior**",
+      "En Mac: **Cmd + Mayús + T**"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-12-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-12-reel-sysadmin",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-12T13:30:00+01:00",
+   "texto": "🧱 Activas el firewall del servidor y, al volver a conectar por SSH, «Connection timed out». Te has cerrado la puerta a ti mismo: con ufw, el orden importa. Primero permite SSH, luego actívalo y prueba desde otra ventana antes de cerrar la sesión. Guárdalo 📌 Reto: ¿te has quedado fuera de un servidor alguna vez? Cuéntalo 👇",
+   "hashtags": [
+    "#modosysadmin",
+    "#sysadmin",
+    "#linux",
+    "#ubuntu",
+    "#ufw",
+    "#firewall",
+    "#ssh",
+    "#devops",
+    "#servidores",
+    "#javertix"
+   ],
+   "alt": "Vídeo con una terminal que se escribe sola: tras sudo ufw enable, al conectar por SSH aparece en rojo «Connection timed out». La mascota Jota explica que te has cerrado la puerta: por defecto ufw bloquea todo lo que entra, también el puerto 22. El orden correcto: sudo ufw allow OpenSSH, luego sudo ufw enable y sudo ufw status. Aviso en rojo: no cierres tu sesión hasta probar que entras desde otra ventana. Lista final: permite SSH primero, prueba en otra ventana y ten a mano la consola de rescate del proveedor.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-12-reel-sysadmin.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-12-reel-sysadmin.mp4",
+    "portada": "redes/img/2026-11-12-reel-sysadmin.jpg"
+   }
+  },
+  {
+   "id": "2026-11-12-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-12T10:30:00+01:00",
+   "texto": "¿Sabías que la primera página web de la historia sigue abierta? 🌐 Se publicó en 1991 en el CERN y aún puedes visitarla. ¿Cuál fue la primera web que recuerdas? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#historiadeinternet",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo y la cifra 1991: la primera página web de la historia la publicó Tim Berners-Lee en el CERN el 6 de agosto de 1991 y sigue abierta en info.cern.ch.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "1991",
+     "texto": "🌐 La **primera página web** de la historia la publicó Tim Berners-Lee en el CERN el **6 de agosto de 1991**… y **sigue abierta**: info.cern.ch",
+     "fuente": "CERN · Guinness World Records"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-12-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-12-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-12T09:00:00+01:00",
+   "texto": "🚗 El código QR no nació para las cartas de los bares: lo inventó en 1994 un ingeniero japonés para seguir piezas de coche… y la idea le vino jugando al go. Caben más de 4.000 caracteres, frente a los 20 de un código de barras. Reto: ¿qué fue lo último que escaneaste con un QR? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#codigoqr",
+    "#sabiasque",
+    "#historiadelainformatica",
+    "#tecnologia",
+    "#informatica",
+    "#curiosidades",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: el código QR nació en 1994 en una fábrica japonesa de piezas de coche. En un código de barras caben unos 20 caracteres; el ingeniero Masahiro Hara se inspiró en el tablero del juego del go y en su código QR caben 4.296. La mascota Jota recuerda que no cobraron por la patente y que por eso hoy está hasta en la carta del bar.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-12-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-12-reel-dato.mp4",
+    "portada": "redes/img/2026-11-12-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-11-noticia",
    "tipo": "noticia",

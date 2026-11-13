@@ -1,6 +1,265 @@
 {
- "updated": "2026-11-12T06:59:37+00:00",
+ "updated": "2026-11-13T06:55:18+00:00",
  "posts": [
+  {
+   "id": "2026-11-13-meme",
+   "tipo": "meme",
+   "formato": "post",
+   "publicar": "2026-11-13T21:00:00+01:00",
+   "texto": "Viernes 13, 17:58, despliegue en producción. La mala suerte ha presentado coartada 🐈‍⬛ Etiqueta a quien desplegaría hoy «porque es un cambio pequeño».",
+   "hashtags": [
+    "#humorinformatico",
+    "#programacion",
+    "#viernes13",
+    "#programmerhumor",
+    "#devops",
+    "#desarrolladores",
+    "#javertix"
+   ],
+   "alt": "Meme con una ventana de error inventada titulada «viernes13.exe» y un gato negro. Encima se lee: «Yo, buscando a quién culpar del despliegue». El mensaje dice: «Análisis completado: 0 % de mala suerte detectada. El fallo de producción es cosa tuya». Los botones son «Culpar a la caché», «Reintentar el lunes» y «Aceptar».",
+   "tendencia": {
+    "formato": "Desplegar en viernes saltándose la norma de «los viernes no se despliega» (tendencia de la semana) + viernes 13 · plantilla error",
+    "fuente": "https://programmerhumor.io/trending/"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "error",
+     "fondo": "oscuro",
+     "titulo": "Yo, buscando a quién culpar del despliegue",
+     "ventana": "viernes13.exe",
+     "emoji": "🐈‍⬛",
+     "mensaje": "Análisis completado:\n**0 % de mala suerte** detectada.\n\nEl fallo de producción es cosa tuya.",
+     "botones": [
+      "Culpar a la caché",
+      "Reintentar el lunes",
+      "Aceptar"
+     ],
+     "abajo": "Viernes 13 · 17:58"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-13-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-13-noticia",
+   "tipo": "noticia",
+   "formato": "post",
+   "publicar": "2026-11-13T20:00:00+01:00",
+   "texto": "📧 ¿Usas Outlook en la oficina? Un fallo que ya se está usando en ataques deja escapar tu contraseña cifrada de Windows con solo abrir un archivo preparado. Y ojo: el arreglo no llega con Windows Update, sino con las actualizaciones de Office. Te contamos cómo instalarlo en el carrusel 👉 y el artículo completo, en el blog (enlace en la bio). ¿Cuándo actualizaste Office por última vez?",
+   "hashtags": [
+    "#outlook",
+    "#microsoft365",
+    "#ciberseguridad",
+    "#actualizaciones",
+    "#pymes",
+    "#autonomos",
+    "#soporteinformatico",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/parches-microsoft-noviembre-2026-fallo-outlook-explotado-actualizar-office",
+   "alt": "Carrusel de Javertix. Portada: foto de un candado rojo sobre un teclado y el titular «El parche de Outlook no va en Windows Update». Segunda imagen: lo esencial en tres puntos sobre el fallo de Outlook clásico que ya se explota. Tercera: qué hacer hoy, con la ruta Archivo, Cuenta, Opciones de actualización, Actualizar ahora. Última: Javertix lleva el inventario y las revisiones mensuales de los equipos.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Ciberseguridad · Outlook",
+     "titulo": "El parche de Outlook\nno va en Windows Update",
+     "subtitulo": "Ya se usa para robar contraseñas de Windows",
+     "foto": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "Un fallo de **Outlook clásico** ya se usa en ataques: al abrir un archivo preparado se escapa tu contraseña cifrada de Windows",
+      "El arreglo viaja con las actualizaciones de **Office**, no con Windows Update",
+      "Leer el correo sin abrir el adjunto **no** dispara el fallo"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer hoy",
+     "puntos": [
+      "En Outlook o Word: **Archivo › Cuenta › Opciones de actualización › Actualizar ahora**",
+      "Cierra y vuelve a abrir Office. Después, pasa también Windows Update",
+      "Avisa al equipo: nada de abrir adjuntos que no se esperan",
+      "¿Varios equipos? Comprueba uno a uno que tienen la versión de noviembre"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Sabes en qué versión está cada ordenador de tu oficina?",
+     "subtexto": "Lo llevamos con inventario y revisiones mensuales.",
+     "cta": "Soporte informático en javertix.site"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-13-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-13-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-13-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-13-noticia-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-13-reel-mito",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-13T19:00:00+01:00",
+   "texto": "🕵️ «Lo abro en incógnito y nadie se entera». Pues no: el modo incógnito solo evita que el navegador guarde el historial en tu equipo. Las webs, la red de tu empresa y tu operadora te siguen viendo. En 2024, Google aceptó borrar miles de millones de registros de navegación en incógnito tras una demanda. Reto: ¿para qué lo usas tú? (se admite «para mirar vuelos») 👇",
+   "hashtags": [
+    "#mitooverdad",
+    "#modoincognito",
+    "#privacidad",
+    "#ciberseguridad",
+    "#navegador",
+    "#sabiasque",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix que desmonta el mito de que el modo incógnito te hace anónimo. Solo evita que el navegador guarde el historial en tu equipo; te siguen viendo las webs que visitas, tu empresa si usas su red y tu operadora. En 2024 Google aceptó borrar miles de millones de registros de navegación en incógnito. Las descargas se quedan en el equipo. Sirve para ordenadores compartidos, regalos sorpresa o abrir dos cuentas a la vez.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-13-reel-mito.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-13-reel-mito.mp4",
+    "portada": "redes/img/2026-11-13-reel-mito.jpg"
+   }
+  },
+  {
+   "id": "2026-11-13-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-13T17:30:00+01:00",
+   "texto": "Tip rápido: ¿pegas un texto y se te descuadra el documento? Ctrl + Mayús + V lo pega sin formato 🧼 ¿Lo conocías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#tipsinformaticos",
+    "#productividad",
+    "#atajosdeteclado",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo azul con el texto: ¿Pegas y se descuadra todo? Ctrl + Mayús + V. Pega solo el texto, sin colores ni tamaños raros; funciona en Chrome, Gmail, Google Docs y Word de Microsoft 365; y en Mac es Cmd + Mayús + V.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "🧼",
+     "titulo": "¿Pegas y se descuadra?\n**Ctrl + Mayús + V**",
+     "puntos": [
+      "Pega **solo el texto**, sin formato",
+      "Va en **Chrome, Gmail, Docs y Word**",
+      "En Mac: **Cmd + Mayús + V**"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-13-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-13-reel-truco",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-13T13:30:00+01:00",
+   "texto": "📸 Deja de copiar a mano el texto de una foto: tu móvil y tu PC ya saben leerlo. En iPhone, mantén pulsada una palabra; en Android, toca Lens en Google Fotos; en Windows 11, Win + Mayús + S y «Acciones de texto». Guárdalo para la próxima clave del wifi 📌 Reto: ¿qué es lo último que copiaste letra a letra?",
+   "hashtags": [
+    "#trucosinformaticos",
+    "#tipsinformaticos",
+    "#iphone",
+    "#android",
+    "#windows11",
+    "#productividad",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: cómo copiar el texto de una foto sin teclearlo. En iPhone se mantiene pulsada una palabra de la foto; en Android se toca el icono de Lens en Google Fotos; en Windows 11 se pulsa Win + Mayús + S, se recorta y se elige «Acciones de texto». Aviso: conviene repasar los números. Sirve para la clave del wifi, facturas o un IBAN.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-13-reel-truco.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-13-reel-truco.mp4",
+    "portada": "redes/img/2026-11-13-reel-truco.jpg"
+   }
+  },
+  {
+   "id": "2026-11-13-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-13T10:30:00+01:00",
+   "texto": "¿Sabías que el Bluetooth lleva el nombre de un rey vikingo? 👑 Era un nombre provisional… y se quedó. ¿Lo sabías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#bluetooth",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo y la cifra 958: el Bluetooth se llama así por Harald «Diente Azul», el rey que unió Dinamarca y Noruega en el año 958. Era un nombre provisional y su logo son las iniciales del rey en runas.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "958",
+     "texto": "👑 El **Bluetooth** se llama así por **Harald «Diente Azul»**, el rey que unió Dinamarca y Noruega en el año 958. Era un nombre provisional… **y su logo son sus iniciales en runas**.",
+     "fuente": "Bluetooth SIG · bluetooth.com"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-13-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-13-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-13T09:00:00+01:00",
+   "texto": "🦠 Hoy es viernes 13… y hubo un virus que se llamaba así. Se descubrió en 1987 en Jerusalén, dormía en la memoria del ordenador y, cada viernes 13, borraba todos los programas que abrías. Su primera activación fue el 13 de mayo de 1988. Reto: ¿cuál es el primer virus que recuerdas? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#viernes13",
+    "#virusinformatico",
+    "#historiadelainformatica",
+    "#ciberseguridad",
+    "#sabiasque",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix sobre el virus Viernes 13 (Jerusalem): descubierto en 1987 en la Universidad Hebrea de Jerusalén, a los 30 minutos dejaba el PC cinco veces más lento y cada viernes 13 borraba todos los programas que se abrían. Se activó por primera vez el 13 de mayo de 1988. La mascota Jota bromea con que hoy le tocaría trabajar; ya no funciona porque era para MS-DOS.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-13-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-13-reel-dato.mp4",
+    "portada": "redes/img/2026-11-13-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-12-chuleta",
    "tipo": "tip",

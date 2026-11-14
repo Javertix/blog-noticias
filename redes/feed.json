@@ -1,6 +1,91 @@
 {
- "updated": "2026-11-13T06:55:18+00:00",
+ "updated": "2026-11-14T06:48:25+00:00",
  "posts": [
+  {
+   "id": "2026-11-14-reel-datazo",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-14T18:30:00+01:00",
+   "texto": "🕺 En 2014, un videoclip estuvo a punto de dejar sin números al contador de YouTube: solo sabía contar hasta 2.147.483.647, el máximo que cabe en 32 bits. «Gangnam Style» obligó a cambiarlo por uno de 64 bits, que llega a 9 trillones. Reto: ¿qué «a eso no llegamos nunca» se te ha quedado pequeño en un proyecto? 👇",
+   "hashtags": [
+    "#datazoit",
+    "#historiadelainformatica",
+    "#youtube",
+    "#programacion",
+    "#bugs",
+    "#32bits",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Vídeo narrado con escenas de emojis: en julio de 2012 un cantante coreano publica «Gangnam Style»; en cinco meses llega a 1.000 millones de visitas. En 2014 se acerca al máximo del contador de YouTube, 2.147.483.647, el mayor número que cabe en 32 bits. La mascota Jota avisa de que no cabe ni una visita más. YouTube lo cambia a tiempo por un contador de 64 bits, que llega a 9,2 trillones, y reconoce que nunca pensó que un vídeo se vería tanto.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-14-reel-datazo.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-14-reel-datazo.mp4",
+    "portada": "redes/img/2026-11-14-reel-datazo.jpg"
+   }
+  },
+  {
+   "id": "2026-11-14-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-14T12:00:00+01:00",
+   "texto": "🛰️ Sin Einstein, el GPS de tu móvil fallaría unos 10 kilómetros más cada día. Los relojes de los satélites se adelantan 38 millonésimas de segundo al día y hay que corregirlos con la relatividad. La física más rara del siglo XX, trabajando para que encuentres el bar 📍 Reto: ¿cuántas veces has abierto el mapa esta semana? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#gps",
+    "#einstein",
+    "#relatividad",
+    "#ciencia",
+    "#tecnologia",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: sin Einstein, el GPS fallaría. Los satélites vuelan a 14.000 km/h y a 20.000 km de altura; sus relojes se adelantan 38 microsegundos al día respecto a los de la Tierra. Aviso en rojo: sin corregirlo, el error crecería unos 10 km al día. Una lista explica la causa: la velocidad los atrasa 7 microsegundos, la gravedad más débil los adelanta 45, y con la corrección el móvil acierta con 5-10 metros de margen. Cierra la mascota Jota.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-14-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-14-reel-dato.mp4",
+    "portada": "redes/img/2026-11-14-reel-dato.jpg"
+   }
+  },
+  {
+   "id": "2026-11-14-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-14T10:30:00+01:00",
+   "texto": "¿Sabías que el primer correo electrónico entre dos ordenadores viajó… a la máquina de al lado? 📧 Fue en 1971 y de ahí viene la @. ¿Cuántos correos sin leer tienes ahora mismo? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#email",
+    "#historiadelainformatica",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo amarillo con una arroba enorme y el texto: el primer correo entre dos ordenadores se envió en 1971 y las dos máquinas estaban una al lado de la otra. Ray Tomlinson eligió la arroba para separar el usuario de la máquina. El mensaje decía algo como QWERTYUIOP.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "@",
+     "texto": "📧 El primer correo entre dos ordenadores se envió en **1971**… y estaban **uno al lado del otro**. Ray Tomlinson eligió la **@** para separar usuario y máquina. ¿El mensaje? Algo como **«QWERTYUIOP»**.",
+     "fuente": "Guinness World Records · First email (1971)"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-14-dato-historia-1.jpg"
+    }
+   ]
+  },
   {
    "id": "2026-11-13-meme",
    "tipo": "meme",

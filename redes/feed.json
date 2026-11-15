@@ -1,6 +1,91 @@
 {
- "updated": "2026-11-14T06:48:25+00:00",
+ "updated": "2026-11-15T07:01:38+00:00",
  "posts": [
+  {
+   "id": "2026-11-15-pregunta",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-15T19:30:00+01:00",
+   "texto": "Pregunta de la semana: ¿qué herramienta no cambiarías por nada en tu trabajo? 🧰 Respóndenos por privado 👇",
+   "hashtags": [
+    "#preguntadelasemana",
+    "#productividad",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con la etiqueta Pregunta de la semana y el texto: ¿Qué herramienta no cambiarías por nada en tu trabajo? Una app, un atajo, un programa de toda la vida. Invita a responder por privado.",
+   "diapositivas": [
+    {
+     "plantilla": "texto",
+     "fondo": "suave",
+     "etiqueta": "Pregunta de la semana 💬",
+     "titulo": "¿Qué **herramienta** no cambiarías por nada en tu trabajo? 🧰",
+     "texto": "Una app, un atajo, un programa de toda la vida… 👀\n\n**Respóndenos por privado** 👇"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-15-pregunta-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15-reel-error",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-15T18:30:00+01:00",
+   "texto": "🐍 «ModuleNotFoundError» justo después de instalar el módulo. No estás loco: lo has instalado en otro Python. Tienes varios en el equipo y pip apuntaba a uno distinto del que ejecuta tu programa. Se arregla con «python -m pip install» y, mejor aún, con un entorno virtual por proyecto. Guárdalo para la próxima 📌 Reto: ¿cuántos Python tienes instalados ahora mismo? 👇",
+   "hashtags": [
+    "#errordeldia",
+    "#python",
+    "#programacion",
+    "#desarrolladores",
+    "#pip",
+    "#aprendeaprogramar",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix sobre el error de Python ModuleNotFoundError. Una terminal instala requests con pip y, al ejecutar el programa, Python dice que el módulo no existe. La causa: pip pertenece a otra versión de Python. Solución: instalar con python -m pip install, no usar sudo pip y crear un entorno virtual por proyecto con python -m venv.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-15-reel-error.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-15-reel-error.mp4",
+    "portada": "redes/img/2026-11-15-reel-error.jpg"
+   }
+  },
+  {
+   "id": "2026-11-15-reel-noticias",
+   "tipo": "noticia",
+   "formato": "reel",
+   "publicar": "2026-11-15T12:00:00+01:00",
+   "texto": "📰 Cuatro noticias de esta semana que tocan a cualquier negocio, en 30 segundos: el abono que puedes reclamar por la caída de Microsoft 365 (hasta el 31 de diciembre), la impresora que puede dejar de enviar escaneos por correo, el nuevo cálculo de las bajas médicas desde el 1 de diciembre y los 200 millones anunciados para el Kit Digital, que todavía no se pueden pedir. Todas explicadas paso a paso en javertix.site (enlace en la bio). ¿Cuál te afecta a ti? 👇",
+   "hashtags": [
+    "#noticiasdelasemana",
+    "#pymes",
+    "#autonomos",
+    "#microsoft365",
+    "#kitdigital",
+    "#nominas",
+    "#informatica",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog",
+   "alt": "Vídeo animado de Javertix con cuatro noticias de la semana para pymes: Microsoft 365 estuvo cerca de 24 horas con el correo degradado y el abono hay que pedirlo antes del 31 de diciembre; a finales de diciembre las impresoras que envían escaneos con una cuenta de Microsoft 365 pueden dejar de hacerlo; desde el 1 de diciembre las bajas médicas se calculan con la nómina de dos meses antes; y el Gobierno anuncia 200 millones más para Kit Digital y Kit Consulting, aún sin convocatoria. Cierre: todas en javertix.site.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-15-reel-noticias.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-15-reel-noticias.mp4",
+    "portada": "redes/img/2026-11-15-reel-noticias.jpg"
+   }
+  },
   {
    "id": "2026-11-14-reel-datazo",
    "tipo": "dato",

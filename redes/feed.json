@@ -1,6 +1,226 @@
 {
- "updated": "2026-11-15T07:01:38+00:00",
+ "updated": "2026-11-16T07:14:06+00:00",
  "posts": [
+  {
+   "id": "2026-11-16-noticia",
+   "tipo": "noticia",
+   "formato": "post",
+   "publicar": "2026-11-16T20:00:00+01:00",
+   "texto": "💃 «¿Me ayudas? Vota en este concurso de baile». Si te llega este WhatsApp de un contacto, no votes: el código que te piden vincula tu cuenta al dispositivo de un estafador. Tú sigues usando WhatsApp con normalidad… y él también, escribiendo a tus clientes en tu nombre. Lo ha avisado INCIBE y sigue circulando. Cómo revisarlo en un minuto, en el carrusel 👉 y el artículo completo, en el blog (enlace en la bio). ¿Te ha llegado ya?",
+   "hashtags": [
+    "#whatsapp",
+    "#estafas",
+    "#ciberseguridad",
+    "#incibe",
+    "#pymes",
+    "#autonomos",
+    "#seguridadmovil",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/estafa-whatsapp-falso-concurso-baile-vota-codigo-vincular-dispositivo-como-revisar",
+   "alt": "Carrusel de Javertix. Portada: foto de una persona con un móvil y el titular «Vota en este concurso: así espían tu WhatsApp». Segunda imagen: lo esencial de la estafa en cuatro puntos, del mensaje de un contacto real al código que vincula la cuenta al dispositivo del estafador. Tercera: qué hacer en un minuto, revisando Dispositivos vinculados y activando la verificación en dos pasos. Última: Javertix ayuda a proteger las cuentas y los móviles del negocio.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Ciberseguridad · WhatsApp",
+     "titulo": "«Vota en este concurso»:\nasí espían tu WhatsApp",
+     "subtitulo": "Tú sigues usándolo con normalidad… y el estafador también",
+     "foto": "https://images.unsplash.com/photo-1488509082528-cefbba5ad692?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "Te escribe un **contacto real**, al que ya han engañado: «vota en este concurso de baile»",
+      "La página te pide tu número y te da un **código** para meter en WhatsApp",
+      "No votas nada: ese código **vincula tu cuenta** al dispositivo del estafador",
+      "**No pierdes el acceso**, así que puedes tardar días en enterarte"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer (1 minuto)",
+     "puntos": [
+      "Abre WhatsApp y entra en **Dispositivos vinculados** (en iPhone, en Configuración)",
+      "¿Una sesión que no reconoces? Captura de pantalla y **Cerrar sesión**",
+      "Activa el PIN: **Cuenta › Verificación en dos pasos**",
+      "¿Te llega el mensaje? No abras el enlace y **llama a esa persona**"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Atiendes a tus clientes por WhatsApp?",
+     "subtexto": "Te ayudamos a proteger las cuentas y los móviles de tu negocio.",
+     "cta": "Soporte informático en javertix.site"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-16-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1488509082528-cefbba5ad692?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-16-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-16-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-16-noticia-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-16-reel-truco",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-16T19:00:00+01:00",
+   "texto": "🔋 ¿Cuánta vida le queda de verdad a la batería de tu portátil? Windows lo sabe y te lo dice con un comando: powercfg /batteryreport. Divide la «capacidad de carga completa» entre la «capacidad de diseño» y tienes su salud real. Por debajo del 80 %, ya está envejecida. Guárdalo 📌 Reto: ¿qué porcentaje te sale a ti? 👇",
+   "hashtags": [
+    "#trucopro",
+    "#windows",
+    "#terminal",
+    "#cmd",
+    "#portatil",
+    "#bateria",
+    "#soporteinformatico",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix de la serie Truco pro: cómo saber la salud real de la batería de un portátil con Windows. En la terminal se escribe powercfg /batteryreport, que guarda un informe en la carpeta de usuario. En el informe se buscan la capacidad de diseño (50.000 mWh en el ejemplo) y la capacidad de carga completa (38.500 mWh); al dividirlas sale un 77 % de salud. Por debajo del 80 %, la batería ya está envejecida.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-16-reel-truco.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-16-reel-truco.mp4",
+    "portada": "redes/img/2026-11-16-reel-truco.jpg"
+   }
+  },
+  {
+   "id": "2026-11-16-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-16T17:30:00+01:00",
+   "texto": "Tip rápido: ¿correo largo y pocas ganas de teclear? Pulsa Windows + H y díctaselo a tu PC 🎙️ ¿Lo conocías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#tipsinformaticos",
+    "#productividad",
+    "#windows",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo azul con el texto: ¿Pereza de teclear? Windows + H. Hablas y el PC escribe por ti; funciona en cualquier cuadro de texto de Windows 10 y 11; solo hace falta un micrófono, y se puede decir «punto» o «coma» para puntuar.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "🎙️",
+     "titulo": "¿Pereza de teclear?\n**Windows + H**",
+     "puntos": [
+      "Hablas y el PC **escribe por ti**",
+      "Va en **cualquier cuadro de texto**",
+      "Di **«punto»** o **«coma»** para puntuar"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-16-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-16-reel-mito",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-16T13:30:00+01:00",
+   "texto": "🍚 «Se me ha mojado el móvil, lo meto en arroz». Pues Apple lo desaconseja en su guía oficial: las partículas de arroz pueden dañar el teléfono. Lo que sí funciona: desenchufarlo, golpecitos suaves con el conector hacia abajo, un sitio seco con aire y paciencia (30 minutos como mínimo; hasta 24 horas para secarse del todo). Nada de secador ni bastoncillos. Reto: ¿dónde se te ha caído a ti el móvil? 👇",
+   "hashtags": [
+    "#mitooverdad",
+    "#movil",
+    "#iphone",
+    "#android",
+    "#trucosmovil",
+    "#tecnologia",
+    "#informatica",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix de la serie Mito o verdad: ¿meter el móvil mojado en arroz? Mito. La guía oficial de Apple dice que no se meta el iPhone en una bolsa de arroz porque las partículas pueden dañarlo. Qué hacer: desenchufarlo, darle golpecitos suaves con el conector hacia abajo y dejarlo en un sitio seco con aire. Esperar al menos 30 minutos antes de cargarlo; puede tardar hasta 24 horas en secarse. Sin secador ni bastoncillos.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-16-reel-mito.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-16-reel-mito.mp4",
+    "portada": "redes/img/2026-11-16-reel-mito.jpg"
+   }
+  },
+  {
+   "id": "2026-11-16-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-16T10:30:00+01:00",
+   "texto": "¿Sabías que el primer vídeo de YouTube dura solo 19 segundos? 🐘 Se subió el 23 de abril de 2005 y sale uno de los fundadores delante de los elefantes del zoo. ¿Cuál es el primer vídeo que recuerdas haber visto? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#youtube",
+    "#historiadeinternet",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo amarillo con la cifra 19 s y el texto: el primer vídeo de YouTube dura 19 segundos. Se titula «Me at the zoo», se subió el 23 de abril de 2005 y en él uno de los fundadores habla delante de los elefantes del zoo de San Diego. Sigue publicado.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "19 s",
+     "texto": "🐘 Es lo que dura el **primer vídeo de YouTube**: «Me at the zoo», subido el **23 de abril de 2005**. Uno de los fundadores, delante de los elefantes del zoo de San Diego. **Y sigue publicado.**",
+     "fuente": "YouTube · «Me at the zoo» (2005)"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-16-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-16-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-16T09:00:00+01:00",
+   "texto": "📡 Tu wifi existe porque un astrónomo buscaba agujeros negros… y no encontró ninguno. De aquella búsqueda fallida salieron las técnicas para limpiar señales de radio llenas de ecos, y en los noventa su equipo las usó para enviar datos sin cables. La patente dejó más de 430 millones de dólares. Reto: ¿qué nombre le pusiste a tu red wifi? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#wifi",
+    "#sabiasque",
+    "#historiadelainformatica",
+    "#astronomia",
+    "#tecnologia",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: el wifi viene de la búsqueda de agujeros negros. En los años setenta, el astrónomo John O'Sullivan intentó captar la señal de radio de un agujero negro al explotar y no encontró ninguno. De ahí salieron técnicas para limpiar señales de radio con ecos que su equipo del CSIRO australiano usó en los noventa para enviar datos sin cables. La patente dio más de 430 millones de dólares en licencias y acuerdos.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-16-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-16-reel-dato.mp4",
+    "portada": "redes/img/2026-11-16-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-15-pregunta",
    "tipo": "tip",

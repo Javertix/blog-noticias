@@ -1,6 +1,183 @@
 {
- "updated": "2026-11-16T07:14:06+00:00",
+ "updated": "2026-11-17T07:28:22+00:00",
  "posts": [
+  {
+   "id": "2026-11-17-reel-datazo",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-17T19:00:00+01:00",
+   "texto": "🧱 El Tetris nació en Moscú en 1984, en un ordenador sin gráficos: las piezas eran corchetes. Se copió de disquete en disquete por media ciudad, vendió millones… y su creador no cobró nada hasta que recuperó los derechos a finales de 1995. Reto: ¿cuál es tu récord de líneas? 👇",
+   "hashtags": [
+    "#datazoit",
+    "#historiadelainformatica",
+    "#tetris",
+    "#videojuegos",
+    "#retroinformatica",
+    "#sabiasque",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix que cuenta la historia del Tetris: Moscú, 1984, un informático lo crea en un ordenador sin gráficos y dibuja las piezas con corchetes en una terminal. El nombre viene de tetra (cuatro) y tenis. Se copió de disquete en disquete. Los derechos eran del Estado y él no cobró nada; solo la versión de consola portátil vendió 35 millones de copias. Recuperó los derechos a finales de 1995, once años después. La mascota Jota bromea: once años esperando la pieza larga.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-17-reel-datazo.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-17-reel-datazo.mp4",
+    "portada": "redes/img/2026-11-17-reel-datazo.jpg"
+   }
+  },
+  {
+   "id": "2026-11-17-meme",
+   "tipo": "meme",
+   "formato": "historia",
+   "publicar": "2026-11-17T17:30:00+01:00",
+   "texto": "Revisión de código, edición 2026: todo automatizado menos la guardia 🙃 Etiqueta a quien le va a tocar el sábado.",
+   "hashtags": [
+    "#humorinformatico",
+    "#programacion",
+    "#codereview",
+    "#javertix"
+   ],
+   "alt": "Meme en forma de terminal sobre fondo oscuro, titulado «Revisión de código, 2026». Se sube un cambio de 4.812 líneas hecho con IA; un revisor automático lo aprueba en 0,8 segundos con un «¡Gran trabajo!». El resumen dice: escrito por una IA, revisado por otra IA, de guardia este sábado: tú.",
+   "tendencia": {
+    "formato": "La IA escribe y la IA revisa los cambios enormes; el humano carga con las consecuencias (tema de la semana: revisión de código en 2026 y la «era de los agentes») · plantilla terminal",
+    "fuente": "https://programmerhumor.io/"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "terminal",
+     "fondo": "oscuro",
+     "titulo": "Revisión de código, 2026",
+     "ventana": "martes-17-28",
+     "lineas": [
+      {
+       "cmd": "git push  # 4.812 líneas (IA)"
+      },
+      {
+       "cmd": "revisor-ia --pr 214"
+      },
+      {
+       "out": "✅ Aprobado en 0,8 s",
+       "color": "ok"
+      },
+      {
+       "out": "«¡Gran trabajo!»",
+       "color": "gris"
+      },
+      {
+       "cmd": "resumen --pr 214"
+      },
+      {
+       "out": "Escrito por: una IA",
+       "color": "gris"
+      },
+      {
+       "out": "Revisado por: otra IA",
+       "color": "gris"
+      },
+      {
+       "out": "De guardia este sábado: tú",
+       "color": "error"
+      }
+     ],
+     "prompt": "$"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-17-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-17-reel-pyme",
+   "tipo": "servicio",
+   "formato": "reel",
+   "publicar": "2026-11-17T13:30:00+01:00",
+   "texto": "🧾 Si haces las facturas a mano en una hoja de cálculo, a 10 minutos por factura y 40 al mes, se te van 80 horas al año: diez jornadas enteras copiando y pegando. Con un programa de facturación a tu medida, el cliente se rellena solo y la numeración no falla. ¿Cuántas facturas haces al mes? Cuéntanoslo en comentarios 👇 Pide presupuesto sin compromiso en javertix.site (enlace en la bio).",
+   "hashtags": [
+    "#pymes",
+    "#autonomos",
+    "#facturacion",
+    "#softwaredegestion",
+    "#digitalizacion",
+    "#negocios",
+    "#madrid",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/",
+   "alt": "Vídeo animado de Javertix: ¿facturas a mano? A 10 minutos por factura y 40 facturas al mes son 80 horas al año, diez jornadas enteras copiando y pegando. Aviso: un error sale caro. Lista de soluciones con un programa de facturación a medida: clientes guardados, numeración automática y factura en un clic. Cierre: pide presupuesto sin compromiso en javertix.site.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-17-reel-pyme.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-17-reel-pyme.mp4",
+    "portada": "redes/img/2026-11-17-reel-pyme.jpg"
+   }
+  },
+  {
+   "id": "2026-11-17-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-17T10:30:00+01:00",
+   "texto": "🔎 ¿Sabías de dónde viene el nombre de Google? De «gúgol», el número 1 seguido de 100 ceros. Y antes se llamaba BackRub 😅 ¿Lo sabías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#sabiasque",
+    "#internet",
+    "#javertix"
+   ],
+   "alt": "Historia con fondo amarillo. Dato curioso con la cifra 100: son los ceros del gúgol, el número que dio nombre a Google, un 1 seguido de 100 ceros. Antes, el buscador se llamaba BackRub. Fuente: Google, Our story.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "100",
+     "texto": "🔎 Son los **ceros** del **gúgol**, el número que dio nombre a **Google**: un 1 seguido de 100 ceros. Antes, el buscador se llamaba **BackRub**.",
+     "fuente": "Google · Our story"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-17-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-17-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-17T09:00:00+01:00",
+   "texto": "📞 La primera llamada con un móvil de la historia fue… a la competencia, para presumir. Fue el 3 de abril de 1973 en Nueva York, con un prototipo de más de un kilo que tardaba 10 horas en cargarse para hablar 35 minutos. A las tiendas llegó diez años después, por casi 4.000 dólares. Reto: ¿cuál fue tu primer móvil? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#sabiasque",
+    "#historiadelatecnologia",
+    "#moviles",
+    "#telefonia",
+    "#tecnologia",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: ¿a quién llamó el primer móvil de la historia? A la competencia, para presumir. Nueva York, 3 de abril de 1973: un ingeniero llama a su rival con un prototipo que pesaba 1,1 kg, tardaba 10 horas en cargarse y daba para 35 minutos de conversación. Llegó a las tiendas en 1983 por 3.995 dólares. La mascota Jota bromea con que hoy nos quejamos si la batería no llega a la noche.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-17-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-17-reel-dato.mp4",
+    "portada": "redes/img/2026-11-17-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-16-noticia",
    "tipo": "noticia",

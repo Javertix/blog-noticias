@@ -1,6 +1,222 @@
 {
- "updated": "2026-11-17T07:28:22+00:00",
+ "updated": "2026-11-18T07:02:20+00:00",
  "posts": [
+  {
+   "id": "2026-11-18-noticia",
+   "tipo": "noticia",
+   "formato": "post",
+   "publicar": "2026-11-18T20:00:00+01:00",
+   "texto": "🔗 ¿Tienes un QR impreso en la carta, el escaparate o las tarjetas? Si lleva un enlace corto, su destino no lo decides tú. Un fallo de Bitly ha permitido reactivar enlaces de hace más de diez años y mandarlos a otras páginas: esta vez fue una gamberrada, pero el mismo truco sirve para llevar a tus clientes a una web falsa. Cómo revisarlos en cinco minutos, en el carrusel 👉 y el artículo completo, en el blog (enlace en la bio). ¿Sabes a dónde apuntan los QR de tu negocio?",
+   "hashtags": [
+    "#codigoqr",
+    "#ciberseguridad",
+    "#enlaces",
+    "#pymes",
+    "#autonomos",
+    "#hosteleria",
+    "#paginasweb",
+    "#negociolocal",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/enlaces-bitly-antiguos-secuestrados-mcdonalds-burger-king-revisar-enlaces-cortos-codigos-qr-negocio",
+   "alt": "Carrusel de Javertix. Portada: foto de una persona trabajando con un portátil y el titular «El QR de tu negocio puede acabar en otra web». Segunda imagen: lo esencial, un fallo de Bitly permitió reactivar enlaces cortos antiguos y cambiar su destino. Tercera: qué hacer, probar cada enlace y cada QR, añadir un signo más al enlace de Bitly para ver su destino, no borrar la cuenta del acortador y usar el dominio propio. Última: Javertix monta las redirecciones en tu web.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Actualidad · Enlaces y QR",
+     "titulo": "El QR de tu negocio puede\nacabar en otra web",
+     "subtitulo": "Secuestran enlaces cortos antiguos de grandes marcas",
+     "foto": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "Un fallo de **Bitly** permitió reactivar enlaces cortos **antiguos e inactivos**",
+      "Publicaciones de 2009 a 2014 de grandes marcas pasaron a llevar **a otras páginas**",
+      "Muchos **QR impresos** guardan un enlace corto, no la dirección de tu web",
+      "El riesgo está en **lo olvidado**: cuentas borradas y material de hace años"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer",
+     "puntos": [
+      "**Prueba** cada enlace corto y escanea cada QR impreso",
+      "En Bitly, añade un **+** al final del enlace: verás su destino y su fecha",
+      "**No borres** la cuenta del acortador si tienes enlaces repartidos",
+      "Para lo nuevo, **tu dominio**: tunegocio.es/carta"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿A dónde llevan los QR de tu negocio?",
+     "subtexto": "Montamos en tu web direcciones cortas que controlas tú, para siempre.",
+     "cta": "Páginas web en javertix.site"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-18-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-18-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-18-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-18-noticia-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-18-reel-estafa",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-18T19:00:00+01:00",
+   "texto": "📦 «Tu paquete está retenido: paga 1,99 € de tasas». Si te llega este SMS, no hay paquete: la web es una copia y va a por tu tarjeta, con CVV y hasta el PIN del cajero. Con las compras de estas semanas, van a llover. Te contamos las señales y qué hacer; y si dudas, el 017 de INCIBE ayuda gratis. Mándaselo a quien compra todo por internet 🙏 ¿Te ha llegado ya alguno? 👇",
+   "hashtags": [
+    "#esunaestafa",
+    "#ciberseguridad",
+    "#smishing",
+    "#estafas",
+    "#fraude",
+    "#comprasonline",
+    "#incibe",
+    "#017",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix sobre la estafa del SMS del paquete retenido: el mensaje dice ser de una empresa de paquetería y pide pagar 1,99 euros de tasas en un enlace. La mascota Jota avisa de que no hay paquete: van a por tu tarjeta. Aviso en rojo: la web copiada pide hasta el PIN del cajero. Señales: no esperabas nada, el enlace es raro y piden PIN o CVV. Qué hacer: no pulsar el enlace, mirar el envío en la web oficial y, si has pagado, llamar al banco. El 017 de INCIBE ayuda gratis.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-18-reel-estafa.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-18-reel-estafa.mp4",
+    "portada": "redes/img/2026-11-18-reel-estafa.jpg"
+   }
+  },
+  {
+   "id": "2026-11-18-pregunta",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-18T17:30:00+01:00",
+   "texto": "Pregunta del miércoles: ¿qué tarea de tu trabajo automatizarías mañana mismo? 🤖 Respóndenos por privado 👇",
+   "hashtags": [
+    "#automatizacion",
+    "#informatica",
+    "#comunidad",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con la pregunta del miércoles: ¿qué tarea de tu trabajo automatizarías mañana mismo? Facturas, informes, citas… Invita a responder por privado.",
+   "diapositivas": [
+    {
+     "plantilla": "texto",
+     "fondo": "suave",
+     "etiqueta": "Pregunta del miércoles 💬",
+     "titulo": "¿Qué **tarea** de tu trabajo automatizarías mañana mismo? 🤖",
+     "texto": "Facturas, informes, citas… 👀\n\n**Respóndenos por privado** 👇"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-18-pregunta-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-18-reel-error",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-18T13:30:00+01:00",
+   "texto": "😱 «You are in 'detached HEAD' state». Cambias a un commit antiguo, sigues trabajando… y al volver a tu rama los cambios han desaparecido. No están perdidos: crea una rama antes de moverte con git switch -c y, si ya te fuiste, git reflog te los devuelve. Guárdalo para la próxima 📌 Reto: ¿qué mensaje de git te da más miedo? 👇",
+   "hashtags": [
+    "#errordeldia",
+    "#git",
+    "#detachedhead",
+    "#terminal",
+    "#programacion",
+    "#desarrolladores",
+    "#github",
+    "#devtips",
+    "#javertix"
+   ],
+   "alt": "Vídeo con una terminal que se escribe sola: tras git checkout a un commit antiguo aparece en rojo «You are in 'detached HEAD' state». La mascota Jota avisa de que no se ha roto nada. git status muestra «HEAD detached at a1b2c3d»: no estás en ninguna rama. Aviso en rojo: si cambias de rama, lo que guardes se queda huérfano. Solución: git switch -c rescate crea una rama ahí mismo; si ya te habías ido, git reflog muestra el commit y git branch lo recupera. Lista final: crea una rama o mira el diario.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-18-reel-error.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-18-reel-error.mp4",
+    "portada": "redes/img/2026-11-18-reel-error.jpg"
+   }
+  },
+  {
+   "id": "2026-11-18-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-18T10:30:00+01:00",
+   "texto": "📱 ¿Sabías que el móvil más vendido de la historia no tiene cámara ni internet? Es el Nokia 1100, de 2003: más de 250 millones de unidades… y con linterna 🔦 ¿Tuviste uno? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#sabiasque",
+    "#moviles",
+    "#javertix"
+   ],
+   "alt": "Historia con fondo amarillo. Dato curioso con la cifra 250 M: son los millones de unidades del Nokia 1100, de 2003, el móvil más vendido de la historia. Sin cámara ni internet, pero con linterna. Fuente: Guinness World Records.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "250 M",
+     "texto": "📱 Son las **unidades** del **Nokia 1100** (2003), el **móvil más vendido** de la historia. Sin cámara ni internet… **pero con linterna** 🔦",
+     "fuente": "Guinness World Records"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-18-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-18-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-18T09:00:00+01:00",
+   "texto": "🤖 Cada vez que demostrabas que no eras un robot, estabas trabajando gratis. En 2008 se tecleaban unos 200 millones de captchas al día: 500.000 horas diarias que un profesor guatemalteco aprovechó para digitalizar libros antiguos y el archivo de un periódico de 1851. Reto: ¿cuántos semáforos y pasos de cebra llevas marcados tú? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#captcha",
+    "#internet",
+    "#sabiasque",
+    "#tecnologia",
+    "#informatica",
+    "#curiosidades",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: «¿Eres un robot?». Cada vez que respondías a esas palabras torcidas hacías un trabajo gratis. En 2008 se resolvían unos 200 millones al día, 500.000 horas diarias. Luis von Ahn las aprovechó: una de las dos palabras salía de un libro escaneado que el ordenador no sabía leer. Así se digitalizó el archivo del New York Times, que arranca en 1851. La mascota Jota recuerda que después ese profesor creó Duolingo. Cierre: un dato curioso cada día.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-18-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-18-reel-dato.mp4",
+    "portada": "redes/img/2026-11-18-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-17-reel-datazo",
    "tipo": "dato",

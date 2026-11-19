@@ -1,6 +1,232 @@
 {
- "updated": "2026-11-18T07:02:20+00:00",
+ "updated": "2026-11-19T07:14:04+00:00",
  "posts": [
+  {
+   "id": "2026-11-19-chuleta",
+   "tipo": "tip",
+   "formato": "post",
+   "publicar": "2026-11-19T20:00:00+01:00",
+   "texto": "🌐 «No hay internet». Antes de reiniciar el router por tercera vez, estos 14 comandos te dicen dónde está el fallo: tu equipo, la red, el DNS o un puerto. En Windows y en Linux/macOS, con una guía para leer el resultado. Guárdalo 📌 y pásaselo a quien siempre dice «será el wifi». ¿Cuál usas más? 👇",
+   "hashtags": [
+    "#chuleta",
+    "#redes",
+    "#comandos",
+    "#sysadmin",
+    "#informatica",
+    "#soporteinformatico",
+    "#linux",
+    "#windows",
+    "#devops",
+    "#javertix"
+   ],
+   "alt": "Carrusel de Javertix: chuleta de 14 comandos de red. Windows: ipconfig /all, ping 1.1.1.1, tracert 1.1.1.1, nslookup, ipconfig /flushdns, netstat -ano con findstr y tnc con -Port. Linux y macOS: ip a, ping -c 4, traceroute, dig +short, ss -tulpn con grep, nc -zv y curl ifconfig.me. Cómo leerlo: si falla el ping a 1.1.1.1 no sales a internet; si va la IP pero no el nombre es el DNS; si tracert se corta en el primer salto es tu red, y más lejos, la operadora. Cierre: ¿cuál usas más?",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Chuleta",
+     "emoji": "🌐",
+     "titulo": "**14 comandos de red** para saber por qué «no hay internet»",
+     "texto": "Windows, Linux y macOS. Guárdala 📌 y desliza →"
+    },
+    {
+     "plantilla": "codigo",
+     "titulo": "En Windows",
+     "archivo": "red-windows.txt",
+     "codigo": "# MI IP, PUERTA DE ENLACE Y DNS\nipconfig /all\n# ¿SALGO A INTERNET?\nping 1.1.1.1\n# ¿DÓNDE SE CORTA?\ntracert 1.1.1.1\n# ¿RESUELVE NOMBRES?\nnslookup javertix.site\n# LIMPIAR LA CACHÉ DE DNS\nipconfig /flushdns\n# ¿QUIÉN USA ESE PUERTO?\nnetstat -ano | findstr :3306\n# ¿PUERTO ABIERTO? (PowerShell)\ntnc javertix.site -Port 443"
+    },
+    {
+     "plantilla": "codigo",
+     "titulo": "En Linux y macOS",
+     "archivo": "red-linux.txt",
+     "codigo": "# MI IP (en macOS: ifconfig)\nip a\n# ¿SALGO A INTERNET?\nping -c 4 1.1.1.1\n# ¿DÓNDE SE CORTA?\ntraceroute 1.1.1.1\n# ¿RESUELVE NOMBRES?\ndig +short javertix.site\n# ¿QUIÉN USA ESE PUERTO? (Linux)\nsudo ss -tulpn | grep :3306\n# ¿PUERTO ABIERTO?\nnc -zv javertix.site 443\n# MI IP PÚBLICA\ncurl ifconfig.me"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "azul",
+     "titulo": "Cómo leerlo",
+     "puntos": [
+      "Falla el ping a **1.1.1.1**: no sales a internet (cable, wifi o router)",
+      "Va la IP pero no el nombre: es el **DNS**",
+      "tracert se corta en el **salto 1**: tu red. Más lejos: la operadora"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "azul",
+     "texto": "¿Cuál usas más?",
+     "subtexto": "Guárdala 📌 y compártela con tu equipo."
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-19-chuleta-1.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-19-chuleta-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-19-chuleta-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-19-chuleta-4.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-19-chuleta-5.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-reel-pyme",
+   "tipo": "servicio",
+   "formato": "reel",
+   "publicar": "2026-11-19T19:00:00+01:00",
+   "texto": "📦 Vendes un producto… y resulta que ya no quedaba. Es lo que pasa cuando el inventario vive en una libreta. Y además cuesta tiempo: 15 minutos al día contando y buscando género, si abres 300 días, son 75 horas al año, más de nueve jornadas enteras. ¿Cómo llevas el stock en tu negocio: papel, hoja de cálculo o programa? Cuéntanoslo 👇 Pide presupuesto sin compromiso en javertix.site (enlace en la bio).",
+   "hashtags": [
+    "#pymes",
+    "#autonomos",
+    "#inventario",
+    "#controldestock",
+    "#softwaredegestion",
+    "#digitalizacion",
+    "#comercio",
+    "#madrid",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/servicios",
+   "alt": "Vídeo animado de Javertix: «¿Vendes algo que ya no tienes?». Llevar el inventario en una libreta o en una hoja de cálculo que nadie actualiza: la libreta no avisa. Quince minutos al día durante 300 días son 75 horas al año; la mascota Jota calcula que son más de 9 jornadas contando cajas. Lista de soluciones: stock al día que se descuenta con cada venta, aviso de mínimos y consulta desde el móvil. Cierre: pide presupuesto en javertix.site.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-19-reel-pyme.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-19-reel-pyme.mp4",
+    "portada": "redes/img/2026-11-19-reel-pyme.jpg"
+   }
+  },
+  {
+   "id": "2026-11-19-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-19T17:30:00+01:00",
+   "texto": "Tip rápido: ¿te piden un documento escaneado y no tienes escáner? Tu móvil lo hace sin instalar nada 📄 ¿Lo conocías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#tipsinformaticos",
+    "#movil",
+    "#productividad",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo azul con el texto: ¿Escáner? Ya lo llevas encima. En iPhone: Notas, clip, Escanear documentos. En Android: Google Drive, botón de la cámara. Endereza y recorta la hoja él solo, y la puedes enviar en PDF.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "📄",
+     "titulo": "¿Escáner?\n**Ya lo llevas encima**",
+     "puntos": [
+      "**iPhone:** Notas › clip › **Escanear documentos**",
+      "**Android:** Google Drive › botón de la **cámara**",
+      "Endereza y recorta la hoja **él solo**, y sale en **PDF**"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-19-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-reel-sysadmin",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-19T13:30:00+01:00",
+   "texto": "💽 El disco del servidor al 100 % y tú no has subido nada. Antes de borrar a ciegas, mira el diario de systemd: por defecto puede ocupar hasta el 10 % del disco, con un tope de 4 GB. Con journalctl --disk-usage ves cuánto pesa, con --vacuum-size lo recortas y con SystemMaxUse en journald.conf no vuelve a crecer. Guárdalo 📌 Reto: ¿qué fue lo que te llenó un disco la última vez? 👇",
+   "hashtags": [
+    "#modosysadmin",
+    "#sysadmin",
+    "#linux",
+    "#systemd",
+    "#journalctl",
+    "#servidores",
+    "#devops",
+    "#ubuntu",
+    "#debian",
+    "#javertix"
+   ],
+   "alt": "Vídeo con una terminal que se escribe sola. Título: «Disco al 100 %: ¿y si son los logs?»; df -h muestra el disco lleno. La mascota Jota avisa de que el diario de journald puede ocupar hasta 4 GB. Con journalctl --disk-usage se ve que ocupa 3,9 GB; con journalctl --vacuum-size=200M se liberan 3,7 GB. Aviso en rojo: sin límite, vuelve a llenarse. Solución fija: SystemMaxUse=200M en /etc/systemd/journald.conf y reiniciar systemd-journald. Lista final: mira cuánto ocupa, recorta y pon un límite fijo.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-19-reel-sysadmin.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-19-reel-sysadmin.mp4",
+    "portada": "redes/img/2026-11-19-reel-sysadmin.jpg"
+   }
+  },
+  {
+   "id": "2026-11-19-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-19T10:30:00+01:00",
+   "texto": "¿Sabías que el primer ordenador «portátil» que triunfó pesaba 11 kilos? 💼 Era el Osborne 1, de 1981, y ni siquiera llevaba batería. ¿Cuánto pesaba tu primer portátil? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#historiadelainformatica",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo y la cifra 11 kg: es lo que pesaba el Osborne 1, de 1981, el primer ordenador portátil con éxito comercial. Tenía una pantalla de 5 pulgadas y no llevaba batería: había que enchufarlo.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "11 kg",
+     "texto": "💼 Es lo que pesaba el **Osborne 1** (1981), el primer **ordenador portátil** con éxito comercial. Pantalla de **5 pulgadas**… y **sin batería**: había que enchufarlo.",
+     "fuente": "Wikipedia · Osborne 1"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-19-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-19-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-19T09:00:00+01:00",
+   "texto": "🎵 El sonido de arranque de Windows 95 se compuso… en un Mac. Su autor, el músico Brian Eno, reconoció que no había usado un PC en su vida. Le pidieron una melodía de 3,25 segundos exactos y entregó 84 versiones; la elegida duraba casi el doble y desde 2025 se conserva en la Biblioteca del Congreso de EE. UU. Reto: ¿qué sonido de ordenador o de móvil no se te va a olvidar nunca? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#windows95",
+    "#historiadelainformatica",
+    "#sabiasque",
+    "#tecnologia",
+    "#informatica",
+    "#curiosidades",
+    "#retro",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: «Tono de Windows 95: hecho en un Mac». La mascota Jota avisa de que su autor decía no haber usado nunca un PC. Para el estreno de 1995, Microsoft encargó la melodía al músico Brian Eno: tenía que durar exactamente 3,25 segundos. Compuso 84 piezas. La elegida duraba casi el doble de lo pedido y en 2025 entró en el registro de grabaciones de la Biblioteca del Congreso de Estados Unidos. Cierre: un dato curioso cada día.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-19-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-19-reel-dato.mp4",
+    "portada": "redes/img/2026-11-19-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-18-noticia",
    "tipo": "noticia",

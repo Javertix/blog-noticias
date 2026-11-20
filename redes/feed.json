@@ -1,6 +1,270 @@
 {
- "updated": "2026-11-19T07:14:04+00:00",
+ "updated": "2026-11-20T07:13:08+00:00",
  "posts": [
+  {
+   "id": "2026-11-20-meme",
+   "tipo": "meme",
+   "publicar": "2026-11-20T21:00:00+01:00",
+   "texto": "Viernes, 16:02. Se acabó el cupo y, con él, mi carrera 🫠 Etiqueta a quien ya no sabría escribir un bucle sin ayuda.",
+   "hashtags": [
+    "#humorinformatico",
+    "#programacion",
+    "#inteligenciaartificial",
+    "#programmerhumor",
+    "#desarrolladores",
+    "#vibecoding",
+    "#javertix"
+   ],
+   "alt": "Meme con una ventana de error inventada titulada «asistente-ia.exe» y un reloj de arena. Encima se lee: «Viernes, 16:02». El mensaje dice: «Has alcanzado el límite de uso. Tu capacidad de programar se restablecerá a las 19:00». Los botones son «Esperar», «Subir de plan» y «Programar a mano». Debajo: «Último bucle escrito sin ayuda: marzo de 2025».",
+   "tendencia": {
+    "formato": "Límites de uso, cuotas y facturas de tokens de los asistentes de IA (tema repetido en las selecciones semanales de noviembre) · plantilla error",
+    "fuente": "https://vibecodingislife.com/memes"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "error",
+     "fondo": "oscuro",
+     "titulo": "Viernes, 16:02",
+     "ventana": "asistente-ia.exe",
+     "emoji": "⏳",
+     "mensaje": "Has alcanzado el **límite de uso**.\n\nTu capacidad de programar se restablecerá a las **19:00**.",
+     "botones": [
+      "Esperar",
+      "Subir de plan",
+      "Programar a mano"
+     ],
+     "abajo": "Último bucle escrito sin ayuda: marzo de 2025"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-20-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-noticia",
+   "tipo": "noticia",
+   "publicar": "2026-11-20T20:00:00+01:00",
+   "texto": "🛒 ¿Vendes por internet? Antes del Black Friday, revisa tu tienda: en foros de la web oscura se están subastando accesos a los paneles de tiendas online españolas para colar en la página de pago un código que copia las tarjetas de los clientes. La tienda sigue funcionando y nadie nota nada. Qué revisar esta semana, en el carrusel 👉 y el artículo completo, con consejos también para quien compra, en el blog (enlace en la bio). ¿Cuándo cambiaste por última vez la contraseña del panel?",
+   "hashtags": [
+    "#blackfriday",
+    "#ciberseguridad",
+    "#tiendaonline",
+    "#ecommerce",
+    "#pymes",
+    "#autonomos",
+    "#comercio",
+    "#estafas",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/black-friday-2026-estafas-tiendas-pago-manipulado-clones-sms-paquetes-que-revisar-comercio",
+   "alt": "Carrusel de Javertix. Portada con el titular «¿Tienes tienda online? Revísala antes del viernes». Segunda imagen: lo esencial, se subastan accesos a paneles de tiendas online españolas, añaden un código al pago que copia la tarjeta del cliente, la tienda sigue funcionando y nadie nota nada, y basta una contraseña reutilizada. Tercera: qué hacer, cambiar la contraseña del panel y activar los dos pasos, borrar administradores que no reconozcas, actualizar tienda y módulos antes del viernes y hacer una compra de prueba. Última: Javertix revisa tu tienda antes de la campaña.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Ciberseguridad · Black Friday",
+     "titulo": "¿Tienes tienda online?\nRevísala antes del viernes",
+     "subtitulo": "Venden accesos a tiendas españolas para robar tarjetas",
+     "foto": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "En foros se **subastan accesos** a paneles de tiendas online españolas",
+      "Añaden un código al pago que **copia la tarjeta** del cliente",
+      "La tienda sigue funcionando y **nadie nota nada**",
+      "No hace falta ser grande: basta una **contraseña reutilizada**"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer esta semana",
+     "puntos": [
+      "**Cambia la contraseña** del panel y activa los **dos pasos**",
+      "**Borra** los administradores que no reconozcas",
+      "**Actualiza** tienda y módulos antes del viernes, no durante",
+      "Haz una **compra de prueba** y mira la página de pago"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Cuándo revisaste tu tienda por última vez?",
+     "subtexto": "La revisamos por ti antes de la campaña de Navidad.",
+     "cta": "Soporte informático en javertix.site"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-20-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-20-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-20-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-20-noticia-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-reel-mito",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-20T19:00:00+01:00",
+   "texto": "💾 «¡No lo saques sin expulsarlo, que lo rompes!». En Windows, casi nunca hace falta: desde la versión 1809 de Windows 10 (2018), las memorias USB vienen en modo «Extracción rápida» y Microsoft dice que se pueden retirar sin «Quitar hardware de forma segura». Lo que sí puede hacerte perder un archivo es sacarla mientras está copiando. Reto: ¿eres de los que expulsan siempre o de los que tiran sin mirar? 👇",
+   "hashtags": [
+    "#mitooverdad",
+    "#usb",
+    "#windows",
+    "#pendrive",
+    "#trucosinformaticos",
+    "#tecnologia",
+    "#informatica",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix de la serie Mito o verdad: ¿hay que expulsar la memoria USB antes de sacarla? En Windows, casi nunca: desde 2018 (Windows 10 versión 1809) la directiva por defecto es Extracción rápida y Microsoft indica que se puede retirar sin usar Quitar hardware de forma segura. Pero no hay que sacarla mientras está copiando. Qué hacer: esperar a que termine la copia y, con los discos externos, mejor expulsarlos.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-20-reel-mito.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-20-reel-mito.mp4",
+    "portada": "redes/img/2026-11-20-reel-mito.jpg"
+   }
+  },
+  {
+   "id": "2026-11-20-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-20T17:30:00+01:00",
+   "texto": "Tip rápido: ¿has borrado una notificación sin leerla? En Android hay un historial que la guarda… pero viene apagado 🔔 ¿Lo tenías activado? Respóndenos por privado 👇",
+   "hashtags": [
+    "#tipsinformaticos",
+    "#android",
+    "#trucosmovil",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo azul con el texto: ¿Notificación borrada sin leer? Recupérala. En Android: Ajustes, Notificaciones, Historial de notificaciones. Viene desactivado: actívalo hoy y guardará las siguientes. Si no lo ves, búscalo en el buscador de Ajustes; existe desde Android 11.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "🔔",
+     "titulo": "¿Notificación borrada?\n**Recupérala**",
+     "puntos": [
+      "**Android:** Ajustes › Notificaciones › **Historial**",
+      "Viene **apagado**: actívalo hoy",
+      "¿No sale? **Búscalo** en Ajustes"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-20-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-reel-truco",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-20T13:30:00+01:00",
+   "texto": "📌 «Déjame el móvil un momento»… y tú sudando por si se pone a cotillear. Tu teléfono puede quedarse bloqueado en una sola aplicación: en Android se llama «Fijar aplicaciones» (Ajustes › Seguridad) y en iPhone, «Acceso guiado» (Ajustes › Accesibilidad, y luego tres pulsaciones en el botón lateral). Ponle código para salir y listo. Reto: ¿a quién no le dejarías tu móvil ni así? 😅",
+   "hashtags": [
+    "#trucosmovil",
+    "#tipsinformaticos",
+    "#android",
+    "#iphone",
+    "#privacidad",
+    "#trucosinformaticos",
+    "#movil",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix de la serie Truco usuario: cómo dejar el móvil a alguien sin que vea nada más. El teléfono se puede bloquear en una sola aplicación. En Android: Ajustes, Seguridad, activar Fijar aplicaciones y, en las aplicaciones recientes, tocar el icono y pulsar Fijar. En iPhone: Ajustes, Accesibilidad, activar Acceso guiado y pulsar tres veces el botón lateral. Hay que poner un código para salir.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-20-reel-truco.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-20-reel-truco.mp4",
+    "portada": "redes/img/2026-11-20-reel-truco.jpg"
+   }
+  },
+  {
+   "id": "2026-11-20-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-20T10:30:00+01:00",
+   "texto": "¿Sabías que Python no se llama así por la serpiente? 🐍 Su creador estaba leyendo los guiones de una serie de humor británica cuando empezó a programarlo. ¿Cuál fue tu primer lenguaje? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#python",
+    "#programacion",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo y una serpiente: Python no se llama así por la serpiente. Guido van Rossum leía los guiones de Monty Python's Flying Circus, una serie de humor de la BBC, cuando empezó a crearlo, y quería un nombre corto, único y algo misterioso.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "emoji": "🐍",
+     "texto": "**Python** no se llama así por la serpiente. Su creador, Guido van Rossum, leía los guiones de **Monty Python's Flying Circus**, una serie de humor de la BBC. Quería un nombre **corto, único y algo misterioso**.",
+     "fuente": "docs.python.org · General Python FAQ"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-20-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-20T09:00:00+01:00",
+   "texto": "🎴 Nintendo nació en 1889, cuando faltaba casi un siglo para su primera consola. Fusajiro Yamauchi empezó en Kioto fabricando hanafuda, unas cartas japonesas, y la empresa no lanzó sus primeras máquinas de videojuegos domésticas hasta 1977: 88 años después. Reto: ¿cuál fue tu primera consola? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#nintendo",
+    "#videojuegos",
+    "#historiadelainformatica",
+    "#sabiasque",
+    "#tecnologia",
+    "#curiosidades",
+    "#retro",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix de la serie Dato curioso: ¿en qué año nació Nintendo? En 1889, en Kioto, cuando Fusajiro Yamauchi empezó a fabricar y vender cartas japonesas hanafuda. Sus primeras consolas domésticas, TV Game 15 y TV Game 6, llegaron en 1977: 88 años después de la primera baraja.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-20-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-20-reel-dato.mp4",
+    "portada": "redes/img/2026-11-20-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-19-chuleta",
    "tipo": "tip",

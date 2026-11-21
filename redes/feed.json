@@ -1,6 +1,91 @@
 {
- "updated": "2026-11-20T07:13:08+00:00",
+ "updated": "2026-11-21T06:50:59+00:00",
  "posts": [
+  {
+   "id": "2026-11-21-reel-datazo",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-21T18:30:00+01:00",
+   "texto": "🕹️ En 1972, la primera máquina de Pong se «averió» en un bar de California… porque no le cabía ni una moneda más. Era un prototipo de Atari con un cartón de leche para recoger las monedas; dos años después ya se habían vendido más de 8.000 máquinas. Reto: ¿cuál fue el primer videojuego al que jugaste? 👇",
+   "hashtags": [
+    "#datazoit",
+    "#historiadelainformatica",
+    "#pong",
+    "#atari",
+    "#videojuegos",
+    "#retro",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Vídeo narrado con escenas de emojis: en 1972 un ingeniero de Atari monta un juego de prueba con dos palas y una pelota y lo dejan en un bar de California. Al poco tiempo llaman del bar: la máquina no funciona. El ingeniero la abre y la mascota Jota desvela que no estaba rota, estaba llena: el cartón de leche que recogía las monedas estaba atascado. Era el Pong; en 1974 Atari había vendido más de 8.000 máquinas.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-21-reel-datazo.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-21-reel-datazo.mp4",
+    "portada": "redes/img/2026-11-21-reel-datazo.jpg"
+   }
+  },
+  {
+   "id": "2026-11-21-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-21T12:00:00+01:00",
+   "texto": "👶 La primera foto digital de la historia fue de un bebé y tenía 0,03 megapíxeles. En 1957, Russell Kirsch escaneó un retrato de su hijo Walden, de tres meses: 176 píxeles de lado, 30.976 en total. Una foto de 12 megapíxeles de tu móvil tiene casi 400 veces más 📸 Reto: ¿cuántas fotos llevas en el móvil ahora mismo? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#fotografia",
+    "#fotodigital",
+    "#historiadelainformatica",
+    "#pixeles",
+    "#tecnologia",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: la primera foto digital fue de un bebé. En 1957, en Estados Unidos, Russell Kirsch escanea una foto de su hijo Walden, de tres meses. Un contador muestra que cada lado medía 176 píxeles y una barra revela el total: 30.976 píxeles, es decir, 0,03 megapíxeles. Otra cifra indica que una foto de 12 megapíxeles tiene 387 veces más. Cierra la mascota Jota.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-21-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-21-reel-dato.mp4",
+    "portada": "redes/img/2026-11-21-reel-dato.jpg"
+   }
+  },
+  {
+   "id": "2026-11-21-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-21T10:30:00+01:00",
+   "texto": "¿Sabías que lo primero que se vendió en eBay estaba roto… y se anunciaba así? 🔦 Un puntero láser, por 14,83 dólares, en 1995. ¿Qué es lo más raro que has comprado o vendido por internet? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#ebay",
+    "#historiadeinternet",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo amarillo con la cifra 14,83 dólares en grande y el texto: es lo que se pagó en 1995 por el primer artículo vendido en eBay, un puntero láser roto, que se anunciaba así. La web todavía se llamaba Auction Web.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "14,83 $",
+     "texto": "🔦 Es lo que se pagó por el **primer artículo vendido en eBay**, en **1995**: un **puntero láser roto**… y se anunciaba así, roto. La web aún se llamaba **Auction Web**.",
+     "fuente": "eBay Inc. · Meet the Buyer of the Broken Laser Pointer (2015)"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-21-dato-historia-1.jpg"
+    }
+   ]
+  },
   {
    "id": "2026-11-20-meme",
    "tipo": "meme",

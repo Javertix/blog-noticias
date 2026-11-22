@@ -1,6 +1,92 @@
 {
- "updated": "2026-11-21T06:50:59+00:00",
+ "updated": "2026-11-22T07:05:25+00:00",
  "posts": [
+  {
+   "id": "2026-11-22-pregunta",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-22T19:30:00+01:00",
+   "texto": "Pregunta de la semana: ¿cuántas pestañas tienes abiertas ahora mismo? 🗂️ Respóndenos por privado, que no juzgamos 👇",
+   "hashtags": [
+    "#preguntadelasemana",
+    "#productividad",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con la etiqueta Pregunta de la semana y el texto: ¿Cuántas pestañas tienes abiertas ahora mismo? Sin cerrar ninguna antes de contar. Invita a responder por privado.",
+   "diapositivas": [
+    {
+     "plantilla": "texto",
+     "fondo": "suave",
+     "etiqueta": "Pregunta de la semana 💬",
+     "titulo": "¿Cuántas **pestañas** tienes abiertas ahora mismo? 🗂️",
+     "texto": "No vale cerrar ninguna antes de contar… 👀\n\n**Respóndenos por privado** 👇"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-22-pregunta-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-reel-error",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-22T18:30:00+01:00",
+   "texto": "🚫 «Blocked by CORS policy»: en Postman funciona y en el navegador no. Tu servidor no está roto: el navegador solo deja leer respuestas de otro origen si el servidor le da permiso, y otro puerto ya es otro origen. Se arregla en el servidor, con la cabecera Access-Control-Allow-Origin y el origen exacto de tu web (el asterisco, mejor no: abre la puerta a cualquier web). Guárdalo para la próxima 📌 Reto: ¿cuántas horas te ha robado CORS en tu vida? 👇",
+   "hashtags": [
+    "#errordeldia",
+    "#cors",
+    "#programacion",
+    "#desarrolloweb",
+    "#desarrolladores",
+    "#backend",
+    "#frontend",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix sobre el error de CORS. La consola del navegador muestra en rojo que una petición a localhost:8080 ha sido bloqueada por la política CORS. Se explica que la web en localhost:3000 y el servidor en localhost:8080 son orígenes distintos, se comprueba con curl que falta la cabecera Access-Control-Allow-Origin y se muestra la respuesta ya corregida. Aviso final: no usar el asterisco.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-22-reel-error.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-22-reel-error.mp4",
+    "portada": "redes/img/2026-11-22-reel-error.jpg"
+   }
+  },
+  {
+   "id": "2026-11-22-reel-noticias",
+   "tipo": "noticia",
+   "formato": "reel",
+   "publicar": "2026-11-22T12:00:00+01:00",
+   "texto": "📰 Cuatro noticias de esta semana que tocan a cualquier negocio, en 30 segundos: la policía recupera 6,4 millones de contraseñas robadas (y puedes comprobar gratis si está tu correo), un fallo sin parche permite usar un Windows 11 con la pantalla bloqueada, Windows 11 26H2 empieza a instalarse solo y Gmail activa por defecto los resúmenes con IA en las cuentas de empresa. Todas explicadas paso a paso en javertix.site (enlace en la bio). ¿Cuál te pilla más de cerca? 👇",
+   "hashtags": [
+    "#noticiasdelasemana",
+    "#pymes",
+    "#autonomos",
+    "#ciberseguridad",
+    "#windows11",
+    "#gmail",
+    "#informatica",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog",
+   "alt": "Vídeo animado de Javertix con cuatro noticias de la semana para pymes: la policía recupera 6,4 millones de contraseñas robadas y se puede comprobar si está la tuya; un fallo sin parche permite ejecutar programas en un Windows 11 bloqueado, por lo que conviene apagar o hibernar los portátiles; Windows 11 26H2 empieza a instalarse solo y conviene probarlo antes en un equipo; y Gmail activa por defecto los resúmenes con inteligencia artificial en Google Workspace. Cierre: todas en javertix.site.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-22-reel-noticias.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-22-reel-noticias.mp4",
+    "portada": "redes/img/2026-11-22-reel-noticias.jpg"
+   }
+  },
   {
    "id": "2026-11-21-reel-datazo",
    "tipo": "dato",

@@ -1,6 +1,224 @@
 {
- "updated": "2026-11-22T07:05:25+00:00",
+ "updated": "2026-11-23T07:04:04+00:00",
  "posts": [
+  {
+   "id": "2026-11-23-noticia",
+   "tipo": "noticia",
+   "publicar": "2026-11-23T20:00:00+01:00",
+   "texto": "🗄️ ¿Tienes un NAS Synology en la oficina? Toca actualizar: el fabricante ha corregido un fallo crítico (9,8 sobre 10) que permite leer y escribir archivos del equipo sin usuario ni contraseña. Y, la misma semana, se ha confirmado que se está atacando un fallo de 2024 en los NAS que nunca se actualizaron. Qué versión instalar, en el carrusel 👉 y el paso a paso completo, en el blog (enlace en la bio). ¿Cuánto lleva el tuyo sin actualizar?",
+   "hashtags": [
+    "#synology",
+    "#nas",
+    "#ciberseguridad",
+    "#copiasdeseguridad",
+    "#actualizaciones",
+    "#pymes",
+    "#autonomos",
+    "#soporteinformatico",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/synology-dsm-fallo-critico-oauth-cve-2026-120382-sa-26-21-actualizar-7-4-1-90080-2-nas",
+   "alt": "Carrusel de Javertix. Portada con el titular «¿Tienes un NAS Synology? Actualízalo hoy». Segunda imagen: lo esencial, un fallo crítico de 9,8 sobre 10 permite leer y escribir archivos sin contraseña, afecta a DSM 7.1 a 7.4 y a BeeStation, y se está atacando un fallo de 2024 en los NAS sin actualizar. Tercera: qué hacer, mirar la versión en el Centro de información, instalar la 7.4.1-90080-2 o la 7.3.2-86009-6, y hacerlo fuera del horario de trabajo. Última: Javertix revisa y actualiza tu NAS.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Sistemas · Seguridad",
+     "titulo": "¿Tienes un NAS Synology?\nActualízalo hoy",
+     "subtitulo": "Un fallo crítico deja leer y escribir tus archivos sin contraseña",
+     "foto": "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "Fallo **crítico (9,8 sobre 10)**: leer y escribir archivos del NAS **sin contraseña**",
+      "Afecta a **DSM 7.1 a 7.4** y a BeeStation",
+      "Además, se está atacando un fallo de **2024** en los NAS que nunca se actualizaron"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer",
+     "puntos": [
+      "Mira tu versión: Panel de control › **Centro de información**",
+      "DSM 7.4: instala la **7.4.1-90080-2** o posterior",
+      "DSM 7.3: la **7.3.2-86009-6**. ¿DSM 7.2? Sube a esa",
+      "Hazlo **fuera del horario**: el NAS se reinicia"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Cuánto lleva tu NAS sin actualizar?",
+     "subtexto": "Lo revisamos, lo actualizamos y comprobamos que tus copias funcionan.",
+     "cta": "Servidores y soporte en javertix.site"
+    }
+   ],
+   "formato": "post",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-23-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-23-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-23-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-23-noticia-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-reel-truco",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-23T19:00:00+01:00",
+   "texto": "🔎 100 commits desde la última versión que funcionaba y uno lo ha roto todo. No los revises uno a uno: git bisect hace una búsqueda binaria y lo encuentra en unas 7 pruebas. Y con «git bisect run» más tu comando de tests, lo hace él solo. Al terminar, «git bisect reset». Guárdalo para el próximo fallo misterioso 📌 Reto: ¿cuál es el fallo que más te ha costado encontrar?",
+   "hashtags": [
+    "#trucopro",
+    "#git",
+    "#gitbisect",
+    "#programacion",
+    "#desarrolloweb",
+    "#devtips",
+    "#terminal",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix. Una terminal con el título «100 commits. ¿Cuál lo rompió?» muestra un test fallido y 100 commits desde la versión 1.0. La mascota Jota dice que no hay que revisarlos uno a uno. Otra terminal escribe git bisect start, bad y good, y Git responde que quedan 49 revisiones y unos 6 pasos. Una barra revela que bastan 7 pruebas. Después, git bisect run npm test señala el primer commit malo. Una alerta recuerda terminar con git bisect reset. Cierra Jota.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-23-reel-truco.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-23-reel-truco.mp4",
+    "portada": "redes/img/2026-11-23-reel-truco.jpg"
+   }
+  },
+  {
+   "id": "2026-11-23-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-23T17:30:00+01:00",
+   "texto": "📊 ¿Separando nombres y apellidos a mano en Excel? Escribe el primero y pulsa Ctrl + E: el resto se rellena solo. ¿Lo conocías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#excel",
+    "#trucosexcel",
+    "#productividad",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo azul. Tip rápido: «¿Separar datos a mano en Excel? Ctrl + E». Tres puntos: escribe tú el primer ejemplo, pulsa Ctrl + E y Excel rellena el resto, y sirve para separar, unir o dar formato a nombres, teléfonos o fechas.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "📊",
+     "titulo": "¿Separar datos a mano en Excel?\n**Ctrl + E**",
+     "puntos": [
+      "Escribe tú el **primer ejemplo**",
+      "**Ctrl + E** y Excel **rellena el resto**",
+      "También **une** y **da formato**"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-23-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-reel-mito",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-23T13:30:00+01:00",
+   "texto": "🔑 «Cambia la contraseña cada 90 días». Pues la guía oficial de Estados Unidos (NIST, 2025) dice justo lo contrario: nada de cambios por calendario, porque acabamos poniendo la misma con un 1 al final. Lo que protege es la longitud (15 caracteres o más si solo usas contraseña) y cambiarla solo cuando se filtra. Reto: sin decirnos cuál, ¿cuántos caracteres tiene tu contraseña más larga? 👇",
+   "hashtags": [
+    "#mitooverdad",
+    "#contraseñas",
+    "#ciberseguridad",
+    "#seguridadinformatica",
+    "#pymes",
+    "#autonomos",
+    "#tecnologia",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix. Pregunta con sello «¿Mito?»: ¿cambiar la clave cada 90 días? La mascota Jota avisa: acabas poniendo la misma con un 1 al final. Se cita la guía del NIST de 2025: sin cambios por calendario. Una barra con suspense revela el mínimo recomendado: 15 caracteres. Una alerta roja: si se ha filtrado, cámbiala ya. Lista final: frase larga, gestor de contraseñas y verificación en dos pasos. Cierra Jota.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-23-reel-mito.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-23-reel-mito.mp4",
+    "portada": "redes/img/2026-11-23-reel-mito.jpg"
+   }
+  },
+  {
+   "id": "2026-11-23-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-23T10:30:00+01:00",
+   "texto": "💬 El primer mensaje de la red que dio origen a internet fue «LO»… porque el sistema se colgó a media palabra. ¿Lo sabías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#internet",
+    "#arpanet",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo. En grande, las letras «LO». Debajo: es el primer mensaje enviado por ARPANET, la red que dio origen a internet, el 29 de octubre de 1969; querían escribir «LOG» y el sistema se colgó antes de la tercera letra. Fuente: UCLA.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "Dato curioso",
+     "cifra": "«LO»",
+     "texto": "Es el **primer mensaje** de la red que dio origen a internet (ARPANET), el **29 de octubre de 1969**. Querían escribir **«LOG»**… y el sistema **se colgó** antes de la tercera letra.",
+     "fuente": "UCLA · historia de ARPANET"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-23-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-23T09:00:00+01:00",
+   "texto": "🐧 Los 500 superordenadores más potentes del mundo usan el mismo sistema operativo… y es gratis. Desde noviembre de 2017, todos funcionan con Linux, que nació en 1991 como el pasatiempo de un estudiante finlandés. El número 1 de la lista de este mes hace 2,2 trillones de operaciones por segundo. Reto: ¿has usado Linux alguna vez? Cuéntanos con cuál empezaste 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#linux",
+    "#superordenadores",
+    "#top500",
+    "#softwarelibre",
+    "#tecnologia",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix. Pregunta inicial: los 500 ordenadores más potentes, ¿qué sistema usan? La mascota Jota avisa de que no es el de tu oficina. Un contador muestra los 2,2 exaflops del número 1, en China. Una barra con suspense revela que los 500 usan Linux, desde 2017. Una escena recuerda que nació en Helsinki en 1991 como un pasatiempo y una lista indica que también es el núcleo de Android. Cierra Jota.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-23-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-23-reel-dato.mp4",
+    "portada": "redes/img/2026-11-23-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-22-pregunta",
    "tipo": "tip",

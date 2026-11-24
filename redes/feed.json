@@ -1,6 +1,178 @@
 {
- "updated": "2026-11-23T07:04:04+00:00",
+ "updated": "2026-11-24T07:00:23+00:00",
  "posts": [
+  {
+   "id": "2026-11-24-reel-datazo",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-24T19:00:00+01:00",
+   "texto": "🎩 El primer hackeo público de la historia fue en 1903, sin un solo ordenador… y lo hizo un mago. Marconi aseguraba que nadie podía colarse en su telégrafo sin hilos; en plena demostración en Londres, el aparato empezó a escribir «ratas» y un poema burlándose de él. El culpable, Nevil Maskelyne, lo confesó en el periódico: quería demostrar que no era tan seguro. Reto: ¿qué cosa «imposible de piratear» crees que caerá la próxima? 👇",
+   "hashtags": [
+    "#historiadelainformatica",
+    "#ciberseguridad",
+    "#hacking",
+    "#marconi",
+    "#datocurioso",
+    "#tecnologia",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix. Texto inicial: «El primer hackeo fue en 1903». La mascota Jota adelanta que el pirata era un mago. Varias escenas con emojis cuentan que Marconi decía que nadie podía interceptar su telégrafo sin hilos, que en la demostración de Londres el aparato empezó a escribir solo la palabra «RATS» y un poema contra él, y que el culpable fue el mago e inventor Nevil Maskelyne, que lo confesó en el periódico. Cierra Jota.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-24-reel-datazo.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-24-reel-datazo.mp4",
+    "portada": "redes/img/2026-11-24-reel-datazo.jpg"
+   }
+  },
+  {
+   "id": "2026-11-24-meme",
+   "tipo": "meme",
+   "formato": "historia",
+   "publicar": "2026-11-24T17:30:00+01:00",
+   "texto": "«Yo no he tocado nada», versión con pruebas 🙃 Etiqueta a quien lo dice siempre con total seguridad.",
+   "hashtags": [
+    "#humorinformatico",
+    "#programacion",
+    "#git",
+    "#javertix"
+   ],
+   "alt": "Meme con forma de terminal titulado «Yo no he tocado nada». El primer comando de git muestra que el último cambio es de «yo, hace 6 minutos». El segundo muestra su mensaje: «cambio mínimo, no hace falta probar». El tercero deshace el cambio y la última línea dice: «y aquí no ha pasado nada».",
+   "tendencia": {
+    "formato": "Producción que se rompe «sin que nadie haya tocado nada» y la fragilidad de los despliegues (tema repetido esta semana) · plantilla terminal",
+    "fuente": "https://thecodinglove.com/"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "terminal",
+     "fondo": "oscuro",
+     "titulo": "«Yo no he tocado nada»",
+     "ventana": "martes-17-30",
+     "prompt": "$",
+     "lineas": [
+      {
+       "cmd": "git log -1 --format=\"%an · %ar\""
+      },
+      {
+       "out": "yo · hace 6 minutos",
+       "color": "warn"
+      },
+      {
+       "cmd": "git log -1 --format=%s"
+      },
+      {
+       "out": "cambio mínimo, no hace falta probar",
+       "color": "error"
+      },
+      {
+       "cmd": "git revert HEAD --no-edit"
+      },
+      {
+       "out": "[main 4f2a9c1] Revert \"cambio…\"",
+       "color": "gris"
+      },
+      {
+       "out": "# y aquí no ha pasado nada",
+       "color": "ok"
+      }
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-24-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-reel-pyme",
+   "tipo": "servicio",
+   "formato": "reel",
+   "publicar": "2026-11-24T13:30:00+01:00",
+   "texto": "⌨️ Si copias a mano los pedidos de un programa a otro, a 3 minutos por pedido y 20 al día, se te van 250 horas al año: más de 30 jornadas enteras tecleando lo que ya estaba escrito. Y cada copia es una ocasión para equivocarse. Cuando los programas se pasan los datos solos, ese tiempo vuelve a ser tuyo. ¿Qué dato copias tú a mano todos los días? Cuéntanoslo 👇",
+   "hashtags": [
+    "#pymes",
+    "#autonomos",
+    "#automatizacion",
+    "#integraciones",
+    "#softwaredegestion",
+    "#productividad",
+    "#negocios",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix. Pregunta inicial: «¿Copias pedidos a mano?». La mascota Jota avisa de que eso es regalar un mes al año. Una lista hace la cuenta: 3 minutos por pedido, 20 pedidos al día, 250 días al año. Una barra con suspense revela 250 horas al año, que son 31 jornadas de 8 horas. Una alerta recuerda que cada copia es un posible error y una lista explica la solución: programas conectados, datos que pasan solos y menos errores. Cierra Jota invitando a pedir presupuesto en javertix.site.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-24-reel-pyme.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-24-reel-pyme.mp4",
+    "portada": "redes/img/2026-11-24-reel-pyme.jpg"
+   }
+  },
+  {
+   "id": "2026-11-24-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-24T10:30:00+01:00",
+   "texto": "🖱️ El 44 % de quienes vieron uno de los primeros anuncios de la web hicieron clic. Era 1994 y un banner todavía era una novedad. ¿Cuándo fue la última vez que pulsaste un anuncio a propósito? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#internet",
+    "#publicidad",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo. Cifra grande: 44 %. Texto: es la gente que hizo clic en uno de los primeros anuncios de la web, publicado en HotWired el 27 de octubre de 1994, según la agencia que lo creó. Decía: «¿Alguna vez has hecho clic aquí? Lo harás».",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "44 %",
+     "texto": "🖱️ Es la gente que **hizo clic** en uno de los **primeros anuncios de la web**, el **27 de octubre de 1994**, según la agencia que lo creó. Decía: «¿Alguna vez has hecho clic aquí? **Lo harás**».",
+     "fuente": "Digiday · Guinness World Records"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-24-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-24-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-24T09:00:00+01:00",
+   "texto": "🏝️ Hay un país que vive, en parte, de dos letras: .tv. Tuvalu, un archipiélago del Pacífico con unos 11.000 habitantes, alquila su dominio de internet a webs de vídeo de todo el mundo por unos 5 millones de dólares al año: en 2020, una doceava parte de la renta del país. Con el primer millón pagó su entrada en la ONU. Reto: ¿qué dominio raro has visto últimamente? Cuéntanoslo 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#internet",
+    "#dominios",
+    "#tuvalu",
+    "#tecnologia",
+    "#sabiasque",
+    "#curiosidades",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix. Texto inicial: «Un país vive de dos letras». La mascota Jota revela que son .tv. Un contador muestra los 11.000 habitantes de Tuvalu, una escena explica que .tv es su código de país en internet, una barra con suspense revela que cobra unos 5 millones de dólares al año por alquilarlo, una cifra indica que era 1 de cada 12 dólares de la renta nacional y una escena recuerda que con el primer millón entró en la ONU en 2000. Cierra Jota.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-24-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-24-reel-dato.mp4",
+    "portada": "redes/img/2026-11-24-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-23-noticia",
    "tipo": "noticia",

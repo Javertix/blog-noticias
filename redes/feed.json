@@ -1,6 +1,222 @@
 {
- "updated": "2026-11-24T07:00:23+00:00",
+ "updated": "2026-11-25T07:09:28+00:00",
  "posts": [
+  {
+   "id": "2026-11-25-noticia",
+   "tipo": "noticia",
+   "formato": "post",
+   "publicar": "2026-11-25T20:00:00+01:00",
+   "texto": "🕘 ¿Fichas en papel o en Excel? Todavía es legal: el nuevo registro horario digital se queda sin aprobar, sin texto definitivo ni fecha. Lo que sí sigue en vigor desde 2019 es fichar entrada y salida cada día y guardar los registros cuatro años (multa de 751 a 7.500 € si no lo tienes). Y ojo con quien te venda un programa que «cumple la nueva norma»: esa norma aún no existe. Qué revisar hoy, en el carrusel 👉 y todo el detalle en el blog (enlace en la bio). ¿Cómo ficháis en tu negocio?",
+   "hashtags": [
+    "#registrohorario",
+    "#fichaje",
+    "#controlhorario",
+    "#pymes",
+    "#autonomos",
+    "#gestion",
+    "#softwaredegestion",
+    "#negocios",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/registro-horario-digital-no-se-aprueba-antes-elecciones-que-es-obligatorio-hoy-fichaje-pymes",
+   "alt": "Carrusel de Javertix. Portada con el titular «¿Fichas en papel o Excel? Todavía es legal». Segunda imagen: lo esencial, el registro horario digital se queda sin aprobar, sin texto ni fecha; fichar entrada y salida cada día sigue siendo obligatorio desde 2019; los registros se guardan cuatro años y no tenerlos supone una multa de 751 a 7.500 euros. Tercera: qué hacer, comprobar que todos fichan cada día, que el papel o Excel refleje la hora real con firma, no comprar a contrarreloj y mirar si el programa de gestión ya incluye fichaje. Última: Javertix integra el fichaje en el software que ya usas.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Actualidad · Pymes",
+     "titulo": "¿Fichas en papel o Excel?\nTodavía es legal",
+     "subtitulo": "El registro horario digital se queda sin aprobar: qué es obligatorio hoy",
+     "foto": "https://images.unsplash.com/photo-1784334312040-5b3d4cf78b88?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "El **registro horario digital** se queda sin aprobar: **sin texto ni fecha**",
+      "Fichar **sigue siendo obligatorio** desde 2019: entrada y salida, cada día",
+      "Hay que guardar los registros **4 años**",
+      "No tenerlo es infracción grave: de **751 a 7.500 €**"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer",
+     "puntos": [
+      "Comprueba que **todos fichan** cada día, también en teletrabajo",
+      "Papel o Excel: **hora real** y firma del trabajador",
+      "**No compres a contrarreloj**: la nueva norma aún no existe",
+      "Mira si tu programa de gestión **ya trae fichaje**"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Cómo ficháis en tu negocio?",
+     "subtexto": "Integramos el fichaje en el software que ya usas, sin añadir otra herramienta.",
+     "cta": "Software de gestión en javertix.site"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-25-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1784334312040-5b3d4cf78b88?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-25-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-25-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-25-noticia-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-25-reel-estafa",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-25T19:00:00+01:00",
+   "texto": "🛒 Un móvil de 1.000 € por 89 €. Si lo ves esta semana en una tienda que no conoces, no es un chollo: es una tienda falsa, y el paquete no llega nunca. Las señales: precio imposible, ni rastro de la empresa (NIF, dirección, teléfono) y textos legales que faltan o están mal escritos. ¿Dudas? El 017 de INCIBE ayuda gratis, todos los días de 8 a 23 h. Mándaselo a quien ya tiene el carrito lleno 🙏 ¿Has visto alguna oferta sospechosa estos días? 👇",
+   "hashtags": [
+    "#esunaestafa",
+    "#ciberseguridad",
+    "#blackfriday",
+    "#comprasonline",
+    "#estafas",
+    "#fraude",
+    "#incibe",
+    "#017",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix sobre las tiendas online falsas. Gancho: un móvil de 1.000 euros por 89, con el sello «¿Estafa?». La mascota Jota avisa de que el chollo es para el estafador. Señales: precio imposible, sin datos de empresa y textos legales raros. Antes de pagar: buscar opiniones y usar un pago protegido. Aviso en rojo: si ya has pagado, avisa al banco y denuncia. El 017 de INCIBE ayuda gratis y de forma confidencial, de 8 a 23 horas.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-25-reel-estafa.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-25-reel-estafa.mp4",
+    "portada": "redes/img/2026-11-25-reel-estafa.jpg"
+   }
+  },
+  {
+   "id": "2026-11-25-pregunta",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-25T17:30:00+01:00",
+   "texto": "Pregunta del miércoles: ¿qué es lo más raro que te han pedido arreglar «porque eres informático»? 🛠️ Respóndenos por privado, que la tostadora cuenta 👇",
+   "hashtags": [
+    "#preguntadelasemana",
+    "#informaticos",
+    "#soporteinformatico",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con la etiqueta Pregunta del miércoles y el texto: ¿Qué es lo más raro que te han pedido arreglar «porque eres informático»? La tostadora cuenta. Invita a responder por privado.",
+   "diapositivas": [
+    {
+     "plantilla": "texto",
+     "fondo": "suave",
+     "etiqueta": "Pregunta del miércoles 💬",
+     "titulo": "¿Qué es lo más **raro** que te han pedido arreglar «porque eres informático»? 🛠️",
+     "texto": "La tostadora cuenta… 👀\n\n**Respóndenos por privado** 👇"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-25-pregunta-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-25-reel-error",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-25T13:30:00+01:00",
+   "texto": "🚫 «! [rejected] main -> main». Vas a subir tus cambios y git te los rechaza. No has roto nada: un compañero subió antes que tú y el servidor tiene commits que tú no tienes. Se arregla con git pull --rebase y otro git push. Lo que nunca: git push --force, que borra su trabajo. Guárdalo para el próximo viernes por la tarde 📌 ¿A quién le has pisado tú un commit? 👇",
+   "hashtags": [
+    "#errordeldia",
+    "#git",
+    "#github",
+    "#programacion",
+    "#desarrolloweb",
+    "#programadores",
+    "#devtips",
+    "#terminal",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix sobre el error de git «rejected» al hacer push. Una terminal muestra git push y, en rojo, «! [rejected] main -> main» y «error: failed to push some refs». La mascota Jota explica que alguien subió antes que tú. La pista de git dice que el remoto tiene trabajo que no tienes en local. Solución en la terminal: git pull --rebase origin main y de nuevo git push. Aviso en rojo: nunca --force. Resumen: primero trae, luego sube y, si hay que forzar, con --force-with-lease.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-25-reel-error.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-25-reel-error.mp4",
+    "portada": "redes/img/2026-11-25-reel-error.jpg"
+   }
+  },
+  {
+   "id": "2026-11-25-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-25T10:30:00+01:00",
+   "texto": "💾 8 MB: es lo que cabía en los primeros pendrives, que salieron a la venta en el año 2000. Como cinco disquetes y medio… y parecía magia. ¿De cuántos megas era tu primer pendrive? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#pendrive",
+    "#hardware",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo. Cifra grande: 8 MB. Texto: es lo que cabía en los primeros pendrives, que salieron a la venta en el año 2000, como cinco disquetes y medio. Hoy se venden de 1 TB: 125.000 veces más.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "8 MB",
+     "texto": "💾 Es lo que cabía en los **primeros pendrives**, que salieron a la venta en el año **2000**: como **cinco disquetes y medio**. Hoy se venden de 1 TB: **125.000 veces más**.",
+     "fuente": "IEEE Spectrum · Computer History Museum"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-25-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-25-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-25T09:00:00+01:00",
+   "texto": "🤖 La palabra «robot» significa «trabajo forzado». Viene del checo «robota» y no salió de un laboratorio, sino de una obra de teatro publicada en 1920: «R.U.R.», de Karel Čapek. Y aquellos primeros robots ni siquiera eran de metal: eran personas artificiales… que acababan rebelándose. Reto: ¿qué tarea le encasquetarías tú a un robot mañana mismo? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#robot",
+    "#historiadelatecnologia",
+    "#curiosidades",
+    "#sabiasque",
+    "#tecnologia",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix. Gancho: «Robot» significa «trabajo forzado». La mascota Jota, que es un robot, bromea con que lo suyo viene de lejos. Se explica que la palabra viene del checo «robota», el trabajo obligatorio de los siervos, y que apareció en una obra de teatro publicada en 1920, «R.U.R.», de Karel Čapek, estrenada en Praga en 1921. Aviso en rojo: aquellos robots no eran de metal, eran personas artificiales, y en la obra se rebelan.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-25-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-25-reel-dato.mp4",
+    "portada": "redes/img/2026-11-25-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-24-reel-datazo",
    "tipo": "dato",

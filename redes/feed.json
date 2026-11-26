@@ -1,6 +1,231 @@
 {
- "updated": "2026-11-25T07:09:28+00:00",
+ "updated": "2026-11-26T07:08:55+00:00",
  "posts": [
+  {
+   "id": "2026-11-26-chuleta",
+   "tipo": "tip",
+   "formato": "post",
+   "publicar": "2026-11-26T20:00:00+01:00",
+   "texto": "🐳 Los 12 comandos de Docker que acabas tecleando todos los días: ver qué corre, leer logs, entrar en un contenedor, levantar el compose y recuperar disco. Con tres avisos para no borrar la base de datos por accidente. Guárdalo 📌 y pásaselo a quien aún busca «docker logs» en Google. ¿Cuál usas más? 👇",
+   "hashtags": [
+    "#chuleta",
+    "#docker",
+    "#dockercompose",
+    "#devops",
+    "#sysadmin",
+    "#programacion",
+    "#backend",
+    "#linux",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Carrusel de Javertix: chuleta de 12 comandos de Docker. Contenedores: docker ps -a, docker logs -f --tail 50, docker exec -it con sh, docker stats, docker inspect y docker cp. Compose y limpieza: docker compose up -d, compose logs -f, up -d --build, compose down, docker system df y docker system prune. Ojo con esto: down -v borra también los volúmenes; prune -a borra todas las imágenes sin usar; y sin --tail, logs -f vuelca todo el historial. Cierre: ¿cuál usas más?",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Chuleta",
+     "emoji": "🐳",
+     "titulo": "**12 comandos de Docker** que usas todos los días",
+     "texto": "Contenedores, compose y limpieza. Guárdala 📌"
+    },
+    {
+     "plantilla": "codigo",
+     "titulo": "Contenedores",
+     "archivo": "docker.txt",
+     "codigo": "# ¿QUÉ ESTÁ CORRIENDO? (-a: TODO)\ndocker ps -a\n# LOGS EN DIRECTO (ÚLTIMAS 50)\ndocker logs -f --tail 50 web\n# ENTRAR EN EL CONTENEDOR\ndocker exec -it web sh\n# CPU Y MEMORIA EN VIVO\ndocker stats\n# PUERTOS, RED, VOLÚMENES…\ndocker inspect web\n# COPIAR UN ARCHIVO FUERA\ndocker cp web:/app/log.txt ."
+    },
+    {
+     "plantilla": "codigo",
+     "titulo": "Compose y limpieza",
+     "archivo": "compose.txt",
+     "codigo": "# LEVANTAR TODO EN SEGUNDO PLANO\ndocker compose up -d\n# LOGS DE UN SERVICIO\ndocker compose logs -f api\n# RECONSTRUIR TRAS UN CAMBIO\ndocker compose up -d --build\n# PARAR Y BORRAR CONTENEDORES\ndocker compose down\n# ¿CUÁNTO DISCO OCUPA DOCKER?\ndocker system df\n# LIMPIAR LO QUE NO SE USA\ndocker system prune"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "azul",
+     "titulo": "Ojo con esto",
+     "puntos": [
+      "**compose down -v** borra también los **volúmenes**: adiós a la base de datos",
+      "**system prune -a** borra **todas** las imágenes sin usar",
+      "Sin **--tail**, **logs -f** te vuelca **todo** el historial"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "azul",
+     "texto": "¿Cuál usas más?",
+     "subtexto": "Guárdala 📌 y compártela con tu equipo."
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-26-chuleta-1.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-26-chuleta-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-26-chuleta-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-26-chuleta-4.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-26-chuleta-5.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-reel-pyme",
+   "tipo": "servicio",
+   "formato": "reel",
+   "publicar": "2026-11-26T19:00:00+01:00",
+   "enlace": "https://javertix.site/servicios",
+   "texto": "📝 Si haces cada presupuesto a mano, a 15 minutos por presupuesto y 10 a la semana, se te van 120 horas al año: quince jornadas enteras copiando, pegando y repasando precios. Con plantillas con tus tarifas sale en minutos y se convierte en factura sin repetir datos. ¿Cuánto tardas tú en preparar un presupuesto? Cuéntanoslo 👇 Pide el tuyo sin compromiso en javertix.site (enlace en la bio).",
+   "hashtags": [
+    "#pymes",
+    "#autonomos",
+    "#presupuestos",
+    "#softwaredegestion",
+    "#digitalizacion",
+    "#productividad",
+    "#negocios",
+    "#madrid",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: «¿Presupuestos a mano?». Copiar el anterior, cambiar el nombre y repasar precios: 15 minutos cada uno. Con 10 a la semana, una barra revela 120 horas al año; la mascota Jota calcula que son 15 jornadas enteras. Lista de soluciones: plantillas con precios, listo en minutos desde el móvil y pasa a factura con un clic. Cierre: pide presupuesto en javertix.site.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-26-reel-pyme.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-26-reel-pyme.mp4",
+    "portada": "redes/img/2026-11-26-reel-pyme.jpg"
+   }
+  },
+  {
+   "id": "2026-11-26-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-26T17:30:00+01:00",
+   "texto": "Tip rápido: ¿la pantalla del PC se queda en negro o congelada? Antes de apagar a lo bruto, prueba Windows + Ctrl + Mayús + B: reinicia el controlador gráfico 🖥️ ¿Lo conocías? Respóndenos por privado 👇",
+   "hashtags": [
+    "#tipsinformaticos",
+    "#windows",
+    "#atajosdeteclado",
+    "#javertix"
+   ],
+   "alt": "Historia de fondo azul con el texto: ¿Pantalla en negro? Windows + Ctrl + Mayús + B. Reinicia el controlador gráfico sin apagar el PC. Un pitido o un parpadeo: ha funcionado. Vale para Windows 10 y 11.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "🖥️",
+     "titulo": "¿Pantalla en negro?\n**Win + Ctrl + Mayús + B**",
+     "puntos": [
+      "Reinicia el **controlador gráfico** sin apagar el PC",
+      "Un **pitido** o un **parpadeo**: ha funcionado",
+      "Vale para **Windows 10 y 11**"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-26-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-reel-sysadmin",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-26T13:30:00+01:00",
+   "texto": "💥 Tu servicio se cae a las 3 de la mañana… ¿y quién lo levanta? Por defecto, nadie: en systemd, Restart vale «no». Con dos líneas (Restart=on-failure y RestartSec=5) vuelve solo. Ojo: sin esa espera reintenta cada 100 ms y, a los 5 arranques en 10 segundos, systemd se rinde y lo deja caído. Y recuerda: reiniciar no arregla el fallo, mira el registro con journalctl -u. Guárdalo 📌 Reto: ¿qué servicio te ha despertado de madrugada? 👇",
+   "hashtags": [
+    "#modosysadmin",
+    "#sysadmin",
+    "#linux",
+    "#systemd",
+    "#servidores",
+    "#devops",
+    "#ubuntu",
+    "#debian",
+    "#javertix"
+   ],
+   "alt": "Vídeo con una terminal que se escribe sola. Título: «Se cae a las 3:00. ¿Quién lo levanta?»; systemctl status muestra el servicio tienda-api en estado failed. La mascota Jota avisa: por defecto, Restart=no. Con sudo systemctl edit se añaden Restart=on-failure y RestartSec=5; al matar el proceso, cinco segundos después vuelve a estar activo. Aviso en rojo: 5 fallos en 10 segundos y se rinde. Lista final: Restart=on-failure, RestartSec=5 y mirar por qué se cae con journalctl -u.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-26-reel-sysadmin.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-26-reel-sysadmin.mp4",
+    "portada": "redes/img/2026-11-26-reel-sysadmin.jpg"
+   }
+  },
+  {
+   "id": "2026-11-26-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-26T10:30:00+01:00",
+   "texto": "¿Sabías que el MP3 se afinó con una sola canción? 🎧 «Tom's Diner», de Suzanne Vega, cantada sin instrumentos: por eso la llaman «la madre del MP3». ¿Cuál fue tu primer MP3? Respóndenos por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#mp3",
+    "#sabiasque",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo y unos auriculares: el MP3 se afinó con una sola canción, «Tom's Diner», de Suzanne Vega, cantada sin instrumentos. Karlheinz Brandenburg, uno de sus creadores, la eligió porque esa voz era casi imposible de comprimir.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "emoji": "🎧",
+     "texto": "El **MP3** se afinó con **una sola canción**: «Tom's Diner», de Suzanne Vega, cantada **sin instrumentos**. Karlheinz Brandenburg, uno de sus creadores, la eligió porque esa voz era **casi imposible de comprimir**.",
+     "fuente": "Mental Floss · KEF"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-26-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-26-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-26T09:00:00+01:00",
+   "texto": "🛰️ Lo más lejos que ha llegado algo hecho por humanos: 25.900 millones de kilómetros. La sonda Voyager 1, lanzada en 1977, cruzó el 18 de noviembre la marca de un día luz: la señal de radio, a la velocidad de la luz, tarda un día entero en llegarle. Le mandas una orden hoy y la recibe mañana 📡 Reto: ¿qué le escribirías tú sabiendo que tarda un día en leerlo? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#voyager1",
+    "#nasa",
+    "#espacio",
+    "#tecnologia",
+    "#sabiasque",
+    "#ciencia",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: «Lo más lejos que hemos llegado», con un satélite y el sello «récord». Es la sonda Voyager 1, lanzada en 1977, que sigue viajando a 61.000 km/h. Una barra con suspense revela la distancia: 25.900 millones de kilómetros de la Tierra, un día luz. La mascota Jota lo resume: le escribes hoy, lo lee mañana. Cierre: un dato curioso cada día.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-26-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-26-reel-dato.mp4",
+    "portada": "redes/img/2026-11-26-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-25-noticia",
    "tipo": "noticia",
@@ -3924,215 +4149,6 @@
     },
     {
      "src": "redes/img/2026-11-05-noticia-4.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-04-meme",
-   "tipo": "meme",
-   "publicar": "2026-11-04T20:00:00+01:00",
-   "texto": "Se lleva lo de «hecho con IA vs. hecho a mano»… y en contraseñas la versión artesanal sale cara 😅 Usa un gestor de contraseñas y deja que invente él. ¿Cuál es la peor contraseña que has visto pegada en un pósit? 👇",
-   "hashtags": [
-    "#humorinformatico",
-    "#contraseñas",
-    "#ciberseguridad",
-    "#memes",
-    "#oficina",
-    "#tech",
-    "#javertix"
-   ],
-   "alt": "Meme de Javertix con fondo claro, titulado «Contraseñas: IA vs. a mano». Panel izquierdo, «Hecha con IA», con un robot: «xK#9v!Lq2$mP7z». Panel derecho, «Hecha a mano», con una mano escribiendo: «Verano2026!… y apuntada en un pósit en la pantalla».",
-   "tendencia": {
-    "formato": "AI vs. handmade (primero la versión hecha con IA y luego la artesanal)",
-    "fuente": "https://www.que.es/2026/10/30/trends-tiktok-noviembre-2026/"
-   },
-   "diapositivas": [
-    {
-     "plantilla": "expectativa",
-     "fondo": "claro",
-     "titulo": "Contraseñas: IA vs. a mano",
-     "paneles": [
-      {
-       "etiqueta": "Hecha con IA",
-       "emoji": "🤖",
-       "texto": "xK#9v!Lq2$mP7z"
-      },
-      {
-       "etiqueta": "Hecha a mano",
-       "emoji": "✍️",
-       "texto": "Verano2026!… y apuntada en un pósit en la pantalla"
-      }
-     ]
-    }
-   ],
-   "formato": "post",
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-04-meme-1.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-04-historia-tarde",
-   "tipo": "noticia",
-   "formato": "historia",
-   "publicar": "2026-11-04T17:30:00+01:00",
-   "texto": "¿Has visto esto? El parche de Android de noviembre corrige el «SMS de la muerte». Mira el post de hoy para saber cómo comprobarlo 📱",
-   "hashtags": [
-    "#android",
-    "#ciberseguridad",
-    "#javertix"
-   ],
-   "alt": "Historia con la foto de una persona usando un móvil Android y el texto «¿Has visto esto? Un SMS puede cortar tus llamadas en Android. El parche de noviembre lo arregla. Mira cómo comprobarlo en el post de hoy».",
-   "diapositivas": [
-    {
-     "plantilla": "portada",
-     "categoria": "¿Has visto esto? 👀",
-     "titulo": "Un SMS puede cortar tus llamadas en Android",
-     "subtitulo": "El parche de noviembre lo arregla. Mira cómo comprobarlo en el post de hoy.",
-     "foto": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max"
-    }
-   ],
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-04-historia-tarde-1.png",
-     "fondo": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-04-tip",
-   "tipo": "tip",
-   "publicar": "2026-11-04T13:30:00+01:00",
-   "texto": "💾 La regla de copias que usamos con nuestros clientes: 3-2-1. Si un ransomware, un robo o un disco que muere se lleva tus archivos, con ella siempre te queda una copia sana. Y lo más olvidado: prueba de vez en cuando a recuperar algo. Guárdalo y compártelo con quien aún guarda todo en un solo disco 😉",
-   "hashtags": [
-    "#copiasdeseguridad",
-    "#backup",
-    "#tipsinformaticos",
-    "#ciberseguridad",
-    "#ransomware",
-    "#pymes",
-    "#autonomos",
-    "#javertix"
-   ],
-   "alt": "Imagen de Javertix con fondo azul y el emoji de un disquete. Título: la regla 3-2-1 de las copias. Tres puntos: 3 copias, el original y dos más; en 2 soportes distintos, el PC y un disco externo o NAS; y 1 copia fuera de la oficina, en la nube.",
-   "diapositivas": [
-    {
-     "plantilla": "tip",
-     "fondo": "azul",
-     "etiqueta": "Tip",
-     "emoji": "💾",
-     "titulo": "La regla 3-2-1 de las copias",
-     "puntos": [
-      "**3** copias: el original y dos más",
-      "En **2** soportes distintos (PC y disco externo o NAS)",
-      "**1** copia fuera de la oficina (en la nube)"
-     ]
-    }
-   ],
-   "formato": "post",
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-04-tip-1.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-04-historia-manana",
-   "tipo": "tip",
-   "formato": "historia",
-   "publicar": "2026-11-04T10:30:00+01:00",
-   "texto": "Tip rápido: bloquea el ordenador cada vez que te levantes con Windows + L 🔒",
-   "hashtags": [
-    "#tipsinformaticos",
-    "#windows",
-    "#ciberseguridad",
-    "#javertix"
-   ],
-   "alt": "Historia con fondo azul de Javertix: un candado y el consejo «¿Te levantas de la mesa? Windows + L y el PC queda bloqueado».",
-   "diapositivas": [
-    {
-     "plantilla": "tip",
-     "fondo": "azul",
-     "etiqueta": "Tip rápido",
-     "emoji": "🔒",
-     "titulo": "¿Te levantas de la mesa?\n**Windows + L**",
-     "texto": "Un segundo y tu PC queda bloqueado. En Mac: Control + Cmd + Q."
-    }
-   ],
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-04-historia-manana-1.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-04-noticia",
-   "tipo": "noticia",
-   "publicar": "2026-11-04T08:45:00+01:00",
-   "texto": "📱 Ya está aquí el parche de seguridad de Android de noviembre: corrige 23 fallos críticos y el «SMS de la muerte», un mensaje que puede cortar tus llamadas. Si tu móvil es tu oficina, revisa hoy si lo tienes. Te contamos cómo en el carrusel 👉 y el artículo completo, en el blog (enlace en la bio). ¿Ya has actualizado el tuyo?",
-   "hashtags": [
-    "#android",
-    "#ciberseguridad",
-    "#seguridadmovil",
-    "#actualizaciones",
-    "#samsung",
-    "#pymes",
-    "#autonomos",
-    "#javertix"
-   ],
-   "enlace": "https://javertix.site/blog/android-parche-seguridad-noviembre-2026-sms-de-la-muerte",
-   "alt": "Carrusel de Javertix. Portada: foto de una persona usando un móvil Android con el titular «Parche de Android de noviembre: 23 fallos críticos y el SMS de la muerte». Segunda imagen: lo esencial del parche en tres puntos. Tercera: qué hacer, con los menús de Pixel y Samsung. Última: Javertix ofrece revisar y gestionar los móviles de tu empresa.",
-   "diapositivas": [
-    {
-     "plantilla": "portada",
-     "categoria": "Apps · Seguridad",
-     "titulo": "Parche de Android de noviembre: 23 fallos críticos y el «SMS de la muerte»",
-     "foto": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max"
-    },
-    {
-     "plantilla": "puntos",
-     "fondo": "oscuro",
-     "titulo": "Lo esencial",
-     "puntos": [
-      "3 fallos remotos graves que no necesitan que toques nada",
-      "Un SMS preparado corta las llamadas (Android 14 a 17)",
-      "El parche del **5 de noviembre** o posterior lo arregla todo"
-     ]
-    },
-    {
-     "plantilla": "puntos",
-     "fondo": "oscuro",
-     "titulo": "Qué hacer hoy",
-     "puntos": [
-      "Android: Ajustes › Seguridad y privacidad › Sistema y actualizaciones",
-      "Samsung: Ajustes › Actualización de software › Descargar e instalar",
-      "¿No te sale aún? Vuelve a mirar en unos días",
-      "Apunta qué móviles de la empresa ya no reciben parches"
-     ]
-    },
-    {
-     "plantilla": "cierre",
-     "fondo": "oscuro",
-     "texto": "¿Muchos móviles en la empresa y ninguno controlado?",
-     "subtexto": "Te ayudamos a revisarlos, actualizarlos y saber cuáles toca cambiar.",
-     "cta": "Soporte informático en javertix.site"
-    }
-   ],
-   "formato": "post",
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-04-noticia-1.png",
-     "fondo": "https://images.unsplash.com/photo-1592890288564-76628a30a657?fm=jpg&q=80&w=1600&fit=max"
-    },
-    {
-     "src": "redes/img/2026-11-04-noticia-2.jpg"
-    },
-    {
-     "src": "redes/img/2026-11-04-noticia-3.jpg"
-    },
-    {
-     "src": "redes/img/2026-11-04-noticia-4.jpg"
     }
    ]
   }

@@ -1,6 +1,263 @@
 {
- "updated": "2026-11-26T07:08:55+00:00",
+ "updated": "2026-11-27T07:05:20+00:00",
  "posts": [
+  {
+   "id": "2026-11-27-meme",
+   "tipo": "meme",
+   "formato": "post",
+   "publicar": "2026-11-27T21:00:00+01:00",
+   "texto": "El único Black Friday que me afecta de verdad 🙃 Etiqueta a quien ya paga más en suscripciones que en café.",
+   "hashtags": [
+    "#humorinformatico",
+    "#programacion",
+    "#blackfriday",
+    "#inteligenciaartificial",
+    "#desarrolladores",
+    "#memesdeprogramacion",
+    "#javertix"
+   ],
+   "alt": "Meme de Javertix con aspecto de editor de código, titulado «Mis gastos fijos, 2026». El archivo gastos_2026.js define una lista de suscripciones: IA que escribe el código, IA que revisa el código, IA que escribe los tests e IA que me explica las otras 3. Después, un descuento del 20 % por Black Friday y un comentario final: «Ahorro total: el 20 % de pagar por lo que antes hacía yo. Gratis.»",
+   "tendencia": {
+    "formato": "Coste de la era de la IA: acumular suscripciones de asistentes de programación",
+    "fuente": "https://programmerhumor.io/memes/2026"
+   },
+   "diapositivas": [
+    {
+     "plantilla": "codigo",
+     "fondo": "oscuro",
+     "titulo": "Mis gastos fijos, 2026",
+     "archivo": "gastos_2026.js",
+     "codigo": "const suscripciones = [\n  \"IA que escribe el código\",\n  \"IA que revisa el código\",\n  \"IA que escribe los tests\",\n  \"IA que me explica las otras 3\",\n];\n\nconst descuento = \"-20 % Black Friday\";\n\n// Ahorro total: el 20 % de pagar\n// por lo que antes hacía yo. Gratis."
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-27-meme-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-noticia",
+   "tipo": "noticia",
+   "formato": "post",
+   "publicar": "2026-11-27T20:00:00+01:00",
+   "texto": "🧾 Ahora sí es oficial: Verifactu se aplaza a octubre de 2028, igual para autónomos y sociedades. El Real Decreto-ley 43/2026 ya está en el BOE y en vigor. Pero ojo: la obligación se retrasa, no se elimina, y el decreto aún tiene que convalidarse en 30 días. Si ya tienes un programa adaptado, sigue con él; si ibas a comprar uno con prisas, para y compara. Qué hacer ahora, en el carrusel 👉 y todo el detalle en el blog (enlace en la bio). ¿Con qué facturas tú hoy?",
+   "hashtags": [
+    "#verifactu",
+    "#facturacion",
+    "#facturaelectronica",
+    "#autonomos",
+    "#pymes",
+    "#hacienda",
+    "#softwaredegestion",
+    "#negocios",
+    "#javertix"
+   ],
+   "enlace": "https://javertix.site/blog/verifactu-aplazado-octubre-2028-boe-real-decreto-ley-43-2026-factura-electronica-gratuita-pruebas",
+   "alt": "Carrusel de Javertix. Portada con el titular «Verifactu ya es oficial: hasta octubre de 2028». Segunda imagen, lo esencial: el Real Decreto-ley 43/2026 ya está en el BOE y en vigor; Verifactu pasa de 2027 a octubre de 2028 para autónomos y sociedades; la obligación se retrasa, no se elimina; falta convalidarlo en 30 días. Tercera, qué hacer: si ya tienes programa adaptado, sigue con él; si ibas a comprar con prisas, para y compara; pide por escrito que cumple Verifactu y cuándo tendrá factura electrónica; si usas Word o Excel, ponte fecha para cambiar en 2027. Última: Javertix te ayuda a elegir o adaptar tu software de gestión.",
+   "diapositivas": [
+    {
+     "plantilla": "portada",
+     "categoria": "Actualidad · Facturación",
+     "titulo": "Verifactu ya es oficial:\nhasta octubre de 2028",
+     "subtitulo": "Está en el BOE. Qué cambia, qué no y qué hacer con tu programa",
+     "foto": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Lo esencial",
+     "puntos": [
+      "El **Real Decreto-ley 43/2026** ya está en el BOE y **en vigor**",
+      "Verifactu pasa de 2027 a **octubre de 2028**, para autónomos y sociedades",
+      "La obligación **se retrasa, no se elimina**",
+      "Falta que se **convalide** en 30 días"
+     ]
+    },
+    {
+     "plantilla": "puntos",
+     "fondo": "oscuro",
+     "titulo": "Qué hacer",
+     "puntos": [
+      "¿Ya tienes programa adaptado? **Sigue con él**",
+      "¿Ibas a comprar con prisas? **Para y compara**",
+      "Pide **por escrito** que cumple Verifactu y cuándo tendrá factura electrónica",
+      "¿Word o Excel? Ponte fecha para cambiar **en 2027**"
+     ]
+    },
+    {
+     "plantilla": "cierre",
+     "fondo": "oscuro",
+     "texto": "¿Tu programa de facturación está listo?",
+     "subtexto": "Te ayudamos a elegir o adaptar tu software de gestión con calma, sin esperar a 2028.",
+     "cta": "Software de gestión en javertix.site"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-27-noticia-1.png",
+     "fondo": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?fm=jpg&q=80&w=1600&fit=max"
+    },
+    {
+     "src": "redes/img/2026-11-27-noticia-2.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-27-noticia-3.jpg"
+    },
+    {
+     "src": "redes/img/2026-11-27-noticia-4.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-reel-mito",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-27T19:00:00+01:00",
+   "texto": "🔒 «Tiene el candado, así que la web es segura». Pues no: el candado solo indica que la conexión va cifrada, no quién está al otro lado. Según un estudio de Google, solo el 11 % de la gente sabía lo que significaba, y casi todas las webs falsas lo llevan; por eso Chrome lo retiró en 2023. En pleno Black Friday, mira la dirección letra a letra antes de pagar 🛍️ Reto: ¿tú te fiabas del candado? Sé sincero 👇",
+   "hashtags": [
+    "#mitooverdad",
+    "#ciberseguridad",
+    "#blackfriday",
+    "#phishing",
+    "#comprasonline",
+    "#seguridadinformatica",
+    "#tecnologia",
+    "#pymes",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: «¿Candado = web segura?», con el sello «¿Mito?». La mascota Jota avisa: el estafador también lo tiene. El candado solo significa que la conexión va cifrada. Una barra con suspense revela que solo el 11 % de los usuarios sabía qué significa. Alerta: las webs falsas también lo usan y Chrome lo quitó en 2023. Qué mirar: la dirección letra a letra, escribirla tú y, si dudas, llamar al 017 de INCIBE. Cierre: un mito informático cada semana.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-27-reel-mito.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-27-reel-mito.mp4",
+    "portada": "redes/img/2026-11-27-reel-mito.jpg"
+   }
+  },
+  {
+   "id": "2026-11-27-tip",
+   "tipo": "tip",
+   "formato": "historia",
+   "publicar": "2026-11-27T17:30:00+01:00",
+   "texto": "Tip rápido: ¿quieres saber quién vende tu correo? En Gmail, añade un + y una palabra a tu dirección al registrarte (tunombre+tienda@gmail.com): te llega igual a tu buzón, y si aparece spam en ese alias ya sabes de dónde salió ✉️ ¿Lo conocías? Cuéntanoslo por privado 👇",
+   "hashtags": [
+    "#tips",
+    "#gmail",
+    "#correo",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo azul: «Tip rápido. ¿Quién vende tu correo? Añade un +». Tres puntos: al registrarte, añade +tienda antes de la arroba; te llega a tu buzón de siempre; si llega spam ahí, ya sabes quién fue.",
+   "diapositivas": [
+    {
+     "plantilla": "tip",
+     "fondo": "azul",
+     "etiqueta": "Tip rápido",
+     "emoji": "✉️",
+     "titulo": "¿Quién vende tu correo?\n**Añade un +**",
+     "puntos": [
+      "Al registrarte, añade **+tienda** antes de la @",
+      "Te llega a tu **buzón de siempre**",
+      "¿Spam ahí? **Ya sabes quién fue**"
+     ]
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-27-tip-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-reel-truco",
+   "tipo": "tip",
+   "formato": "reel",
+   "publicar": "2026-11-27T13:30:00+01:00",
+   "texto": "📱 ¿El móvil lleno? Antes de borrar tus fotos, mira cuánto ocupa WhatsApp: en Ajustes › Almacenamiento y datos › Administrar almacenamiento te junta los archivos de más de 5 MB y los reenviados muchas veces, listos para borrar de golpe. Los mensajes de texto no se tocan 🧹 Reto: ¿cuántos gigas te ocupa a ti? Míralo y cuéntanoslo 👇",
+   "hashtags": [
+    "#trucos",
+    "#whatsapp",
+    "#almacenamiento",
+    "#movil",
+    "#android",
+    "#iphone",
+    "#tecnologia",
+    "#consejos",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: «¿Móvil lleno? Mira WhatsApp». Explica la ruta Ajustes, Almacenamiento y datos, Administrar almacenamiento, donde aparecen juntos los archivos de más de 5 MB y los reenviados muchas veces. La mascota Jota bromea con que el culpable es el grupo del cole. Qué hacer: ordenar por tamaño, seleccionar y borrar. Aviso: lo borrado desaparece de WhatsApp, guarda antes lo importante. Cierre: un truco útil cada semana.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-27-reel-truco.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-27-reel-truco.mp4",
+    "portada": "redes/img/2026-11-27-reel-truco.jpg"
+   }
+  },
+  {
+   "id": "2026-11-27-dato-historia",
+   "tipo": "dato",
+   "formato": "historia",
+   "publicar": "2026-11-27T10:30:00+01:00",
+   "texto": "👋 El primer «hello, world» conocido se escribió en 1972, en un tutorial del lenguaje B. Más de medio siglo después sigue siendo el primer programa de casi todo el que aprende a programar. ¿En qué lenguaje escribiste el tuyo? Cuéntanoslo por privado 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#holamundo",
+    "#programacion",
+    "#javertix"
+   ],
+   "alt": "Historia de Javertix con fondo amarillo: «¿Sabías que…?», la cifra 1972 y el texto: el primer «hello, world» conocido está en un tutorial del lenguaje B escrito por Brian Kernighan en los Laboratorios Bell; más de 50 años después sigue siendo el primer programa de casi todo el que aprende.",
+   "diapositivas": [
+    {
+     "plantilla": "dato",
+     "fondo": "amarillo",
+     "etiqueta": "¿Sabías que…?",
+     "cifra": "1972",
+     "texto": "👋 Es el año del primer **«hello, world»** conocido: un ejemplo del tutorial del lenguaje **B** que escribió Brian Kernighan en los Laboratorios Bell. Más de **50 años** después, sigue siendo el **primer programa** de casi todo el que aprende.",
+     "fuente": "Wikipedia · «Hello, World!» program"
+    }
+   ],
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-27-dato-historia-1.jpg"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-27-reel-dato",
+   "tipo": "dato",
+   "formato": "reel",
+   "publicar": "2026-11-27T09:00:00+01:00",
+   "texto": "🛒 La primera compra segura por internet fue un CD de Sting: 12,48 dólares más gastos de envío. Fue el 11 de agosto de 1994, se pagó con tarjeta y con los datos cifrados, y la tienda la había montado un estudiante de 21 años. Hoy, 32 años después, es Black Friday 💿 Reto: ¿qué fue lo primero que compraste tú por internet? 👇",
+   "hashtags": [
+    "#datocurioso",
+    "#blackfriday",
+    "#comercioelectronico",
+    "#historiadeinternet",
+    "#sabiasque",
+    "#tecnologia",
+    "#internet",
+    "#informatica",
+    "#javertix"
+   ],
+   "alt": "Vídeo animado de Javertix: «La primera compra por internet», con un carrito y el sello «1994». El 11 de agosto de 1994 un chico de Filadelfia compró un CD de Sting pagando con tarjeta y con los datos cifrados. Una barra con suspense revela el precio: 12,48 dólares. La mascota Jota añade que la tienda la montó un estudiante de 21 años. Al día siguiente un periódico tituló «Atención, compradores: internet está abierto». Cierre: un dato curioso cada día.",
+   "estilo": "explicado",
+   "imagenes": [
+    {
+     "src": "redes/img/2026-11-27-reel-dato.jpg"
+    }
+   ],
+   "video": {
+    "src": "redes/img/2026-11-27-reel-dato.mp4",
+    "portada": "redes/img/2026-11-27-reel-dato.jpg"
+   }
+  },
   {
    "id": "2026-11-26-chuleta",
    "tipo": "tip",
@@ -3884,271 +4141,6 @@
     },
     {
      "src": "redes/img/2026-11-06-noticia-4.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-05-meme",
-   "tipo": "meme",
-   "publicar": "2026-11-05T20:00:00+01:00",
-   "texto": "Este año la carta va a ser complicada 🎁😅 Etiqueta a quien lleva meses esperando a que baje la RAM.",
-   "hashtags": [
-    "#humorinformatico",
-    "#memesinformaticos",
-    "#programacion",
-    "#ram",
-    "#hardware",
-    "#devhumor",
-    "#javertix"
-   ],
-   "alt": "Meme con código JavaScript en un editor oscuro, archivo carta_reyes.js. Una lista con tres deseos: un coche, un piso en Madrid y 16 GB de RAM DDR5. Si la carta pide RAM, los Reyes responden en un comentario: «Lo del piso, vale. Lo de la RAM, no flipes».",
-   "tendencia": {
-    "formato": "Precio de la RAM por las nubes (escasez de memoria, oct-nov 2026) · plantilla codigo",
-    "fuente": "https://programmerhumor.io/memes/ram-prices"
-   },
-   "diapositivas": [
-    {
-     "plantilla": "codigo",
-     "fondo": "oscuro",
-     "archivo": "carta_reyes.js",
-     "codigo": "const carta = [\n  \"un coche\",\n  \"un piso en Madrid\",\n  \"16 GB de RAM DDR5\",\n];\n\nconst pideRAM = carta.some(\n  (d) => d.includes(\"RAM\"));\n\nif (pideRAM) {\n  // Reyes: \"Lo del piso, vale.\n  //  Lo de la RAM, no flipes.\"\n}",
-     "titulo": "Mi carta a los Reyes este año:"
-    }
-   ],
-   "formato": "post",
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-05-meme-1.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-05-video",
-   "tipo": "dato",
-   "formato": "reel",
-   "publicar": "2026-11-05T19:00:00+01:00",
-   "texto": "💾 El primer disco duro de la historia pesaba casi una tonelada y guardaba menos que una foto de tu móvil. ¿Qué cacharro antiguo quieres que investiguemos? 👇",
-   "hashtags": [
-    "#datocurioso",
-    "#historiadelainformatica",
-    "#discoduro",
-    "#ibm",
-    "#tecnologia",
-    "#javertix"
-   ],
-   "alt": "Vídeo explicado sobre el IBM 350, el primer disco duro, de 1956: casi una tonelada, 52 discos de 61 cm y unos 3,75 MB.",
-   "estilo": "explicado",
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-05-video.jpg"
-    }
-   ],
-   "video": {
-    "src": "redes/img/2026-11-05-video.mp4",
-    "portada": "redes/img/2026-11-05-video.jpg"
-   }
-  },
-  {
-   "id": "2026-11-05-truco",
-   "tipo": "tip",
-   "formato": "historia",
-   "publicar": "2026-11-05T17:30:00+01:00",
-   "texto": "Truco pro: recupera con git reflog los commits que creías perdidos 🛟",
-   "hashtags": [
-    "#git",
-    "#programacion",
-    "#developer",
-    "#javertix"
-   ],
-   "alt": "Tres imágenes. 1: ¿Un git reset te ha borrado commits? No están perdidos. 2: terminal con git reflog, que muestra el commit perdido en HEAD@{1}, y git branch rescate HEAD@{1}, que lo recupera. 3: aviso: el reflog solo está en tu copia local y caduca a los 90 días, o 30 si el commit no está en ninguna rama.",
-   "diapositivas": [
-    {
-     "plantilla": "tip",
-     "fondo": "azul",
-     "etiqueta": "Truco pro",
-     "emoji": "🛟",
-     "titulo": "¿Un git reset te ha «borrado» commits?\n**No están perdidos**",
-     "texto": "Git apunta en un diario cada sitio por el que pasa tu HEAD."
-    },
-    {
-     "plantilla": "terminal",
-     "fondo": "oscuro",
-     "titulo": "Truco pro · 2/3",
-     "ventana": "mi-proyecto",
-     "lineas": [
-      {
-       "cmd": "git reflog"
-      },
-      {
-       "out": "4f9e2a1 HEAD@{0}: reset",
-       "color": "gris"
-      },
-      {
-       "out": "c7d81b0 HEAD@{1}: commit: login",
-       "color": "warn"
-      },
-      {
-       "cmd": "git branch rescate HEAD@{1}"
-      },
-      {
-       "cmd": "git log -1 --oneline rescate"
-      },
-      {
-       "out": "c7d81b0 login  ← ¡ha vuelto!",
-       "color": "ok"
-      }
-     ],
-     "prompt": "$"
-    },
-    {
-     "plantilla": "texto",
-     "fondo": "oscuro",
-     "etiqueta": "Truco pro · 3/3",
-     "titulo": "Ojo ⚠️",
-     "texto": "Busca la línea de antes del desastre y usa su número. El reflog solo vive en **tu copia local** y caduca: 90 días, o 30 si el commit ya no está en ninguna rama. Crear una rama no toca nada: es la forma segura de rescatar."
-    }
-   ],
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-05-truco-1.jpg"
-    },
-    {
-     "src": "redes/img/2026-11-05-truco-2.jpg"
-    },
-    {
-     "src": "redes/img/2026-11-05-truco-3.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-05-dato",
-   "tipo": "dato",
-   "publicar": "2026-11-05T13:30:00+01:00",
-   "texto": "☕ La primera webcam famosa no vigilaba nada importante: vigilaba una cafetera. En 1991, unos informáticos de Cambridge la apuntaron a la del Trojan Room para no bajar en balde si estaba vacía. En 1993 llegó a la web y, cuando la apagaron en 2001, la cafetera acabó subastada en eBay por 3.350 libras. 🤯 ¿Lo sabías? Compártelo con quien siempre se acaba el café.",
-   "hashtags": [
-    "#datocurioso",
-    "#historiadelainformatica",
-    "#webcam",
-    "#internet",
-    "#tecnologia",
-    "#javertix"
-   ],
-   "alt": "Dato curioso sobre fondo amarillo con la cifra 1991: la primera webcam famosa vigilaba la cafetera del Trojan Room de la Universidad de Cambridge.",
-   "diapositivas": [
-    {
-     "plantilla": "dato",
-     "fondo": "amarillo",
-     "etiqueta": "¿Sabías que…?",
-     "cifra": "1991",
-     "texto": "☕ La primera webcam famosa vigilaba **una cafetera**: la del Trojan Room de Cambridge, para no bajar en balde. En 1993 llegó a la web.",
-     "fuente": "Wikipedia · Trojan Room coffee pot"
-    }
-   ],
-   "formato": "post",
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-05-dato-1.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-05-historia-manana",
-   "tipo": "tip",
-   "formato": "historia",
-   "publicar": "2026-11-05T10:30:00+01:00",
-   "texto": "Tip rápido: Gmail te deja hasta 30 segundos para deshacer un envío ✉️",
-   "hashtags": [
-    "#gmail",
-    "#tips",
-    "#productividad",
-    "#javertix"
-   ],
-   "alt": "Tip sobre fondo azul: Gmail te deja hasta 30 segundos para deshacer un correo enviado. Ajustes, Ver todos los ajustes, Deshacer el envío, 30 segundos. Por defecto son solo 5.",
-   "diapositivas": [
-    {
-     "plantilla": "tip",
-     "fondo": "azul",
-     "etiqueta": "Tip rápido",
-     "emoji": "✉️",
-     "titulo": "Gmail te da **30 segundos** para deshacer un envío",
-     "texto": "Ajustes ⚙️ › Ver todos los ajustes › Deshacer el envío › 30 s. Por defecto, solo tienes 5."
-    }
-   ],
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-05-historia-manana-1.jpg"
-    }
-   ]
-  },
-  {
-   "id": "2026-11-05-noticia",
-   "tipo": "noticia",
-   "publicar": "2026-11-05T08:45:00+01:00",
-   "texto": "🐧 ¿Tienes un servidor o un VPS con Debian o Ubuntu? Un fallo crítico en APT, la herramienta que instala y actualiza los programas, permite colar un paquete falso que se ejecuta como root. Ya hay versiones corregidas: actualízalo hoy. Te contamos cómo en el carrusel y todos los detalles en el blog (enlace en la bio). 🔧 ¿Cuántos servidores tienes sin revisar?",
-   "hashtags": [
-    "#ciberseguridad",
-    "#linux",
-    "#debian",
-    "#ubuntu",
-    "#servidores",
-    "#sysadmin",
-    "#pymes",
-    "#javertix"
-   ],
-   "enlace": "https://javertix.site/blog/fallo-apt-debian-ubuntu-cve-2026-109518-actualizar-servidores",
-   "alt": "Carrusel sobre un fallo crítico en APT de Debian y Ubuntu. Portada con un pasillo de servidores y el titular; después, lo esencial del fallo, los pasos para actualizar y una llamada a contactar con Javertix.",
-   "diapositivas": [
-    {
-     "plantilla": "portada",
-     "categoria": "Sistemas · Seguridad",
-     "titulo": "¿Servidor Debian o Ubuntu?\nActualiza APT hoy",
-     "subtitulo": "Un fallo permite colar paquetes falsos que se ejecutan como root",
-     "foto": "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?fm=jpg&q=80&w=1600&fit=max"
-    },
-    {
-     "plantilla": "puntos",
-     "fondo": "oscuro",
-     "titulo": "Lo esencial",
-     "puntos": [
-      "APT puede instalar un paquete cambiado por el atacante, que se ejecuta como **root**",
-      "Expuestos por defecto: **Debian 12** y **Ubuntu 22.04** o posteriores",
-      "El atacante necesita controlar un espejo o un proxy de descargas",
-      "Por ahora no se conocen ataques reales"
-     ]
-    },
-    {
-     "plantilla": "puntos",
-     "fondo": "oscuro",
-     "titulo": "Qué hacer hoy",
-     "puntos": [
-      "Actualiza APT: **sudo apt update && sudo apt install --only-upgrade apt**",
-      "Comprueba la versión con **apt --version**",
-      "Usa solo repositorios oficiales o de confianza",
-      "Busca **Acquire::Retries** en tu configuración y tus scripts"
-     ]
-    },
-    {
-     "plantilla": "cierre",
-     "fondo": "oscuro",
-     "texto": "¿Servidores que nadie actualiza desde hace meses?",
-     "subtexto": "Los revisamos, los ponemos al día y automatizamos los parches de seguridad.",
-     "cta": "Servidores y sistemas en javertix.site"
-    }
-   ],
-   "formato": "post",
-   "imagenes": [
-    {
-     "src": "redes/img/2026-11-05-noticia-1.png",
-     "fondo": "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?fm=jpg&q=80&w=1600&fit=max"
-    },
-    {
-     "src": "redes/img/2026-11-05-noticia-2.jpg"
-    },
-    {
-     "src": "redes/img/2026-11-05-noticia-3.jpg"
-    },
-    {
-     "src": "redes/img/2026-11-05-noticia-4.jpg"
     }
    ]
   }
